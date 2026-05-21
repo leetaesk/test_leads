@@ -1,0 +1,302 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e5]:
+        - navigation [ref=e7]:
+          - link "Team" [ref=e8] [cursor=pointer]:
+            - /url: /team
+          - link "Portfolio" [ref=e9] [cursor=pointer]:
+            - /url: /portfolio
+          - link "Growth Network" [ref=e10] [cursor=pointer]:
+            - /url: /growth-network
+          - link "Contents" [ref=e11] [cursor=pointer]:
+            - /url: /contents
+          - link "Career" [ref=e12] [cursor=pointer]:
+            - /url: https://mashupventures.recruit.roundhr.com/
+        - link "Apply" [ref=e14] [cursor=pointer]:
+          - /url: /apply
+          - strong [ref=e15]: Apply
+        - text: 
+  - generic [ref=e17]:
+    - heading "포트폴리오" [level=1] [ref=e18]
+    - paragraph [ref=e19]:
+      - text: 매쉬업벤처스는 지금까지
+      - strong [ref=e20]: 206개
+      - text: 의 초기 스타트업에 투자했습니다.
+      - text: 이들은
+      - strong [ref=e21]: 2조 4천억 원
+      - text: 의 후속투자를 유치했으며, 최근 기업가치를 모두 더하면 약
+      - strong [ref=e22]: 11조 3천억 원
+      - text: 입니다.
+  - form "filter" [ref=e26]:
+    - radiogroup "add description here" [ref=e27]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - generic [ref=e31] [cursor=pointer]:
+            - checkbox "AI" [ref=e33]
+            - generic [ref=e34]: AI
+        - listitem [ref=e35]:
+          - generic [ref=e36] [cursor=pointer]:
+            - checkbox "Robotics" [ref=e38]
+            - generic [ref=e39]: Robotics
+        - listitem [ref=e40]:
+          - generic [ref=e41] [cursor=pointer]:
+            - checkbox "B2B" [ref=e43]
+            - generic [ref=e44]: B2B
+        - listitem [ref=e45]:
+          - generic [ref=e46] [cursor=pointer]:
+            - checkbox "Beauty & Life" [ref=e48]
+            - generic [ref=e49]: Beauty & Life
+        - listitem [ref=e50]:
+          - generic [ref=e51] [cursor=pointer]:
+            - checkbox "Defense" [ref=e53]
+            - generic [ref=e54]: Defense
+        - listitem [ref=e55]:
+          - generic [ref=e56] [cursor=pointer]:
+            - checkbox "Healthcare" [ref=e58]
+            - generic [ref=e59]: Healthcare
+        - listitem [ref=e60]:
+          - generic [ref=e61] [cursor=pointer]:
+            - checkbox "Entertainment" [ref=e63]
+            - generic [ref=e64]: Entertainment
+        - listitem [ref=e65]:
+          - generic [ref=e66] [cursor=pointer]:
+            - checkbox "SaaS" [ref=e68]
+            - generic [ref=e69]: SaaS
+        - listitem [ref=e70]:
+          - generic [ref=e71] [cursor=pointer]:
+            - checkbox "Education" [ref=e73]
+            - generic [ref=e74]: Education
+        - listitem [ref=e75]:
+          - generic [ref=e76] [cursor=pointer]:
+            - checkbox "Fintech" [ref=e78]
+            - generic [ref=e79]: Fintech
+        - listitem [ref=e80]:
+          - generic [ref=e81] [cursor=pointer]:
+            - checkbox "Logistics" [ref=e83]
+            - generic [ref=e84]: Logistics
+        - listitem [ref=e85]:
+          - generic [ref=e86] [cursor=pointer]:
+            - checkbox "IoT" [ref=e88]
+            - generic [ref=e89]: IoT
+        - listitem [ref=e90]:
+          - generic [ref=e91] [cursor=pointer]:
+            - checkbox "Contents" [ref=e93]
+            - generic [ref=e94]: Contents
+        - listitem [ref=e95]:
+          - generic [ref=e96] [cursor=pointer]:
+            - checkbox "F&B" [ref=e98]
+            - generic [ref=e99]: F&B
+        - listitem [ref=e100]:
+          - generic [ref=e101] [cursor=pointer]:
+            - checkbox "Consumer" [ref=e103]
+            - generic [ref=e104]: Consumer
+        - listitem [ref=e105]:
+          - generic [ref=e106] [cursor=pointer]:
+            - checkbox "Commerce" [ref=e108]
+            - generic [ref=e109]: Commerce
+        - listitem [ref=e110]:
+          - generic [ref=e111] [cursor=pointer]:
+            - checkbox "Energy" [ref=e113]
+            - generic [ref=e114]: Energy
+        - listitem [ref=e115]:
+          - generic [ref=e116] [cursor=pointer]:
+            - checkbox "Gaming" [ref=e118]
+            - generic [ref=e119]: Gaming
+  - generic [ref=e122]:
+    - generic [ref=e123]:
+      - list [ref=e124]:
+        - listitem [ref=e125]:
+          - generic [ref=e126]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Commerce
+                - listitem:
+                  - generic: Consumer
+            - link [ref=e127] [cursor=pointer]:
+              - /url: /portfolio/bucketplace
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - generic [ref=e130]: 버킷플레이스
+                - generic [ref=e131]: "|"
+                - generic [ref=e132]: 오늘의집
+              - generic [ref=e133]: 오늘의집은 공간과 관련된 모든 문제를 해결하는 라이프스타일 슈퍼앱입니다.
+        - listitem [ref=e134]:
+          - generic [ref=e135]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Consumer
+                - listitem:
+                  - generic: Commerce
+            - link [ref=e136] [cursor=pointer]:
+              - /url: /portfolio/myrealtrip
+            - generic [ref=e137]:
+              - generic [ref=e139]: 마이리얼트립
+              - generic [ref=e140]: 마이리얼트립은 국내 최고, 최대의 여행 슈퍼앱입니다.
+        - listitem [ref=e141]:
+          - generic [ref=e142]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: AI
+            - link [ref=e143] [cursor=pointer]:
+              - /url: /portfolio/scatterlab
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - generic [ref=e146]: 스캐터랩
+                - generic [ref=e147]: "|"
+                - generic [ref=e148]: 제타
+              - generic [ref=e149]: 유저가 일주일에 10시간을 체류하는 AI 엔터테인먼트 서비스 "제타"를 만들고 있습니다.
+        - listitem [ref=e150]:
+          - generic [ref=e151]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: B2B
+            - link [ref=e152] [cursor=pointer]:
+              - /url: /portfolio/remember
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e155]: 리멤버앤컴퍼니
+                - generic [ref=e156]: "|"
+                - generic [ref=e157]: 리멤버
+              - generic [ref=e158]: 리멤버앤컴퍼니는 대한민국 직장인을 위한 프로페셔널 네트워크 서비스 리멤버의 운영사입니다. 2017년 라인플러스/네이버에 인수되며 성장의 발판을 마련했고, 2025년 글로벌 PEF EQT에 인수되며 HR 테크 분야 최대 엑시트 사례를 기록했습니다.
+        - listitem [ref=e159]:
+          - generic [ref=e160]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Healthcare
+            - link [ref=e161] [cursor=pointer]:
+              - /url: /portfolio/noom
+            - generic [ref=e162]:
+              - generic [ref=e164]: 눔
+              - generic [ref=e165]: 눔은 행동변화 기반의 모바일코칭 솔루션입니다.
+        - listitem [ref=e166]:
+          - generic [ref=e167]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: B2B
+                - listitem:
+                  - generic: SaaS
+            - link [ref=e168] [cursor=pointer]:
+              - /url: /portfolio/mobidays
+            - generic [ref=e169]:
+              - generic [ref=e171]: 모비데이즈
+              - generic [ref=e172]: 모비데이즈는 2022년 10월 코스닥에 상장한 기업으로, 데이터 기반의 종합 디지털 마케팅 서비스와 독자적인 애드테크(AD-Tech) 솔루션을 제공하는 Full-stack 디지털 마케팅 그룹입니다.
+        - listitem [ref=e173]:
+          - generic [ref=e174]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Fintech
+            - link [ref=e175] [cursor=pointer]:
+              - /url: /portfolio/sentbe
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - generic [ref=e178]: 센트비
+                - generic [ref=e179]: "|"
+                - generic [ref=e180]: 센트비, 센트비즈, 센다
+              - generic [ref=e181]: 센트비는 한국, 싱가포르, 인도네시아 개인용 해외송금 서비스 '센트비'와, 기업용 해외 결제/송금 서비스 '센트비즈/센다'를 서비스합니다.
+        - listitem [ref=e182]:
+          - generic [ref=e183]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Healthcare
+                - listitem:
+                  - generic: Consumer
+            - link [ref=e184] [cursor=pointer]:
+              - /url: /portfolio/nudge-healthcare
+            - generic [ref=e185]:
+              - generic [ref=e186]:
+                - generic [ref=e187]: 넛지헬스케어
+                - generic [ref=e188]: "|"
+                - generic [ref=e189]: 캐시워크
+              - generic [ref=e190]: 캐시워크는 대한민국 3명 중 1명이 사용 중인 국민 건강관리앱입니다.
+        - listitem [ref=e191]:
+          - generic [ref=e192]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Consumer
+                - listitem:
+                  - generic: Commerce
+            - link [ref=e193] [cursor=pointer]:
+              - /url: /portfolio/styleshare
+            - generic [ref=e194]:
+              - generic [ref=e196]: 스타일쉐어
+              - generic [ref=e197]: 스타일쉐어는 10~20대 여성을 주 타깃으로 하는 국내 1위 패션·뷰티 커뮤니티 기반의 커머스 플랫폼입니다. 2021년 국내 최대 패션 플랫폼 무신사에 인수되었습니다.
+        - listitem [ref=e198]:
+          - generic [ref=e199]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Commerce
+                - listitem:
+                  - generic: Beauty & Life
+            - link [ref=e200] [cursor=pointer]:
+              - /url: /portfolio/velymonkeys
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - generic [ref=e203]: 블리몽키즈
+                - generic [ref=e204]: "|"
+                - generic [ref=e205]: 마카롱
+              - generic [ref=e206]: 마카롱은 인도 중심의 K-뷰티 유통 플랫폼입니다.
+        - listitem [ref=e207]:
+          - generic [ref=e208]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: B2B
+                - listitem:
+                  - generic: SaaS
+            - link [ref=e209] [cursor=pointer]:
+              - /url: /portfolio/shiftee
+            - generic [ref=e210]:
+              - generic [ref=e212]: 시프티
+              - generic [ref=e213]: 시프티는 출퇴근 기록, 근무 일정, 휴가, 전자결재 등을 통합 제공하는 국내 선도적인 통합 인력관리 SaaS(서비스형 소프트웨어) 솔루션입니다. 2022년 비즈니스온에 인수된 후, 2024년 스카이레이크 에쿼티 파트너스가 인수하여 독립 경영 체제로 전환하며 성장세를 이어가고 있습니다.
+        - listitem [ref=e214]:
+          - generic [ref=e215]:
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Healthcare
+                - listitem:
+                  - generic: Consumer
+            - link [ref=e216] [cursor=pointer]:
+              - /url: /portfolio/life-x
+            - generic [ref=e217]:
+              - generic [ref=e218]:
+                - generic [ref=e219]: 라이프엑스
+                - generic [ref=e220]: "|"
+                - generic [ref=e221]: 레어노트, 마미톡
+              - generic [ref=e222]: 라이프엑스는 희귀난치질환 통합솔루션 '레어노트', 임신·육아 플랫폼 '마미톡'을 운영합니다.
+      - navigation "List":
+        - link "Next Page":
+          - /url: "?fcb21cb6_page=2"
+    - img [ref=e224]
+  - generic [ref=e229]:
+    - generic [ref=e231]:
+      - link:
+        - /url: /
+      - generic [ref=e233]:
+        - link "뉴스레터 구독" [ref=e234] [cursor=pointer]:
+          - /url: https://forms.mashupventures.co/mashup-letter
+        - link "투자검토 신청" [ref=e235] [cursor=pointer]:
+          - /url: https://www.mashupventures.co/apply
+        - generic [ref=e236]: "협력 제안: info@mashupventures.co"
+    - generic [ref=e239]:
+      - generic [ref=e240]: Copyright © 2013 Mashup Ventures
+      - generic [ref=e241]:
+        - link [ref=e242] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/mashupangels
+          - img [ref=e244]
+        - link [ref=e246] [cursor=pointer]:
+          - /url: https://www.instagram.com/mashupangels/
+          - img [ref=e248]

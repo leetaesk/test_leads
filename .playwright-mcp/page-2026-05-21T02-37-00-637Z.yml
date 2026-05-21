@@ -1,0 +1,1157 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - link "The VC logo" [ref=e10] [cursor=pointer]:
+                - /url: /
+                - img "The VC logo" [ref=e11]
+              - generic [ref=e12]:
+                - button "N 데이터베이스 " [ref=e16] [cursor=pointer]:
+                  - generic [ref=e20]: "N"
+                  - generic [ref=e21]:
+                    - text: 데이터베이스
+                    - generic [ref=e22]: 
+                - button "모아보기 " [ref=e26] [cursor=pointer]:
+                  - generic [ref=e30]:
+                    - text: 모아보기
+                    - generic [ref=e31]: 
+                - link "리포트/소식" [ref=e32] [cursor=pointer]:
+                  - /url: /discussions
+                  - text: 리포트/소식
+                - link "가격" [ref=e35] [cursor=pointer]:
+                  - /url: /pricing
+                  - text: 가격
+            - generic [ref=e38]:
+              - generic [ref=e42]:
+                - searchbox "로그인 후 이용 가능" [ref=e43]
+                - generic [ref=e45]: 
+                - generic:
+                  - generic: /
+              - button "가입 / 로그인" [ref=e47] [cursor=pointer]:
+                - generic [ref=e48]: 가입 / 로그인
+          - text:    
+        - generic [ref=e51]:
+          - button "The VC logo" [ref=e53] [cursor=pointer]:
+            - img "The VC logo" [ref=e55]
+          - heading "데이터베이스" [level=1] [ref=e57]
+        - navigation [ref=e59]:
+          - link "투자/M&A" [ref=e60] [cursor=pointer]:
+            - /url: /browse/investments
+            - generic [ref=e61]: 투자/M&A
+          - link "IR" [ref=e62] [cursor=pointer]:
+            - /url: /browse/ir
+            - generic [ref=e63]: IR
+          - link "스타트업" [ref=e64] [cursor=pointer]:
+            - /url: /browse/startups
+            - generic [ref=e65]: 스타트업
+          - link "투자자" [ref=e66] [cursor=pointer]:
+            - /url: /browse/investors
+            - generic [ref=e67]: 투자자
+          - link "펀드" [ref=e68] [cursor=pointer]:
+            - /url: /browse/funds
+            - generic [ref=e69]: 펀드
+          - link "뉴스" [ref=e70] [cursor=pointer]:
+            - /url: /browse/news
+            - generic [ref=e71]: 뉴스
+      - generic [ref=e72]:
+        - main [ref=e73]:
+          - generic [ref=e74]:
+            - heading "스타트업 탐색" [level=2] [ref=e75]
+            - link "스타트업 탐색에 대한 설명" [ref=e76] [cursor=pointer]:
+              - /url: https://guide.thevc.kr/browse#cc4fcd80-c80b-4026-a0e0-ed304cbaaec4
+              - generic [ref=e77]: 
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: 총 유치 금액
+              - generic [ref=e82]: 148조 7964억+
+            - generic [ref=e83]:
+              - generic [ref=e84]: 총 투자 대상
+              - generic [ref=e86]: 13,050개사
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - searchbox "키워드로 스타트업 및 제품/서비스 검색" [ref=e90]
+                - generic [ref=e92]: 
+              - button " 전체 다운로드" [ref=e93] [cursor=pointer]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: 
+                  - generic [ref=e96]: 전체 다운로드
+              - button " 필터" [ref=e97] [cursor=pointer]:
+                - generic [ref=e98]:
+                  - generic [ref=e99]: 
+                  - generic [ref=e100]: 필터
+              - button " 열 설정" [ref=e101] [cursor=pointer]:
+                - generic [ref=e102]:
+                  - generic [ref=e103]: 
+                  - generic [ref=e104]: 열 설정
+            - table [ref=e106]:
+              - rowgroup [ref=e107]:
+                - row "회사명  회사 상태  분류  설립일  고용 인원  인증/자격  본점 소재지  제품/서비스 기술  분야  O2O  사업 형태  제품/서비스 형태  총 자본금  자산  매출  총 투자 유치 금액  최근 투자 단계  최근 투자 유치  주요 투자자 투자자 분류  투자자 주요 기술  투자자 주요 분야 " [ref=e108]:
+                  - columnheader [ref=e109]:
+                    - button [ref=e110] [cursor=pointer]:
+                      - img [ref=e111]
+                  - columnheader "회사명 " [ref=e113] [cursor=pointer]:
+                    - generic [ref=e114]:
+                      - generic [ref=e115]: 회사명
+                      - generic [ref=e116]: 
+                  - columnheader "회사 상태 " [ref=e117] [cursor=pointer]:
+                    - generic [ref=e118]:
+                      - generic [ref=e119]: 회사 상태
+                      - generic [ref=e120]: 
+                  - columnheader "분류 " [ref=e121] [cursor=pointer]:
+                    - generic [ref=e122]:
+                      - generic [ref=e123]: 분류
+                      - generic [ref=e124]: 
+                  - columnheader "설립일 " [ref=e125] [cursor=pointer]:
+                    - generic [ref=e126]:
+                      - generic [ref=e127]: 설립일
+                      - generic [ref=e128]: 
+                  - columnheader "고용 인원 " [ref=e129] [cursor=pointer]:
+                    - generic [ref=e130]:
+                      - generic [ref=e131]: 고용 인원
+                      - generic [ref=e132]: 
+                  - columnheader "인증/자격 " [ref=e133] [cursor=pointer]:
+                    - generic [ref=e134]:
+                      - generic [ref=e135]: 인증/자격
+                      - generic [ref=e136]: 
+                  - columnheader "본점 소재지 " [ref=e137] [cursor=pointer]:
+                    - generic [ref=e138]:
+                      - generic [ref=e139]: 본점 소재지
+                      - generic [ref=e140]: 
+                  - columnheader "제품/서비스" [ref=e141]
+                  - columnheader "기술 " [ref=e142] [cursor=pointer]:
+                    - generic [ref=e143]:
+                      - generic [ref=e144]: 기술
+                      - generic [ref=e145]: 
+                  - columnheader "분야 " [ref=e146] [cursor=pointer]:
+                    - generic [ref=e147]:
+                      - generic [ref=e148]: 분야
+                      - generic [ref=e149]: 
+                  - columnheader "O2O " [ref=e150] [cursor=pointer]:
+                    - generic [ref=e151]:
+                      - generic [ref=e152]: O2O
+                      - generic [ref=e153]: 
+                  - columnheader "사업 형태 " [ref=e154] [cursor=pointer]:
+                    - generic [ref=e155]:
+                      - generic [ref=e156]: 사업 형태
+                      - generic [ref=e157]: 
+                  - columnheader "제품/서비스 형태 " [ref=e158] [cursor=pointer]:
+                    - generic [ref=e159]:
+                      - generic [ref=e160]: 제품/서비스 형태
+                      - generic [ref=e161]: 
+                  - columnheader "총 자본금 " [ref=e162] [cursor=pointer]:
+                    - generic [ref=e163]:
+                      - generic [ref=e164]: 총 자본금
+                      - generic [ref=e165]: 
+                  - columnheader "자산 " [ref=e166] [cursor=pointer]:
+                    - generic [ref=e167]:
+                      - generic [ref=e168]: 자산
+                      - generic [ref=e169]: 
+                  - columnheader "매출 " [ref=e170] [cursor=pointer]:
+                    - generic [ref=e171]:
+                      - generic [ref=e172]: 매출
+                      - generic [ref=e173]: 
+                  - columnheader "총 투자 유치 금액 " [ref=e174] [cursor=pointer]:
+                    - generic [ref=e175]:
+                      - generic [ref=e176]: 총 투자 유치 금액
+                      - generic [ref=e177]: 
+                  - columnheader "최근 투자 단계 " [ref=e178] [cursor=pointer]:
+                    - generic [ref=e179]:
+                      - generic [ref=e180]: 최근 투자 단계
+                      - generic [ref=e181]: 
+                  - columnheader "최근 투자 유치 " [ref=e182] [cursor=pointer]:
+                    - generic [ref=e183]:
+                      - generic [ref=e184]: 최근 투자 유치
+                      - generic [ref=e185]: 
+                  - columnheader "주요 투자자" [ref=e186]
+                  - columnheader "투자자 분류 " [ref=e187] [cursor=pointer]:
+                    - generic [ref=e188]:
+                      - generic [ref=e189]: 투자자 분류
+                      - generic [ref=e190]: 
+                  - columnheader "투자자 주요 기술 " [ref=e191] [cursor=pointer]:
+                    - generic [ref=e192]:
+                      - generic [ref=e193]: 투자자 주요 기술
+                      - generic [ref=e194]: 
+                  - columnheader "투자자 주요 분야 " [ref=e195] [cursor=pointer]:
+                    - generic [ref=e196]:
+                      - generic [ref=e197]: 투자자 주요 분야
+                      - generic [ref=e198]: 
+              - rowgroup [ref=e199]:
+                - row "모닥불에너지의 기업 로고 모닥불에너지 한국계 · 비상장 비상장 중소기업 2025-10-01 0.7년 차 5명2026-03-01 1개월 전 대비 1명 증가 해당 없음 한국 > 서울특별시 히트펌프 구독서비스의 제품 로고 히트펌프 구독서비스 화석연료 난방을 대체하는 고효율 히트펌프 구독서비스 제조 건설/교통  냉난방공조 오프라인 구독/멤버십 공정/설비 공정/설비 운영 1억원2026-05-01 16일 전 대비 730만원 증가 알 수 없음 알 수 없음 로그인 필요 Seed 2026-05-20 소풍벤처스의 기업 로고 소풍벤처스 1회 쏠리드엑스의 기업 로고 쏠리드엑스 1회 슈미트의 기업 로고 슈미트 1회 벤처캐피탈 1개사 기업벤처캐피탈 1개사 액셀러레이터 1개사 N/A 3개사 금융 3개사" [ref=e200]:
+                  - cell [ref=e201]:
+                    - button [ref=e202] [cursor=pointer]:
+                      - img [ref=e203]
+                  - cell "모닥불에너지의 기업 로고 모닥불에너지 한국계 · 비상장" [ref=e205]:
+                    - link "모닥불에너지의 기업 로고 모닥불에너지 한국계 · 비상장" [ref=e206] [cursor=pointer]:
+                      - /url: /modakbulenergy
+                      - img "모닥불에너지의 기업 로고" [ref=e207]
+                      - generic [ref=e208]:
+                        - generic [ref=e209]: 모닥불에너지
+                        - generic [ref=e210]: 한국계 · 비상장
+                  - cell "비상장" [ref=e211]:
+                    - generic [ref=e213] [cursor=pointer]: 비상장
+                  - cell "중소기업" [ref=e214]:
+                    - generic [ref=e216] [cursor=pointer]: 중소기업
+                  - cell "2025-10-01 0.7년 차" [ref=e217]:
+                    - text: 2025-10-01
+                    - generic [ref=e218]: 0.7년 차
+                  - cell "5명2026-03-01 1개월 전 대비 1명 증가" [ref=e219]:
+                    - generic [ref=e220]: 5명2026-03-01
+                    - generic [ref=e221]: 1개월 전 대비 1명 증가
+                  - cell "해당 없음" [ref=e222]:
+                    - generic [ref=e223]: 해당 없음
+                  - cell "한국 > 서울특별시" [ref=e224]:
+                    - generic [ref=e226] [cursor=pointer]: 한국 > 서울특별시
+                  - cell "히트펌프 구독서비스의 제품 로고 히트펌프 구독서비스 화석연료 난방을 대체하는 고효율 히트펌프 구독서비스" [ref=e227]:
+                    - link "히트펌프 구독서비스의 제품 로고 히트펌프 구독서비스 화석연료 난방을 대체하는 고효율 히트펌프 구독서비스" [ref=e228] [cursor=pointer]:
+                      - /url: /modakbulenergy/products
+                      - img "히트펌프 구독서비스의 제품 로고" [ref=e229]
+                      - generic [ref=e230]:
+                        - generic [ref=e231]: 히트펌프 구독서비스
+                        - generic [ref=e232]: 화석연료 난방을 대체하는 고효율 히트펌프 구독서비스
+                  - cell "제조" [ref=e233]:
+                    - generic [ref=e235] [cursor=pointer]: 제조
+                  - cell "건설/교통  냉난방공조" [ref=e236]:
+                    - generic [ref=e238] [cursor=pointer]:
+                      - text: 건설/교통
+                      - generic [ref=e239]: 
+                      - text: 냉난방공조
+                  - cell "오프라인" [ref=e240]:
+                    - generic [ref=e242] [cursor=pointer]: 오프라인
+                  - cell "구독/멤버십" [ref=e243]:
+                    - generic [ref=e245] [cursor=pointer]: 구독/멤버십
+                  - cell "공정/설비 공정/설비 운영" [ref=e246]:
+                    - generic [ref=e247] [cursor=pointer]:
+                      - img "공정/설비" [ref=e248]
+                      - generic [ref=e249]: 공정/설비
+                      - generic [ref=e251]: 운영
+                  - cell "1억원2026-05-01 16일 전 대비 730만원 증가" [ref=e252]:
+                    - generic [ref=e253]: 1억원2026-05-01
+                    - generic [ref=e254]: 16일 전 대비 730만원 증가
+                  - cell "알 수 없음" [ref=e255]:
+                    - generic [ref=e256]: 알 수 없음
+                  - cell "알 수 없음" [ref=e257]:
+                    - generic [ref=e258]: 알 수 없음
+                  - cell "로그인 필요" [ref=e259]:
+                    - button "로그인 필요" [ref=e260] [cursor=pointer]:
+                      - generic [ref=e261]: 로그인 필요
+                  - cell "Seed" [ref=e262]:
+                    - generic [ref=e264] [cursor=pointer]: Seed
+                  - cell "2026-05-20" [ref=e265]
+                  - cell "소풍벤처스의 기업 로고 소풍벤처스 1회 쏠리드엑스의 기업 로고 쏠리드엑스 1회 슈미트의 기업 로고 슈미트 1회" [ref=e266]:
+                    - generic [ref=e267]:
+                      - link "소풍벤처스의 기업 로고 소풍벤처스 1회" [ref=e268] [cursor=pointer]:
+                        - /url: /sopoongventures
+                        - img "소풍벤처스의 기업 로고" [ref=e269]
+                        - generic [ref=e271]: 소풍벤처스
+                        - generic [ref=e273]: 1회
+                      - link "쏠리드엑스의 기업 로고 쏠리드엑스 1회" [ref=e274] [cursor=pointer]:
+                        - /url: /solidx
+                        - img "쏠리드엑스의 기업 로고" [ref=e275]
+                        - generic [ref=e277]: 쏠리드엑스
+                        - generic [ref=e279]: 1회
+                      - link "슈미트의 기업 로고 슈미트 1회" [ref=e280] [cursor=pointer]:
+                        - /url: /schmidt
+                        - img "슈미트의 기업 로고" [ref=e281]
+                        - generic [ref=e283]: 슈미트
+                        - generic [ref=e285]: 1회
+                  - cell "벤처캐피탈 1개사 기업벤처캐피탈 1개사 액셀러레이터 1개사" [ref=e286]:
+                    - generic [ref=e287]:
+                      - generic [ref=e288] [cursor=pointer]:
+                        - generic [ref=e289]: 벤처캐피탈
+                        - generic [ref=e291]: 1개사
+                      - generic [ref=e292] [cursor=pointer]:
+                        - generic [ref=e293]: 기업벤처캐피탈
+                        - generic [ref=e295]: 1개사
+                      - generic [ref=e296] [cursor=pointer]:
+                        - generic [ref=e297]: 액셀러레이터
+                        - generic [ref=e299]: 1개사
+                  - cell "N/A 3개사" [ref=e300]:
+                    - generic [ref=e302] [cursor=pointer]:
+                      - generic [ref=e303]: N/A
+                      - generic [ref=e305]: 3개사
+                  - cell "금융 3개사" [ref=e306]:
+                    - generic [ref=e308] [cursor=pointer]:
+                      - generic [ref=e309]: 금융
+                      - generic [ref=e311]: 3개사
+                - row "아웃오브셋의 기업 로고 아웃오브셋 한국계 · 비상장 비상장 스타트업 2026-04-27 0.1년 차 알 수 없음 해당 없음 한국 > 서울특별시 온디바이스 음성 AI의 제품 로고 온디바이스 음성 AI 개인정보 보호, 낮은 지연 시간, 오프라인 안정성을 고려한 온디바이스 음성 AI 모델 인공지능 엔터프라이즈  기술지원 온라인 지원 API/SDK API/SDK 개발중 434만원2026-05-13 16일 전 대비 34만원 증가 알 수 없음 알 수 없음 알 수 없음 Seed 2026-05-20 더벤처스의 기업 로고 더벤처스 1회 액셀러레이터 1개사 N/A 1개사 엔터프라이즈 1개사" [ref=e312]:
+                  - cell [ref=e313]:
+                    - button [ref=e314] [cursor=pointer]:
+                      - img [ref=e315]
+                  - cell "아웃오브셋의 기업 로고 아웃오브셋 한국계 · 비상장" [ref=e317]:
+                    - link "아웃오브셋의 기업 로고 아웃오브셋 한국계 · 비상장" [ref=e318] [cursor=pointer]:
+                      - /url: /outofset
+                      - img "아웃오브셋의 기업 로고" [ref=e319]
+                      - generic [ref=e320]:
+                        - generic [ref=e321]: 아웃오브셋
+                        - generic [ref=e322]: 한국계 · 비상장
+                  - cell "비상장" [ref=e323]:
+                    - generic [ref=e325] [cursor=pointer]: 비상장
+                  - cell "스타트업" [ref=e326]:
+                    - generic [ref=e328] [cursor=pointer]: 스타트업
+                  - cell "2026-04-27 0.1년 차" [ref=e329]:
+                    - text: 2026-04-27
+                    - generic [ref=e330]: 0.1년 차
+                  - cell "알 수 없음" [ref=e331]:
+                    - generic [ref=e332]: 알 수 없음
+                  - cell "해당 없음" [ref=e333]:
+                    - generic [ref=e334]: 해당 없음
+                  - cell "한국 > 서울특별시" [ref=e335]:
+                    - generic [ref=e337] [cursor=pointer]: 한국 > 서울특별시
+                  - cell "온디바이스 음성 AI의 제품 로고 온디바이스 음성 AI 개인정보 보호, 낮은 지연 시간, 오프라인 안정성을 고려한 온디바이스 음성 AI 모델" [ref=e338]:
+                    - link "온디바이스 음성 AI의 제품 로고 온디바이스 음성 AI 개인정보 보호, 낮은 지연 시간, 오프라인 안정성을 고려한 온디바이스 음성 AI 모델" [ref=e339] [cursor=pointer]:
+                      - /url: /outofset/products
+                      - img "온디바이스 음성 AI의 제품 로고" [ref=e340]
+                      - generic [ref=e341]:
+                        - generic [ref=e342]: 온디바이스 음성 AI
+                        - generic [ref=e343]: 개인정보 보호, 낮은 지연 시간, 오프라인 안정성을 고려한 온디바이스 음성 AI 모델
+                  - cell "인공지능" [ref=e344]:
+                    - generic [ref=e346] [cursor=pointer]: 인공지능
+                  - cell "엔터프라이즈  기술지원" [ref=e347]:
+                    - generic [ref=e349] [cursor=pointer]:
+                      - text: 엔터프라이즈
+                      - generic [ref=e350]: 
+                      - text: 기술지원
+                  - cell "온라인" [ref=e351]:
+                    - generic [ref=e353] [cursor=pointer]: 온라인
+                  - cell "지원" [ref=e354]:
+                    - generic [ref=e356] [cursor=pointer]: 지원
+                  - cell "API/SDK API/SDK 개발중" [ref=e357]:
+                    - generic [ref=e358] [cursor=pointer]:
+                      - img "API/SDK" [ref=e359]
+                      - generic [ref=e360]: API/SDK
+                      - generic [ref=e362]: 개발중
+                  - cell "434만원2026-05-13 16일 전 대비 34만원 증가" [ref=e363]:
+                    - generic [ref=e364]: 434만원2026-05-13
+                    - generic [ref=e365]: 16일 전 대비 34만원 증가
+                  - cell "알 수 없음" [ref=e366]:
+                    - generic [ref=e367]: 알 수 없음
+                  - cell "알 수 없음" [ref=e368]:
+                    - generic [ref=e369]: 알 수 없음
+                  - cell "알 수 없음" [ref=e370]:
+                    - generic [ref=e371]: 알 수 없음
+                  - cell "Seed" [ref=e372]:
+                    - generic [ref=e374] [cursor=pointer]: Seed
+                  - cell "2026-05-20" [ref=e375]
+                  - cell "더벤처스의 기업 로고 더벤처스 1회" [ref=e376]:
+                    - link "더벤처스의 기업 로고 더벤처스 1회" [ref=e378] [cursor=pointer]:
+                      - /url: /theventures
+                      - img "더벤처스의 기업 로고" [ref=e379]
+                      - generic [ref=e381]: 더벤처스
+                      - generic [ref=e383]: 1회
+                  - cell "액셀러레이터 1개사" [ref=e384]:
+                    - generic [ref=e386] [cursor=pointer]:
+                      - generic [ref=e387]: 액셀러레이터
+                      - generic [ref=e389]: 1개사
+                  - cell "N/A 1개사" [ref=e390]:
+                    - generic [ref=e392] [cursor=pointer]:
+                      - generic [ref=e393]: N/A
+                      - generic [ref=e395]: 1개사
+                  - cell "엔터프라이즈 1개사" [ref=e396]:
+                    - generic [ref=e398] [cursor=pointer]:
+                      - generic [ref=e399]: 엔터프라이즈
+                      - generic [ref=e401]: 1개사
+                - row "씨에스오의 기업 로고 씨에스오 한국계 · 비상장 비상장 스타트업 2023-04-03 3.2년 차 18명2026-03-01 1개월 전 대비 변화 없음 🦄 아기유니콘 한국 > 대전광역시 위성용 카메라의 제품 로고 위성용 카메라 인공위성 탑재용 카메라 통신/보안 선박/조선  통신 오프라인 제조/공급 자재/부품 자재/부품 개발중 1억원2024-01-25 10개월 전 대비 1749만원 증가 프로 플랜 필요 프로 플랜 필요 로그인 필요 Series A 2026-05-20 한국투자파트너스의 기업 로고 한국투자파트너스 2회 아이엠엠인베스트먼트의 기업 로고 아이엠엠인베스트먼트 2회 컴퍼니케이파트너스의 기업 로고 컴퍼니케이파트너스 2회 벤처캐피탈 9개사 기업벤처캐피탈 2개사 스타트업 1개사 N/A 11개사 통신/보안 1개사 금융 11개사 우주/항공 1개사" [ref=e402]:
+                  - cell [ref=e403]:
+                    - button [ref=e404] [cursor=pointer]:
+                      - img [ref=e405]
+                  - cell "씨에스오의 기업 로고 씨에스오 한국계 · 비상장" [ref=e407]:
+                    - link "씨에스오의 기업 로고 씨에스오 한국계 · 비상장" [ref=e408] [cursor=pointer]:
+                      - /url: /cso
+                      - img "씨에스오의 기업 로고" [ref=e409]
+                      - generic [ref=e410]:
+                        - generic [ref=e411]: 씨에스오
+                        - generic [ref=e412]: 한국계 · 비상장
+                  - cell "비상장" [ref=e413]:
+                    - generic [ref=e415] [cursor=pointer]: 비상장
+                  - cell "스타트업" [ref=e416]:
+                    - generic [ref=e418] [cursor=pointer]: 스타트업
+                  - cell "2023-04-03 3.2년 차" [ref=e419]:
+                    - text: 2023-04-03
+                    - generic [ref=e420]: 3.2년 차
+                  - cell "18명2026-03-01 1개월 전 대비 변화 없음" [ref=e421]:
+                    - generic [ref=e422]: 18명2026-03-01
+                    - generic [ref=e423]: 1개월 전 대비 변화 없음
+                  - cell "🦄 아기유니콘" [ref=e424]:
+                    - generic [ref=e427] [cursor=pointer]: 🦄 아기유니콘
+                  - cell "한국 > 대전광역시" [ref=e428]:
+                    - generic [ref=e430] [cursor=pointer]: 한국 > 대전광역시
+                  - cell "위성용 카메라의 제품 로고 위성용 카메라 인공위성 탑재용 카메라" [ref=e431]:
+                    - link "위성용 카메라의 제품 로고 위성용 카메라 인공위성 탑재용 카메라" [ref=e432] [cursor=pointer]:
+                      - /url: /cso/products
+                      - img "위성용 카메라의 제품 로고" [ref=e433]
+                      - generic [ref=e434]:
+                        - generic [ref=e435]: 위성용 카메라
+                        - generic [ref=e436]: 인공위성 탑재용 카메라
+                  - cell "통신/보안" [ref=e437]:
+                    - generic [ref=e439] [cursor=pointer]: 통신/보안
+                  - cell "선박/조선  통신" [ref=e440]:
+                    - generic [ref=e442] [cursor=pointer]:
+                      - text: 선박/조선
+                      - generic [ref=e443]: 
+                      - text: 통신
+                  - cell "오프라인" [ref=e444]:
+                    - generic [ref=e446] [cursor=pointer]: 오프라인
+                  - cell "제조/공급" [ref=e447]:
+                    - generic [ref=e449] [cursor=pointer]: 제조/공급
+                  - cell "자재/부품 자재/부품 개발중" [ref=e450]:
+                    - generic [ref=e451] [cursor=pointer]:
+                      - img "자재/부품" [ref=e452]
+                      - generic [ref=e453]: 자재/부품
+                      - generic [ref=e455]: 개발중
+                  - cell "1억원2024-01-25 10개월 전 대비 1749만원 증가" [ref=e456]:
+                    - generic [ref=e457]: 1억원2024-01-25
+                    - generic [ref=e458]: 10개월 전 대비 1749만원 증가
+                  - cell "프로 플랜 필요" [ref=e459]:
+                    - button "프로 플랜 필요" [ref=e460] [cursor=pointer]:
+                      - generic [ref=e461]: 프로 플랜 필요
+                  - cell "프로 플랜 필요" [ref=e462]:
+                    - button "프로 플랜 필요" [ref=e463] [cursor=pointer]:
+                      - generic [ref=e464]: 프로 플랜 필요
+                  - cell "로그인 필요" [ref=e465]:
+                    - button "로그인 필요" [ref=e466] [cursor=pointer]:
+                      - generic [ref=e467]: 로그인 필요
+                  - cell "Series A" [ref=e468]:
+                    - generic [ref=e470] [cursor=pointer]: Series A
+                  - cell "2026-05-20" [ref=e471]
+                  - cell "한국투자파트너스의 기업 로고 한국투자파트너스 2회 아이엠엠인베스트먼트의 기업 로고 아이엠엠인베스트먼트 2회 컴퍼니케이파트너스의 기업 로고 컴퍼니케이파트너스 2회" [ref=e472]:
+                    - generic [ref=e473]:
+                      - link "한국투자파트너스의 기업 로고 한국투자파트너스 2회" [ref=e474] [cursor=pointer]:
+                        - /url: /koreainvestmentpartners
+                        - img "한국투자파트너스의 기업 로고" [ref=e475]
+                        - generic [ref=e477]: 한국투자파트너스
+                        - generic [ref=e479]: 2회
+                      - link "아이엠엠인베스트먼트의 기업 로고 아이엠엠인베스트먼트 2회" [ref=e480] [cursor=pointer]:
+                        - /url: /imminvestment
+                        - img "아이엠엠인베스트먼트의 기업 로고" [ref=e481]
+                        - generic [ref=e483]: 아이엠엠인베스트먼트
+                        - generic [ref=e485]: 2회
+                      - link "컴퍼니케이파트너스의 기업 로고 컴퍼니케이파트너스 2회" [ref=e486] [cursor=pointer]:
+                        - /url: /companykpartners
+                        - img "컴퍼니케이파트너스의 기업 로고" [ref=e487]
+                        - generic [ref=e489]: 컴퍼니케이파트너스
+                        - generic [ref=e491]: 2회
+                  - cell "벤처캐피탈 9개사 기업벤처캐피탈 2개사 스타트업 1개사" [ref=e492]:
+                    - generic [ref=e493]:
+                      - generic [ref=e494] [cursor=pointer]:
+                        - generic [ref=e495]: 벤처캐피탈
+                        - generic [ref=e497]: 9개사
+                      - generic [ref=e498] [cursor=pointer]:
+                        - generic [ref=e499]: 기업벤처캐피탈
+                        - generic [ref=e501]: 2개사
+                      - generic [ref=e502] [cursor=pointer]:
+                        - generic [ref=e503]: 스타트업
+                        - generic [ref=e505]: 1개사
+                  - cell "N/A 11개사 통신/보안 1개사" [ref=e506]:
+                    - generic [ref=e507]:
+                      - generic [ref=e508] [cursor=pointer]:
+                        - generic [ref=e509]: N/A
+                        - generic [ref=e511]: 11개사
+                      - generic [ref=e512] [cursor=pointer]:
+                        - generic [ref=e513]: 통신/보안
+                        - generic [ref=e515]: 1개사
+                  - cell "금융 11개사 우주/항공 1개사" [ref=e516]:
+                    - generic [ref=e517]:
+                      - generic [ref=e518] [cursor=pointer]:
+                        - generic [ref=e519]: 금융
+                        - generic [ref=e521]: 11개사
+                      - generic [ref=e522] [cursor=pointer]:
+                        - generic [ref=e523]: 우주/항공
+                        - generic [ref=e525]: 1개사
+                - row "로민의 기업 로고 로민 한국계 · 비상장 비상장 스타트업 2018-05-03 8.1년 차 43명2026-03-01 1개월 전 대비 변화 없음 해당 없음 한국 > 서울특별시 텍스트스코프의 제품 로고 텍스트스코프 인공지능 문서인식(AI OCR) 기술을 활용한 문서 기반 업무 자동화 인공지능 엔터프라이즈  문서 온라인 지원 API/SDK API/SDK 운영 3295만원2024-12-28 1일 전 대비 126만원 증가 프로 플랜 필요 프로 플랜 필요 알 수 없음 Series A 2026-05-20 네이버클라우드의 기업 로고 네이버클라우드 1회 대기업/중견기업 1개사 클라우드 1개사 엔터프라이즈 1개사" [ref=e526]:
+                  - cell [ref=e527]:
+                    - button [ref=e528] [cursor=pointer]:
+                      - img [ref=e529]
+                  - cell "로민의 기업 로고 로민 한국계 · 비상장" [ref=e531]:
+                    - link "로민의 기업 로고 로민 한국계 · 비상장" [ref=e532] [cursor=pointer]:
+                      - /url: /lomin
+                      - img "로민의 기업 로고" [ref=e533]
+                      - generic [ref=e534]:
+                        - generic [ref=e535]: 로민
+                        - generic [ref=e536]: 한국계 · 비상장
+                  - cell "비상장" [ref=e537]:
+                    - generic [ref=e539] [cursor=pointer]: 비상장
+                  - cell "스타트업" [ref=e540]:
+                    - generic [ref=e542] [cursor=pointer]: 스타트업
+                  - cell "2018-05-03 8.1년 차" [ref=e543]:
+                    - text: 2018-05-03
+                    - generic [ref=e544]: 8.1년 차
+                  - cell "43명2026-03-01 1개월 전 대비 변화 없음" [ref=e545]:
+                    - generic [ref=e546]: 43명2026-03-01
+                    - generic [ref=e547]: 1개월 전 대비 변화 없음
+                  - cell "해당 없음" [ref=e548]:
+                    - generic [ref=e549]: 해당 없음
+                  - cell "한국 > 서울특별시" [ref=e550]:
+                    - generic [ref=e552] [cursor=pointer]: 한국 > 서울특별시
+                  - cell "텍스트스코프의 제품 로고 텍스트스코프 인공지능 문서인식(AI OCR) 기술을 활용한 문서 기반 업무 자동화" [ref=e553]:
+                    - link "텍스트스코프의 제품 로고 텍스트스코프 인공지능 문서인식(AI OCR) 기술을 활용한 문서 기반 업무 자동화" [ref=e554] [cursor=pointer]:
+                      - /url: /lomin/products
+                      - img "텍스트스코프의 제품 로고" [ref=e555]
+                      - generic [ref=e556]:
+                        - generic [ref=e557]: 텍스트스코프
+                        - generic [ref=e558]: 인공지능 문서인식(AI OCR) 기술을 활용한 문서 기반 업무 자동화
+                  - cell "인공지능" [ref=e559]:
+                    - generic [ref=e561] [cursor=pointer]: 인공지능
+                  - cell "엔터프라이즈  문서" [ref=e562]:
+                    - generic [ref=e564] [cursor=pointer]:
+                      - text: 엔터프라이즈
+                      - generic [ref=e565]: 
+                      - text: 문서
+                  - cell "온라인" [ref=e566]:
+                    - generic [ref=e568] [cursor=pointer]: 온라인
+                  - cell "지원" [ref=e569]:
+                    - generic [ref=e571] [cursor=pointer]: 지원
+                  - cell "API/SDK API/SDK 운영" [ref=e572]:
+                    - generic [ref=e573] [cursor=pointer]:
+                      - img "API/SDK" [ref=e574]
+                      - generic [ref=e575]: API/SDK
+                      - generic [ref=e577]: 운영
+                  - cell "3295만원2024-12-28 1일 전 대비 126만원 증가" [ref=e578]:
+                    - generic [ref=e579]: 3295만원2024-12-28
+                    - generic [ref=e580]: 1일 전 대비 126만원 증가
+                  - cell "프로 플랜 필요" [ref=e581]:
+                    - button "프로 플랜 필요" [ref=e582] [cursor=pointer]:
+                      - generic [ref=e583]: 프로 플랜 필요
+                  - cell "프로 플랜 필요" [ref=e584]:
+                    - button "프로 플랜 필요" [ref=e585] [cursor=pointer]:
+                      - generic [ref=e586]: 프로 플랜 필요
+                  - cell "알 수 없음" [ref=e587]:
+                    - generic [ref=e588]: 알 수 없음
+                  - cell "Series A" [ref=e589]:
+                    - generic [ref=e591] [cursor=pointer]: Series A
+                  - cell "2026-05-20" [ref=e592]
+                  - cell "네이버클라우드의 기업 로고 네이버클라우드 1회" [ref=e593]:
+                    - link "네이버클라우드의 기업 로고 네이버클라우드 1회" [ref=e595] [cursor=pointer]:
+                      - /url: /navercloud
+                      - img "네이버클라우드의 기업 로고" [ref=e596]
+                      - generic [ref=e598]: 네이버클라우드
+                      - generic [ref=e600]: 1회
+                  - cell "대기업/중견기업 1개사" [ref=e601]:
+                    - generic [ref=e603] [cursor=pointer]:
+                      - generic [ref=e604]: 대기업/중견기업
+                      - generic [ref=e606]: 1개사
+                  - cell "클라우드 1개사" [ref=e607]:
+                    - generic [ref=e609] [cursor=pointer]:
+                      - generic [ref=e610]: 클라우드
+                      - generic [ref=e612]: 1개사
+                  - cell "엔터프라이즈 1개사" [ref=e613]:
+                    - generic [ref=e615] [cursor=pointer]:
+                      - generic [ref=e616]: 엔터프라이즈
+                      - generic [ref=e618]: 1개사
+                - row "뮤즈라이브의 기업 로고 뮤즈라이브 한국계 · 비상장 비상장 스타트업 2015-11-19 10.6년 차 60명2026-03-01 1개월 전 대비 3명 증가 🧪 팁스(TIPS) 일반 트랙 🧬 스케일업 팁스(TIPS) 💡 CES 혁신상 수상 한국 > 서울특별시 키트앨범의 제품 로고 키트앨범 K-POP 아티스트 음반, 영상을 담은 앨범 키트 제조 콘텐츠  음악/음원 오프라인 제조/공급 상품 상품 운영 1억원2025-01-21 5개월 전 대비 35만원 증가 프로 플랜 필요 프로 플랜 필요 로그인 필요 Series D 2026-05-20 미래에셋벤처투자의 기업 로고 미래에셋벤처투자 3회 스파크랩글로벌벤처스의 기업 로고 스파크랩글로벌벤처스 3회 팁스의 기업 로고 팁스 2회 벤처캐피탈 11개사 금융회사 5개사 인큐베이터 2개사 +4 N/A 19개사 전자상거래 5개사 금융 21개사 엔터프라이즈 3개사" [ref=e619]:
+                  - cell [ref=e620]:
+                    - button [ref=e621] [cursor=pointer]:
+                      - img [ref=e622]
+                  - cell "뮤즈라이브의 기업 로고 뮤즈라이브 한국계 · 비상장" [ref=e624]:
+                    - link "뮤즈라이브의 기업 로고 뮤즈라이브 한국계 · 비상장" [ref=e625] [cursor=pointer]:
+                      - /url: /muzlive
+                      - img "뮤즈라이브의 기업 로고" [ref=e626]
+                      - generic [ref=e627]:
+                        - generic [ref=e628]: 뮤즈라이브
+                        - generic [ref=e629]: 한국계 · 비상장
+                  - cell "비상장" [ref=e630]:
+                    - generic [ref=e632] [cursor=pointer]: 비상장
+                  - cell "스타트업" [ref=e633]:
+                    - generic [ref=e635] [cursor=pointer]: 스타트업
+                  - cell "2015-11-19 10.6년 차" [ref=e636]:
+                    - text: 2015-11-19
+                    - generic [ref=e637]: 10.6년 차
+                  - cell "60명2026-03-01 1개월 전 대비 3명 증가" [ref=e638]:
+                    - generic [ref=e639]: 60명2026-03-01
+                    - generic [ref=e640]: 1개월 전 대비 3명 증가
+                  - cell "🧪 팁스(TIPS) 일반 트랙 🧬 스케일업 팁스(TIPS) 💡 CES 혁신상 수상" [ref=e641]:
+                    - generic [ref=e642]:
+                      - generic [ref=e644] [cursor=pointer]: 🧪 팁스(TIPS) 일반 트랙
+                      - generic [ref=e646] [cursor=pointer]: 🧬 스케일업 팁스(TIPS)
+                      - generic [ref=e648] [cursor=pointer]: 💡 CES 혁신상 수상
+                  - cell "한국 > 서울특별시" [ref=e649]:
+                    - generic [ref=e651] [cursor=pointer]: 한국 > 서울특별시
+                  - cell "키트앨범의 제품 로고 키트앨범 K-POP 아티스트 음반, 영상을 담은 앨범 키트" [ref=e652]:
+                    - link "키트앨범의 제품 로고 키트앨범 K-POP 아티스트 음반, 영상을 담은 앨범 키트" [ref=e653] [cursor=pointer]:
+                      - /url: /muzlive/products
+                      - img "키트앨범의 제품 로고" [ref=e654]
+                      - generic [ref=e655]:
+                        - generic [ref=e656]: 키트앨범
+                        - generic [ref=e657]: K-POP 아티스트 음반, 영상을 담은 앨범 키트
+                  - cell "제조" [ref=e658]:
+                    - generic [ref=e660] [cursor=pointer]: 제조
+                  - cell "콘텐츠  음악/음원" [ref=e661]:
+                    - generic [ref=e663] [cursor=pointer]:
+                      - text: 콘텐츠
+                      - generic [ref=e664]: 
+                      - text: 음악/음원
+                  - cell "오프라인" [ref=e665]:
+                    - generic [ref=e667] [cursor=pointer]: 오프라인
+                  - cell "제조/공급" [ref=e668]:
+                    - generic [ref=e670] [cursor=pointer]: 제조/공급
+                  - cell "상품 상품 운영" [ref=e671]:
+                    - generic [ref=e672] [cursor=pointer]:
+                      - img "상품" [ref=e673]
+                      - generic [ref=e674]: 상품
+                      - generic [ref=e676]: 운영
+                  - cell "1억원2025-01-21 5개월 전 대비 35만원 증가" [ref=e677]:
+                    - generic [ref=e678]: 1억원2025-01-21
+                    - generic [ref=e679]: 5개월 전 대비 35만원 증가
+                  - cell "프로 플랜 필요" [ref=e680]:
+                    - button "프로 플랜 필요" [ref=e681] [cursor=pointer]:
+                      - generic [ref=e682]: 프로 플랜 필요
+                  - cell "프로 플랜 필요" [ref=e683]:
+                    - button "프로 플랜 필요" [ref=e684] [cursor=pointer]:
+                      - generic [ref=e685]: 프로 플랜 필요
+                  - cell "로그인 필요" [ref=e686]:
+                    - button "로그인 필요" [ref=e687] [cursor=pointer]:
+                      - generic [ref=e688]: 로그인 필요
+                  - cell "Series D" [ref=e689]:
+                    - generic [ref=e691] [cursor=pointer]: Series D
+                  - cell "2026-05-20" [ref=e692]
+                  - cell "미래에셋벤처투자의 기업 로고 미래에셋벤처투자 3회 스파크랩글로벌벤처스의 기업 로고 스파크랩글로벌벤처스 3회 팁스의 기업 로고 팁스 2회" [ref=e693]:
+                    - generic [ref=e694]:
+                      - link "미래에셋벤처투자의 기업 로고 미래에셋벤처투자 3회" [ref=e695] [cursor=pointer]:
+                        - /url: /miraeassetventureinvestment
+                        - img "미래에셋벤처투자의 기업 로고" [ref=e696]
+                        - generic [ref=e698]: 미래에셋벤처투자
+                        - generic [ref=e700]: 3회
+                      - link "스파크랩글로벌벤처스의 기업 로고 스파크랩글로벌벤처스 3회" [ref=e701] [cursor=pointer]:
+                        - /url: /sparklabsglobalventures
+                        - img "스파크랩글로벌벤처스의 기업 로고" [ref=e702]
+                        - generic [ref=e704]: 스파크랩글로벌벤처스
+                        - generic [ref=e706]: 3회
+                      - link "팁스의 기업 로고 팁스 2회" [ref=e707] [cursor=pointer]:
+                        - /url: /tips
+                        - img "팁스의 기업 로고" [ref=e708]
+                        - generic [ref=e710]: 팁스
+                        - generic [ref=e712]: 2회
+                  - cell "벤처캐피탈 11개사 금융회사 5개사 인큐베이터 2개사 +4" [ref=e713]:
+                    - generic [ref=e714]:
+                      - generic [ref=e715] [cursor=pointer]:
+                        - generic [ref=e716]: 벤처캐피탈
+                        - generic [ref=e718]: 11개사
+                      - generic [ref=e719] [cursor=pointer]:
+                        - generic [ref=e720]: 금융회사
+                        - generic [ref=e722]: 5개사
+                      - generic [ref=e723] [cursor=pointer]:
+                        - generic [ref=e724]: 인큐베이터
+                        - generic [ref=e726]: 2개사
+                      - button "+4" [ref=e727] [cursor=pointer]:
+                        - generic [ref=e728]: "+4"
+                  - cell "N/A 19개사 전자상거래 5개사" [ref=e729]:
+                    - generic [ref=e730]:
+                      - generic [ref=e731] [cursor=pointer]:
+                        - generic [ref=e732]: N/A
+                        - generic [ref=e734]: 19개사
+                      - generic [ref=e735] [cursor=pointer]:
+                        - generic [ref=e736]: 전자상거래
+                        - generic [ref=e738]: 5개사
+                  - cell "금융 21개사 엔터프라이즈 3개사" [ref=e739]:
+                    - generic [ref=e740]:
+                      - generic [ref=e741] [cursor=pointer]:
+                        - generic [ref=e742]: 금융
+                        - generic [ref=e744]: 21개사
+                      - generic [ref=e745] [cursor=pointer]:
+                        - generic [ref=e746]: 엔터프라이즈
+                        - generic [ref=e748]: 3개사
+                - row "클론랩스의 기업 로고 클론랩스 한국계 · 비상장 비상장 스타트업 2026-02-01 0.4년 차 알 수 없음 해당 없음 미국 > 캘리포니아주 > 샌프란시스코 클론의 제품 로고 클론 사용자의 컴퓨터·에이전트 사용 패턴을 학습해 다음 행동과 의도를 예측·수행하는 AI 에이전트 인공지능 엔터프라이즈  생산성 온라인 지원 웹사이트 웹사이트 개발중 알 수 없음 알 수 없음 알 수 없음 알 수 없음 Seed 2026-05-19 네이버디투스타트업팩토리의 기업 로고 네이버디투스타트업팩토리 1회 기업벤처캐피탈 1개사 N/A 1개사 엔터프라이즈 1개사" [ref=e749]:
+                  - cell [ref=e750]:
+                    - button [ref=e751] [cursor=pointer]:
+                      - img [ref=e752]
+                  - cell "클론랩스의 기업 로고 클론랩스 한국계 · 비상장" [ref=e754]:
+                    - link "클론랩스의 기업 로고 클론랩스 한국계 · 비상장" [ref=e755] [cursor=pointer]:
+                      - /url: /clonelabs
+                      - img "클론랩스의 기업 로고" [ref=e756]
+                      - generic [ref=e757]:
+                        - generic [ref=e758]: 클론랩스
+                        - generic [ref=e759]: 한국계 · 비상장
+                  - cell "비상장" [ref=e760]:
+                    - generic [ref=e762] [cursor=pointer]: 비상장
+                  - cell "스타트업" [ref=e763]:
+                    - generic [ref=e765] [cursor=pointer]: 스타트업
+                  - cell "2026-02-01 0.4년 차" [ref=e766]:
+                    - text: 2026-02-01
+                    - generic [ref=e767]: 0.4년 차
+                  - cell "알 수 없음" [ref=e768]:
+                    - generic [ref=e769]: 알 수 없음
+                  - cell "해당 없음" [ref=e770]:
+                    - generic [ref=e771]: 해당 없음
+                  - cell "미국 > 캘리포니아주 > 샌프란시스코" [ref=e772]:
+                    - generic [ref=e774] [cursor=pointer]: 미국 > 캘리포니아주 > 샌프란시스코
+                  - cell "클론의 제품 로고 클론 사용자의 컴퓨터·에이전트 사용 패턴을 학습해 다음 행동과 의도를 예측·수행하는 AI 에이전트" [ref=e775]:
+                    - link "클론의 제품 로고 클론 사용자의 컴퓨터·에이전트 사용 패턴을 학습해 다음 행동과 의도를 예측·수행하는 AI 에이전트" [ref=e776] [cursor=pointer]:
+                      - /url: /clonelabs/products
+                      - img "클론의 제품 로고" [ref=e777]
+                      - generic [ref=e778]:
+                        - generic [ref=e779]: 클론
+                        - generic [ref=e780]: 사용자의 컴퓨터·에이전트 사용 패턴을 학습해 다음 행동과 의도를 예측·수행하는 AI 에이전트
+                  - cell "인공지능" [ref=e781]:
+                    - generic [ref=e783] [cursor=pointer]: 인공지능
+                  - cell "엔터프라이즈  생산성" [ref=e784]:
+                    - generic [ref=e786] [cursor=pointer]:
+                      - text: 엔터프라이즈
+                      - generic [ref=e787]: 
+                      - text: 생산성
+                  - cell "온라인" [ref=e788]:
+                    - generic [ref=e790] [cursor=pointer]: 온라인
+                  - cell "지원" [ref=e791]:
+                    - generic [ref=e793] [cursor=pointer]: 지원
+                  - cell "웹사이트 웹사이트 개발중" [ref=e794]:
+                    - generic [ref=e795] [cursor=pointer]:
+                      - img "웹사이트" [ref=e796]
+                      - generic [ref=e797]: 웹사이트
+                      - generic [ref=e799]: 개발중
+                  - cell "알 수 없음" [ref=e800]:
+                    - generic [ref=e801]: 알 수 없음
+                  - cell "알 수 없음" [ref=e802]:
+                    - generic [ref=e803]: 알 수 없음
+                  - cell "알 수 없음" [ref=e804]:
+                    - generic [ref=e805]: 알 수 없음
+                  - cell "알 수 없음" [ref=e806]:
+                    - generic [ref=e807]: 알 수 없음
+                  - cell "Seed" [ref=e808]:
+                    - generic [ref=e810] [cursor=pointer]: Seed
+                  - cell "2026-05-19" [ref=e811]
+                  - cell "네이버디투스타트업팩토리의 기업 로고 네이버디투스타트업팩토리 1회" [ref=e812]:
+                    - link "네이버디투스타트업팩토리의 기업 로고 네이버디투스타트업팩토리 1회" [ref=e814] [cursor=pointer]:
+                      - /url: /naverd2startupfactory
+                      - img "네이버디투스타트업팩토리의 기업 로고" [ref=e815]
+                      - generic [ref=e817]: 네이버디투스타트업팩토리
+                      - generic [ref=e819]: 1회
+                  - cell "기업벤처캐피탈 1개사" [ref=e820]:
+                    - generic [ref=e822] [cursor=pointer]:
+                      - generic [ref=e823]: 기업벤처캐피탈
+                      - generic [ref=e825]: 1개사
+                  - cell "N/A 1개사" [ref=e826]:
+                    - generic [ref=e828] [cursor=pointer]:
+                      - generic [ref=e829]: N/A
+                      - generic [ref=e831]: 1개사
+                  - cell "엔터프라이즈 1개사" [ref=e832]:
+                    - generic [ref=e834] [cursor=pointer]:
+                      - generic [ref=e835]: 엔터프라이즈
+                      - generic [ref=e837]: 1개사
+                - row "오르빗코리아의 기업 로고 오르빗코리아 한국계 · 비상장 비상장 스타트업 2025-06-09 1년 차 알 수 없음 해당 없음 한국 > 서울특별시 오르빗의 제품 로고 오르빗 컨슈머 브랜드를 위한 AI기반 기업 전략 컨설팅 솔루션 인공지능 엔터프라이즈  컨설팅 온라인 연구/분석 웹사이트 웹사이트 운영 107만원2026-03-19 9개월 전 대비 7만원 증가 알 수 없음 알 수 없음 알 수 없음 Seed 2026-05-19 매쉬업벤처스의 기업 로고 매쉬업벤처스 1회 액셀러레이터 1개사 N/A 1개사 엔터프라이즈 1개사" [ref=e838]:
+                  - cell [ref=e839]:
+                    - button [ref=e840] [cursor=pointer]:
+                      - img [ref=e841]
+                  - cell "오르빗코리아의 기업 로고 오르빗코리아 한국계 · 비상장" [ref=e843]:
+                    - link "오르빗코리아의 기업 로고 오르빗코리아 한국계 · 비상장" [ref=e844] [cursor=pointer]:
+                      - /url: /orbtkorea
+                      - img "오르빗코리아의 기업 로고" [ref=e845]
+                      - generic [ref=e846]:
+                        - generic [ref=e847]: 오르빗코리아
+                        - generic [ref=e848]: 한국계 · 비상장
+                  - cell "비상장" [ref=e849]:
+                    - generic [ref=e851] [cursor=pointer]: 비상장
+                  - cell "스타트업" [ref=e852]:
+                    - generic [ref=e854] [cursor=pointer]: 스타트업
+                  - cell "2025-06-09 1년 차" [ref=e855]:
+                    - text: 2025-06-09
+                    - generic [ref=e856]: 1년 차
+                  - cell "알 수 없음" [ref=e857]:
+                    - generic [ref=e858]: 알 수 없음
+                  - cell "해당 없음" [ref=e859]:
+                    - generic [ref=e860]: 해당 없음
+                  - cell "한국 > 서울특별시" [ref=e861]:
+                    - generic [ref=e863] [cursor=pointer]: 한국 > 서울특별시
+                  - cell "오르빗의 제품 로고 오르빗 컨슈머 브랜드를 위한 AI기반 기업 전략 컨설팅 솔루션" [ref=e864]:
+                    - link "오르빗의 제품 로고 오르빗 컨슈머 브랜드를 위한 AI기반 기업 전략 컨설팅 솔루션" [ref=e865] [cursor=pointer]:
+                      - /url: /orbtkorea/products
+                      - img "오르빗의 제품 로고" [ref=e866]
+                      - generic [ref=e867]:
+                        - generic [ref=e868]: 오르빗
+                        - generic [ref=e869]: 컨슈머 브랜드를 위한 AI기반 기업 전략 컨설팅 솔루션
+                  - cell "인공지능" [ref=e870]:
+                    - generic [ref=e872] [cursor=pointer]: 인공지능
+                  - cell "엔터프라이즈  컨설팅" [ref=e873]:
+                    - generic [ref=e875] [cursor=pointer]:
+                      - text: 엔터프라이즈
+                      - generic [ref=e876]: 
+                      - text: 컨설팅
+                  - cell "온라인" [ref=e877]:
+                    - generic [ref=e879] [cursor=pointer]: 온라인
+                  - cell "연구/분석" [ref=e880]:
+                    - generic [ref=e882] [cursor=pointer]: 연구/분석
+                  - cell "웹사이트 웹사이트 운영" [ref=e883]:
+                    - generic [ref=e884] [cursor=pointer]:
+                      - img "웹사이트" [ref=e885]
+                      - generic [ref=e886]: 웹사이트
+                      - generic [ref=e888]: 운영
+                  - cell "107만원2026-03-19 9개월 전 대비 7만원 증가" [ref=e889]:
+                    - generic [ref=e890]: 107만원2026-03-19
+                    - generic [ref=e891]: 9개월 전 대비 7만원 증가
+                  - cell "알 수 없음" [ref=e892]:
+                    - generic [ref=e893]: 알 수 없음
+                  - cell "알 수 없음" [ref=e894]:
+                    - generic [ref=e895]: 알 수 없음
+                  - cell "알 수 없음" [ref=e896]:
+                    - generic [ref=e897]: 알 수 없음
+                  - cell "Seed" [ref=e898]:
+                    - generic [ref=e900] [cursor=pointer]: Seed
+                  - cell "2026-05-19" [ref=e901]
+                  - cell "매쉬업벤처스의 기업 로고 매쉬업벤처스 1회" [ref=e902]:
+                    - link "매쉬업벤처스의 기업 로고 매쉬업벤처스 1회" [ref=e904] [cursor=pointer]:
+                      - /url: /mashupventures
+                      - img "매쉬업벤처스의 기업 로고" [ref=e905]
+                      - generic [ref=e907]: 매쉬업벤처스
+                      - generic [ref=e909]: 1회
+                  - cell "액셀러레이터 1개사" [ref=e910]:
+                    - generic [ref=e912] [cursor=pointer]:
+                      - generic [ref=e913]: 액셀러레이터
+                      - generic [ref=e915]: 1개사
+                  - cell "N/A 1개사" [ref=e916]:
+                    - generic [ref=e918] [cursor=pointer]:
+                      - generic [ref=e919]: N/A
+                      - generic [ref=e921]: 1개사
+                  - cell "엔터프라이즈 1개사" [ref=e922]:
+                    - generic [ref=e924] [cursor=pointer]:
+                      - generic [ref=e925]: 엔터프라이즈
+                      - generic [ref=e927]: 1개사
+                - row "바이트랩의 기업 로고 바이트랩 한국계 · 비상장 비상장 중소기업 2020-09-16 5.7년 차 103명2026-03-01 1개월 전 대비 3명 감소 해당 없음 한국 > 서울특별시 릴리이브의 제품 로고 릴리이브 탈모 개선을 중심으로 한 헤어샴푸 제조 뷰티  화장품 오프라인 제조/공급 상품 상품 운영 100만원2021-01-28 프로 플랜 필요 프로 플랜 필요 로그인 필요 Series A 2026-05-19 에이티넘인베스트먼트의 기업 로고 에이티넘인베스트먼트 1회 씨제이올리브영의 기업 로고 씨제이올리브영 1회 벤처캐피탈 1개사 대기업/중견기업 1개사 N/A 1개사 전자상거래 1개사 금융 1개사 뷰티 1개사" [ref=e928]:
+                  - cell [ref=e929]:
+                    - button [ref=e930] [cursor=pointer]:
+                      - img [ref=e931]
+                  - cell "바이트랩의 기업 로고 바이트랩 한국계 · 비상장" [ref=e933]:
+                    - link "바이트랩의 기업 로고 바이트랩 한국계 · 비상장" [ref=e934] [cursor=pointer]:
+                      - /url: /bitelab
+                      - img "바이트랩의 기업 로고" [ref=e935]
+                      - generic [ref=e936]:
+                        - generic [ref=e937]: 바이트랩
+                        - generic [ref=e938]: 한국계 · 비상장
+                  - cell "비상장" [ref=e939]:
+                    - generic [ref=e941] [cursor=pointer]: 비상장
+                  - cell "중소기업" [ref=e942]:
+                    - generic [ref=e944] [cursor=pointer]: 중소기업
+                  - cell "2020-09-16 5.7년 차" [ref=e945]:
+                    - text: 2020-09-16
+                    - generic [ref=e946]: 5.7년 차
+                  - cell "103명2026-03-01 1개월 전 대비 3명 감소" [ref=e947]:
+                    - generic [ref=e948]: 103명2026-03-01
+                    - generic [ref=e949]: 1개월 전 대비 3명 감소
+                  - cell "해당 없음" [ref=e950]:
+                    - generic [ref=e951]: 해당 없음
+                  - cell "한국 > 서울특별시" [ref=e952]:
+                    - generic [ref=e954] [cursor=pointer]: 한국 > 서울특별시
+                  - cell "릴리이브의 제품 로고 릴리이브 탈모 개선을 중심으로 한 헤어샴푸" [ref=e955]:
+                    - link "릴리이브의 제품 로고 릴리이브 탈모 개선을 중심으로 한 헤어샴푸" [ref=e956] [cursor=pointer]:
+                      - /url: /bitelab/products
+                      - img "릴리이브의 제품 로고" [ref=e957]
+                      - generic [ref=e958]:
+                        - generic [ref=e959]: 릴리이브
+                        - generic [ref=e960]: 탈모 개선을 중심으로 한 헤어샴푸
+                  - cell "제조" [ref=e961]:
+                    - generic [ref=e963] [cursor=pointer]: 제조
+                  - cell "뷰티  화장품" [ref=e964]:
+                    - generic [ref=e966] [cursor=pointer]:
+                      - text: 뷰티
+                      - generic [ref=e967]: 
+                      - text: 화장품
+                  - cell "오프라인" [ref=e968]:
+                    - generic [ref=e970] [cursor=pointer]: 오프라인
+                  - cell "제조/공급" [ref=e971]:
+                    - generic [ref=e973] [cursor=pointer]: 제조/공급
+                  - cell "상품 상품 운영" [ref=e974]:
+                    - generic [ref=e975] [cursor=pointer]:
+                      - img "상품" [ref=e976]
+                      - generic [ref=e977]: 상품
+                      - generic [ref=e979]: 운영
+                  - cell "100만원2021-01-28" [ref=e980]:
+                    - generic [ref=e981]: 100만원2021-01-28
+                  - cell "프로 플랜 필요" [ref=e982]:
+                    - button "프로 플랜 필요" [ref=e983] [cursor=pointer]:
+                      - generic [ref=e984]: 프로 플랜 필요
+                  - cell "프로 플랜 필요" [ref=e985]:
+                    - button "프로 플랜 필요" [ref=e986] [cursor=pointer]:
+                      - generic [ref=e987]: 프로 플랜 필요
+                  - cell "로그인 필요" [ref=e988]:
+                    - button "로그인 필요" [ref=e989] [cursor=pointer]:
+                      - generic [ref=e990]: 로그인 필요
+                  - cell "Series A" [ref=e991]:
+                    - generic [ref=e993] [cursor=pointer]: Series A
+                  - cell "2026-05-19" [ref=e994]
+                  - cell "에이티넘인베스트먼트의 기업 로고 에이티넘인베스트먼트 1회 씨제이올리브영의 기업 로고 씨제이올리브영 1회" [ref=e995]:
+                    - generic [ref=e996]:
+                      - link "에이티넘인베스트먼트의 기업 로고 에이티넘인베스트먼트 1회" [ref=e997] [cursor=pointer]:
+                        - /url: /atinuminvestment
+                        - img "에이티넘인베스트먼트의 기업 로고" [ref=e998]
+                        - generic [ref=e1000]: 에이티넘인베스트먼트
+                        - generic [ref=e1002]: 1회
+                      - link "씨제이올리브영의 기업 로고 씨제이올리브영 1회" [ref=e1003] [cursor=pointer]:
+                        - /url: /cjoliveyoung
+                        - img "씨제이올리브영의 기업 로고" [ref=e1004]
+                        - generic [ref=e1006]: 씨제이올리브영
+                        - generic [ref=e1008]: 1회
+                  - cell "벤처캐피탈 1개사 대기업/중견기업 1개사" [ref=e1009]:
+                    - generic [ref=e1010]:
+                      - generic [ref=e1011] [cursor=pointer]:
+                        - generic [ref=e1012]: 벤처캐피탈
+                        - generic [ref=e1014]: 1개사
+                      - generic [ref=e1015] [cursor=pointer]:
+                        - generic [ref=e1016]: 대기업/중견기업
+                        - generic [ref=e1018]: 1개사
+                  - cell "N/A 1개사 전자상거래 1개사" [ref=e1019]:
+                    - generic [ref=e1020]:
+                      - generic [ref=e1021] [cursor=pointer]:
+                        - generic [ref=e1022]: N/A
+                        - generic [ref=e1024]: 1개사
+                      - generic [ref=e1025] [cursor=pointer]:
+                        - generic [ref=e1026]: 전자상거래
+                        - generic [ref=e1028]: 1개사
+                  - cell "금융 1개사 뷰티 1개사" [ref=e1029]:
+                    - generic [ref=e1030]:
+                      - generic [ref=e1031] [cursor=pointer]:
+                        - generic [ref=e1032]: 금융
+                        - generic [ref=e1034]: 1개사
+                      - generic [ref=e1035] [cursor=pointer]:
+                        - generic [ref=e1036]: 뷰티
+                        - generic [ref=e1038]: 1개사
+                - row "설랩의 기업 로고 설랩 한국계 · 비상장 비상장 중소기업 2019-08-30 6.8년 차 7명2026-03-01 1개월 전 대비 변화 없음 해당 없음 한국 > 경기도 > 양평군 온샤의 제품 로고 온샤 온천필터 샤워기 세트 제조 생활  욕실용품 온라인 제조/공급 상품 상품 운영 5555만원2026-04-21 6.7년 전 대비 555만원 증가 프로 플랜 필요 프로 플랜 필요 알 수 없음 Seed 2026-05-19 와디즈파트너스의 기업 로고 와디즈파트너스 1회 기업벤처캐피탈 1개사 N/A 1개사 금융 1개사" [ref=e1039]:
+                  - cell [ref=e1040]:
+                    - button [ref=e1041] [cursor=pointer]:
+                      - img [ref=e1042]
+                  - cell "설랩의 기업 로고 설랩 한국계 · 비상장" [ref=e1044]:
+                    - link "설랩의 기업 로고 설랩 한국계 · 비상장" [ref=e1045] [cursor=pointer]:
+                      - /url: /sullab
+                      - img "설랩의 기업 로고" [ref=e1046]
+                      - generic [ref=e1047]:
+                        - generic [ref=e1048]: 설랩
+                        - generic [ref=e1049]: 한국계 · 비상장
+                  - cell "비상장" [ref=e1050]:
+                    - generic [ref=e1052] [cursor=pointer]: 비상장
+                  - cell "중소기업" [ref=e1053]:
+                    - generic [ref=e1055] [cursor=pointer]: 중소기업
+                  - cell "2019-08-30 6.8년 차" [ref=e1056]:
+                    - text: 2019-08-30
+                    - generic [ref=e1057]: 6.8년 차
+                  - cell "7명2026-03-01 1개월 전 대비 변화 없음" [ref=e1058]:
+                    - generic [ref=e1059]: 7명2026-03-01
+                    - generic [ref=e1060]: 1개월 전 대비 변화 없음
+                  - cell "해당 없음" [ref=e1061]:
+                    - generic [ref=e1062]: 해당 없음
+                  - cell "한국 > 경기도 > 양평군" [ref=e1063]:
+                    - generic [ref=e1065] [cursor=pointer]: 한국 > 경기도 > 양평군
+                  - cell "온샤의 제품 로고 온샤 온천필터 샤워기 세트" [ref=e1066]:
+                    - link "온샤의 제품 로고 온샤 온천필터 샤워기 세트" [ref=e1067] [cursor=pointer]:
+                      - /url: /sullab/products
+                      - img "온샤의 제품 로고" [ref=e1068]
+                      - generic [ref=e1069]:
+                        - generic [ref=e1070]: 온샤
+                        - generic [ref=e1071]: 온천필터 샤워기 세트
+                  - cell "제조" [ref=e1072]:
+                    - generic [ref=e1074] [cursor=pointer]: 제조
+                  - cell "생활  욕실용품" [ref=e1075]:
+                    - generic [ref=e1077] [cursor=pointer]:
+                      - text: 생활
+                      - generic [ref=e1078]: 
+                      - text: 욕실용품
+                  - cell "온라인" [ref=e1079]:
+                    - generic [ref=e1081] [cursor=pointer]: 온라인
+                  - cell "제조/공급" [ref=e1082]:
+                    - generic [ref=e1084] [cursor=pointer]: 제조/공급
+                  - cell "상품 상품 운영" [ref=e1085]:
+                    - generic [ref=e1086] [cursor=pointer]:
+                      - img "상품" [ref=e1087]
+                      - generic [ref=e1088]: 상품
+                      - generic [ref=e1090]: 운영
+                  - cell "5555만원2026-04-21 6.7년 전 대비 555만원 증가" [ref=e1091]:
+                    - generic [ref=e1092]: 5555만원2026-04-21
+                    - generic [ref=e1093]: 6.7년 전 대비 555만원 증가
+                  - cell "프로 플랜 필요" [ref=e1094]:
+                    - button "프로 플랜 필요" [ref=e1095] [cursor=pointer]:
+                      - generic [ref=e1096]: 프로 플랜 필요
+                  - cell "프로 플랜 필요" [ref=e1097]:
+                    - button "프로 플랜 필요" [ref=e1098] [cursor=pointer]:
+                      - generic [ref=e1099]: 프로 플랜 필요
+                  - cell "알 수 없음" [ref=e1100]:
+                    - generic [ref=e1101]: 알 수 없음
+                  - cell "Seed" [ref=e1102]:
+                    - generic [ref=e1104] [cursor=pointer]: Seed
+                  - cell "2026-05-19" [ref=e1105]
+                  - cell "와디즈파트너스의 기업 로고 와디즈파트너스 1회" [ref=e1106]:
+                    - link "와디즈파트너스의 기업 로고 와디즈파트너스 1회" [ref=e1108] [cursor=pointer]:
+                      - /url: /wadizpartners
+                      - img "와디즈파트너스의 기업 로고" [ref=e1109]
+                      - generic [ref=e1111]: 와디즈파트너스
+                      - generic [ref=e1113]: 1회
+                  - cell "기업벤처캐피탈 1개사" [ref=e1114]:
+                    - generic [ref=e1116] [cursor=pointer]:
+                      - generic [ref=e1117]: 기업벤처캐피탈
+                      - generic [ref=e1119]: 1개사
+                  - cell "N/A 1개사" [ref=e1120]:
+                    - generic [ref=e1122] [cursor=pointer]:
+                      - generic [ref=e1123]: N/A
+                      - generic [ref=e1125]: 1개사
+                  - cell "금융 1개사" [ref=e1126]:
+                    - generic [ref=e1128] [cursor=pointer]:
+                      - generic [ref=e1129]: 금융
+                      - generic [ref=e1131]: 1개사
+                - row "헬리오스의 기업 로고 헬리오스 한국계 · 비상장 비상장 중소기업 2025-12-23 0.5년 차 알 수 없음 해당 없음 한국 > 경상북도 > 구미시 반도체 박막 계측장비의 제품 로고 반도체 박막 계측장비 마이크로 엘립소메트리기술기반 3D 낸드플래시 박막 계측 장비 제조 반도체/디스플레이  반도체 오프라인 제조/공급 공정/설비 공정/설비 개발중 583만원2026-04-16 12일 전 대비 55만원 증가 프로 플랜 필요 프로 플랜 필요 알 수 없음 Seed 2026-05-19 파트너스라운지의 기업 로고 파트너스라운지 1회 포항공과대학교기술지주의 기업 로고 포항공과대학교기술지주 1회 경상북도창조경제혁신센터의 기업 로고 경상북도창조경제혁신센터 1회 액셀러레이터 3개사 N/A 2개사 연구개발 1개사 엔터프라이즈 2개사 금융 1개사" [ref=e1132]:
+                  - cell [ref=e1133]:
+                    - button [ref=e1134] [cursor=pointer]:
+                      - img [ref=e1135]
+                  - cell "헬리오스의 기업 로고 헬리오스 한국계 · 비상장" [ref=e1137]:
+                    - link "헬리오스의 기업 로고 헬리오스 한국계 · 비상장" [ref=e1138] [cursor=pointer]:
+                      - /url: /helios
+                      - img "헬리오스의 기업 로고" [ref=e1139]
+                      - generic [ref=e1140]:
+                        - generic [ref=e1141]: 헬리오스
+                        - generic [ref=e1142]: 한국계 · 비상장
+                  - cell "비상장" [ref=e1143]:
+                    - generic [ref=e1145] [cursor=pointer]: 비상장
+                  - cell "중소기업" [ref=e1146]:
+                    - generic [ref=e1148] [cursor=pointer]: 중소기업
+                  - cell "2025-12-23 0.5년 차" [ref=e1149]:
+                    - text: 2025-12-23
+                    - generic [ref=e1150]: 0.5년 차
+                  - cell "알 수 없음" [ref=e1151]:
+                    - generic [ref=e1152]: 알 수 없음
+                  - cell "해당 없음" [ref=e1153]:
+                    - generic [ref=e1154]: 해당 없음
+                  - cell "한국 > 경상북도 > 구미시" [ref=e1155]:
+                    - generic [ref=e1157] [cursor=pointer]: 한국 > 경상북도 > 구미시
+                  - cell "반도체 박막 계측장비의 제품 로고 반도체 박막 계측장비 마이크로 엘립소메트리기술기반 3D 낸드플래시 박막 계측 장비" [ref=e1158]:
+                    - link "반도체 박막 계측장비의 제품 로고 반도체 박막 계측장비 마이크로 엘립소메트리기술기반 3D 낸드플래시 박막 계측 장비" [ref=e1159] [cursor=pointer]:
+                      - /url: /helios/products
+                      - img "반도체 박막 계측장비의 제품 로고" [ref=e1160]
+                      - generic [ref=e1161]:
+                        - generic [ref=e1162]: 반도체 박막 계측장비
+                        - generic [ref=e1163]: 마이크로 엘립소메트리기술기반 3D 낸드플래시 박막 계측 장비
+                  - cell "제조" [ref=e1164]:
+                    - generic [ref=e1166] [cursor=pointer]: 제조
+                  - cell "반도체/디스플레이  반도체" [ref=e1167]:
+                    - generic [ref=e1169] [cursor=pointer]:
+                      - text: 반도체/디스플레이
+                      - generic [ref=e1170]: 
+                      - text: 반도체
+                  - cell "오프라인" [ref=e1171]:
+                    - generic [ref=e1173] [cursor=pointer]: 오프라인
+                  - cell "제조/공급" [ref=e1174]:
+                    - generic [ref=e1176] [cursor=pointer]: 제조/공급
+                  - cell "공정/설비 공정/설비 개발중" [ref=e1177]:
+                    - generic [ref=e1178] [cursor=pointer]:
+                      - img "공정/설비" [ref=e1179]
+                      - generic [ref=e1180]: 공정/설비
+                      - generic [ref=e1182]: 개발중
+                  - cell "583만원2026-04-16 12일 전 대비 55만원 증가" [ref=e1183]:
+                    - generic [ref=e1184]: 583만원2026-04-16
+                    - generic [ref=e1185]: 12일 전 대비 55만원 증가
+                  - cell "프로 플랜 필요" [ref=e1186]:
+                    - button "프로 플랜 필요" [ref=e1187] [cursor=pointer]:
+                      - generic [ref=e1188]: 프로 플랜 필요
+                  - cell "프로 플랜 필요" [ref=e1189]:
+                    - button "프로 플랜 필요" [ref=e1190] [cursor=pointer]:
+                      - generic [ref=e1191]: 프로 플랜 필요
+                  - cell "알 수 없음" [ref=e1192]:
+                    - generic [ref=e1193]: 알 수 없음
+                  - cell "Seed" [ref=e1194]:
+                    - generic [ref=e1196] [cursor=pointer]: Seed
+                  - cell "2026-05-19" [ref=e1197]
+                  - cell "파트너스라운지의 기업 로고 파트너스라운지 1회 포항공과대학교기술지주의 기업 로고 포항공과대학교기술지주 1회 경상북도창조경제혁신센터의 기업 로고 경상북도창조경제혁신센터 1회" [ref=e1198]:
+                    - generic [ref=e1199]:
+                      - link "파트너스라운지의 기업 로고 파트너스라운지 1회" [ref=e1200] [cursor=pointer]:
+                        - /url: /partnerslounge
+                        - img "파트너스라운지의 기업 로고" [ref=e1201]
+                        - generic [ref=e1203]: 파트너스라운지
+                        - generic [ref=e1205]: 1회
+                      - link "포항공과대학교기술지주의 기업 로고 포항공과대학교기술지주 1회" [ref=e1206] [cursor=pointer]:
+                        - /url: /postechholdings
+                        - img "포항공과대학교기술지주의 기업 로고" [ref=e1207]
+                        - generic [ref=e1209]: 포항공과대학교기술지주
+                        - generic [ref=e1211]: 1회
+                      - link "경상북도창조경제혁신센터의 기업 로고 경상북도창조경제혁신센터 1회" [ref=e1212] [cursor=pointer]:
+                        - /url: /cceigyeongbuk
+                        - img "경상북도창조경제혁신센터의 기업 로고" [ref=e1213]
+                        - generic [ref=e1215]: 경상북도창조경제혁신센터
+                        - generic [ref=e1217]: 1회
+                  - cell "액셀러레이터 3개사" [ref=e1218]:
+                    - generic [ref=e1220] [cursor=pointer]:
+                      - generic [ref=e1221]: 액셀러레이터
+                      - generic [ref=e1223]: 3개사
+                  - cell "N/A 2개사 연구개발 1개사" [ref=e1224]:
+                    - generic [ref=e1225]:
+                      - generic [ref=e1226] [cursor=pointer]:
+                        - generic [ref=e1227]: N/A
+                        - generic [ref=e1229]: 2개사
+                      - generic [ref=e1230] [cursor=pointer]:
+                        - generic [ref=e1231]: 연구개발
+                        - generic [ref=e1233]: 1개사
+                  - cell "엔터프라이즈 2개사 금융 1개사" [ref=e1234]:
+                    - generic [ref=e1235]:
+                      - generic [ref=e1236] [cursor=pointer]:
+                        - generic [ref=e1237]: 엔터프라이즈
+                        - generic [ref=e1239]: 2개사
+                      - generic [ref=e1240] [cursor=pointer]:
+                        - generic [ref=e1241]: 금융
+                        - generic [ref=e1243]: 1개사
+            - generic [ref=e1244]:
+              - generic [ref=e1247]:
+                - button " 다운로드" [disabled] [ref=e1248]:
+                  - generic [ref=e1249]:
+                    - generic [ref=e1250]: 
+                    - text: 다운로드
+                - button " 잠금 해제" [disabled] [ref=e1251]:
+                  - generic [ref=e1252]:
+                    - generic [ref=e1253]: 
+                    - text: 잠금 해제
+                - button " 담기" [disabled] [ref=e1254]:
+                  - generic [ref=e1255]:
+                    - generic [ref=e1256]: 
+                    - text: 담기
+                - button " 비교" [disabled] [ref=e1257]:
+                  - generic [ref=e1258]:
+                    - generic [ref=e1259]: 
+                    - text: 비교
+                - button "선택 전체 취소" [disabled] [ref=e1260]
+              - generic [ref=e1262]:
+                - generic [ref=e1263]:
+                  - button "5만큼 페이지 앞으로 이동" [disabled] [ref=e1264]:
+                    - generic [ref=e1265]: 
+                  - generic [ref=e1266]: "1"
+                  - button "2" [ref=e1267] [cursor=pointer]
+                  - button "3" [ref=e1268] [cursor=pointer]
+                  - button "4" [ref=e1269] [cursor=pointer]
+                  - button "5" [ref=e1270] [cursor=pointer]
+                  - button "5만큼 페이지 뒤로 이동" [ref=e1271] [cursor=pointer]:
+                    - generic [ref=e1272]: 
+                - generic [ref=e1273]:
+                  - combobox [ref=e1274] [cursor=pointer]:
+                    - option "10개/쪽" [selected]
+                    - option "50개/쪽"
+                    - option "100개/쪽"
+                  - generic:
+                    - generic: 
+        - text: 
+      - contentinfo [ref=e1275]:
+        - generic [ref=e1276]:
+          - generic [ref=e1277]:
+            - img "The VC logo" [ref=e1278]
+            - generic [ref=e1279]:
+              - link "더브이씨 소개" [ref=e1280] [cursor=pointer]:
+                - /url: https://thevc.team
+              - link "가격" [ref=e1281] [cursor=pointer]:
+                - /url: /pricing
+              - link "채용" [ref=e1282] [cursor=pointer]:
+                - /url: https://thevc.team/recruit
+              - link "개인정보처리방침" [ref=e1283] [cursor=pointer]:
+                - /url: https://guide.thevc.kr/privacy
+              - link "이용약관" [ref=e1284] [cursor=pointer]:
+                - /url: https://guide.thevc.kr/terms-of-use
+              - link "회사 등록" [ref=e1285] [cursor=pointer]:
+                - /url: https://docs.google.com/forms/d/e/1FAIpQLSdOcrOqy0RedXvtxbzVS4CcL-O9GHRhDNJFx1gAcS9yCdnI1w/viewform?usp=sf_link
+          - generic [ref=e1286]:
+            - paragraph [ref=e1287]:
+              - text: 주식회사 더브이씨 | 대표 변재극 | 사업자 등록번호 426-81-00521 | 서울특별시 마포구 만리재옛길 36, 2층 211-17호
+              - generic [ref=e1288]:
+                - text: "통신판매신고 제2017-서울마포-1223호 | 문의:"
+                - link "master@thevc.kr" [ref=e1289] [cursor=pointer]:
+                  - /url: mailto:master@thevc.kr
+            - generic [ref=e1290]: Copyright © THE VC Inc. All rights reserved.
+          - separator [ref=e1291]
+          - generic [ref=e1292]:
+            - paragraph [ref=e1293]: 더브이씨(THE VC)의 정보는 신뢰할 만한 자료를 바탕으로 하나, 정확성·완전성을 보장하지 않으며 사후 변경될 수 있습니다. 따라서 정보 오류나 누락에 대해 더브이씨 및 원본 데이터 제공 기관은 법적 책임을 지지 않습니다. 모든 콘텐츠의 저작권은 더브이씨에 있으며 무단 사용·DB화 시 민형사상 책임이 발생할 수 있습니다. 더브이씨(THE VC)는 투자 상담이나 입금을 요구하지 않으며, 어떤 형태의 유사 증권·가상화폐 거래소도 운영하지 않습니다. 사칭으로 인한 피해 발생에 유의하시기 바랍니다.
+            - link "자세히 보기" [ref=e1294] [cursor=pointer]:
+              - /url: https://www.thevc.team/caution
+    - text: 
+  - generic:
+    - list
+  - generic:
+    - list

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Lead Viewer</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0f172a;--card:#1e293b;--card2:#263347;--border:#334155;
+  --text:#e2e8f0;--muted:#94a3b8;--accent:#3b82f6;
+  --green:#22c55e;--yellow:#f59e0b;
+}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);height:100vh;display:flex;font-size:13px;overflow:hidden}
+
+/* ── Sidebar ── */
+#sidebar{width:200px;flex-shrink:0;border-right:1px solid var(--border);overflow-y:auto;display:flex;flex-direction:column;background:var(--card)}
+.group-label{font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;padding:12px 12px 4px}
+.p-btn{display:block;width:100%;text-align:left;background:none;border:none;color:var(--muted);padding:6px 12px;cursor:pointer;font-size:12px;border-left:2px solid transparent;transition:all .1s;line-height:1.4}
+.p-btn:hover{color:var(--text);background:var(--card2)}
+.p-btn.active{color:var(--accent);border-left-color:var(--accent);background:var(--card2);font-weight:600}
+.p-btn .p-num{font-family:monospace;font-size:10px;opacity:.6;margin-right:4px}
+.p-btn .p-count{float:right;font-size:10px;color:var(--muted)}
+.p-btn.active .p-count{color:var(--accent)}
+
+/* ── Content ── */
+#content{flex:1;display:flex;flex-direction:column;overflow:hidden}
+
+/* ── Filter bar ── */
+#filterbar{background:var(--card);border-bottom:1px solid var(--border);padding:7px 14px;display:flex;gap:8px;align-items:center;flex-shrink:0}
+#filterbar select,#filterbar input{background:var(--card2);border:1px solid var(--border);color:var(--text);padding:4px 8px;border-radius:5px;font-size:12px;outline:none}
+#filterbar input{width:160px}
+#filterbar input::placeholder{color:var(--muted)}
+.stat{background:var(--card2);border:1px solid var(--border);padding:2px 10px;border-radius:12px;font-size:11px;color:var(--muted);white-space:nowrap}
+.stat b{color:var(--text)}
+
+/* ── Split view ── */
+#split{flex:1;display:grid;grid-template-columns:55% 1fr;overflow:hidden}
+
+/* ── Leads table ── */
+#leads-panel{border-right:1px solid var(--border);overflow-y:auto}
+table{width:100%;border-collapse:collapse}
+thead th{background:var(--card);padding:7px 12px;text-align:left;font-weight:600;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;position:sticky;top:0;border-bottom:1px solid var(--border)}
+tbody tr{border-bottom:1px solid var(--border);cursor:pointer;transition:background .1s}
+tbody tr:hover{background:var(--card2)}
+tbody tr.sel{background:#1d3461}
+tbody td{padding:6px 12px;vertical-align:middle}
+.lid{color:var(--muted);font-family:monospace;font-size:10px}
+.cname{font-weight:500}
+.csite{font-size:10px;color:var(--muted)}
+.no-rows td{text-align:center;padding:32px;color:var(--muted)}
+
+/* ── Status badge ── */
+.st{display:inline-block;padding:2px 7px;border-radius:10px;font-size:10px;font-weight:700;white-space:nowrap}
+.s00{background:#1e3a5f;color:#60a5fa}.s01{background:#3b2f00;color:#fbbf24}
+.s02{background:#2d1b69;color:#a78bfa}.s03{background:#064e3b;color:#34d399}
+.s04,.s05{background:#1a3a2a;color:#6ee7b7}.s06{background:#065f46;color:#6ee7b7}
+.s07{background:#14532d;color:#4ade80}.s08{background:#052e16;color:#4ade80}
+.sXX{background:#2d1515;color:#f87171}
+
+/* ── Fit badge ── */
+.fit{width:20px;height:20px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:10px;font-weight:700}
+.f5{background:#052e16;color:#4ade80}.f4{background:#1a3a2a;color:#6ee7b7}
+.f3{background:#3b2f00;color:#fbbf24}.f2{background:#431407;color:#fb923c}
+.f1{background:#2d1515;color:#f87171}
+
+/* ── Source badge ── */
+.src{display:inline-block;padding:1px 6px;border-radius:4px;font-size:10px;font-weight:700;margin:1px}
+
+/* ── Detail panel ── */
+#detail{overflow-y:auto;display:flex;flex-direction:column}
+#det-empty{display:flex;align-items:center;justify-content:center;flex:1;color:var(--muted);font-size:12px}
+#det-body{display:none;flex-direction:column}
+#det-head{background:var(--card);border-bottom:1px solid var(--border);padding:11px 14px;position:sticky;top:0;z-index:1}
+#det-head h2{font-size:14px;font-weight:600}
+#det-head a{font-size:11px;color:var(--muted);text-decoration:none}
+#det-head a:hover{color:var(--accent)}
+#det-meta{display:flex;gap:10px;margin-top:5px;flex-wrap:wrap}
+.mi{font-size:11px;color:var(--muted)}.mi b{color:var(--text)}
+#det-memo{font-size:11px;color:var(--muted);font-style:italic;padding:6px 14px 8px;border-bottom:1px solid var(--border)}
+.fg{padding:9px 14px;border-bottom:1px solid var(--border)}
+.fn{font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:4px;display:flex;align-items:center;gap:5px}
+.cdot{width:6px;height:6px;border-radius:50%;background:var(--yellow);flex-shrink:0}
+.dr{display:flex;align-items:center;gap:7px;padding:3px 0;border-radius:4px}
+.dr.final{background:#0d2a1a;padding-left:5px;margin-left:-5px}
+.dv{flex:1}.dd{font-size:10px;color:var(--muted);white-space:nowrap}
+.fy{color:var(--green);font-size:11px;font-weight:700}
+
+/* ── Start / Error screen ── */
+#start{display:flex;align-items:center;justify-content:center;flex:1;flex-direction:column;gap:12px;color:var(--muted)}
+#start .arrow{font-size:28px;opacity:.2}
+#start p{font-size:12px;line-height:1.8;text-align:center}
+#err-banner{background:#3b1515;border-bottom:1px solid #7f1d1d;color:#fca5a5;padding:10px 16px;font-size:12px;display:none}
+#err-banner code{background:#2d1515;padding:2px 6px;border-radius:4px;font-family:monospace}
+
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<div id="sidebar"></div>
+
+<!-- Main -->
+<div id="content">
+  <div id="err-banner">
+    Live Server로 열어야 파일을 읽을 수 있어요. VS Code에서 viewer.html 우클릭 →
+    <b>Open with Live Server</b> 또는 <code>http://127.0.0.1:5500/viewer.html</code>
+  </div>
+
+  <div id="filterbar" class="hidden">
+    <select id="f-status">
+      <option value="">상태 전체</option>
+      <option value="00">00_발굴</option><option value="01">01_검증중</option>
+      <option value="02">02_연락처탐색</option><option value="03">03_준비완료</option>
+      <option value="04">04_발송</option><option value="05">05_팔로업</option>
+      <option value="06">06_응답</option><option value="07">07_미팅</option>
+      <option value="08">08_종결</option><option value="XX">XX_제외</option>
+    </select>
+    <select id="f-fit">
+      <option value="">핏 전체</option>
+      <option value="5">5점</option><option value="4">4점+</option><option value="3">3점+</option>
+    </select>
+    <input id="f-search" type="text" placeholder="회사명 검색…">
+    <div style="margin-left:auto;display:flex;gap:6px">
+      <div class="stat">전체 <b id="s-total">0</b></div>
+      <div class="stat">핏3+ <b id="s-fit">0</b></div>
+      <div class="stat">발송+ <b id="s-out">0</b></div>
+    </div>
+  </div>
+
+  <div id="start">
+    <div class="arrow">←</div>
+    <p>왼쪽에서 페르소나를 선택하세요</p>
+  </div>
+
+  <div id="split" class="hidden">
+    <div id="leads-panel">
+      <table>
+        <thead><tr>
+          <th>ID</th><th>회사명</th><th>소스</th><th>상태</th><th>핏</th><th>발굴일</th>
+        </tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <div id="detail">
+      <div id="det-empty">← 회사를 선택하세요</div>
+      <div id="det-body">
+        <div id="det-head">
+          <h2 id="det-name"></h2>
+          <a id="det-url" href="#" target="_blank"></a>
+          <div id="det-meta"></div>
+        </div>
+        <div id="det-memo"></div>
+        <div id="det-fields"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── Persona list ───────────────────────────────────────
+const PERSONAS = [
+  {k:'A01_kyc_aml',         l:'KYC / AML API',        g:'A'},
+  {k:'A02_d2c_inventory',   l:'D2C 재고 대시보드',     g:'A'},
+  {k:'A03_ad_analytics',    l:'광고 성과분석',          g:'A'},
+  {k:'A04_iot_sensor',      l:'IoT 센서+모니터링',     g:'A'},
+  {k:'A05_security_saas',   l:'보안 점검 자동화',       g:'A'},
+  {k:'A06_wms',             l:'WMS',                   g:'A'},
+  {k:'A07_hiring_eval',     l:'채용 평가 자동화',       g:'A'},
+  {k:'A08_ai_build',        l:'AI/LLM 구축 서비스',    g:'A'},
+  {k:'A09_payment_api',     l:'결제 라우팅 API',       g:'A'},
+  {k:'A10_cloud_cost',      l:'클라우드 비용 최적화',   g:'A'},
+  {k:'A11_cs_auto',         l:'CS 자동화',             g:'A'},
+  {k:'A12_emr_module',      l:'EMR 부가 모듈',         g:'A'},
+  {k:'A13_pentest_service', l:'모의해킹 서비스',        g:'A'},
+  {k:'A14_drone_inspect',   l:'드론 검사 서비스',       g:'A'},
+  {k:'A15_public_bid',      l:'공공 입찰 자동화',       g:'A'},
+  {k:'B01_construction_safety',l:'건설 안전 SaaS',     g:'B'},
+  {k:'B02_predictive_maint',   l:'설비 예지보전',       g:'B'},
+  {k:'B03_fleet_routing',      l:'배차 최적화',         g:'B'},
+  {k:'B04_customs',            l:'통관 자동화',         g:'B'},
+  {k:'B05_contract_ai',        l:'계약서 AI',           g:'B'},
+  {k:'B06_accounting',         l:'결산 자동화',         g:'B'},
+  {k:'B07_meddevice_crm',      l:'의료기기 CRM',        g:'B'},
+  {k:'B08_welfare_service',    l:'임직원 복지 서비스',  g:'B'},
+  {k:'B09_leadership_edu',     l:'리더십 교육',         g:'B'},
+  {k:'B10_fmcg_data',          l:'식품 유통 데이터',    g:'B'},
+  {k:'B11_performance_mgmt',   l:'성과관리 SaaS',       g:'B'},
+  {k:'B12_food_procurement',   l:'식자재 발주',         g:'B'},
+  {k:'B13_mro_marketplace',    l:'MRO 조달',            g:'B'},
+  {k:'B14_esg_service',        l:'ESG 서비스',          g:'B'},
+  {k:'B15_public_bid_domain',  l:'공공 입찰 (도메인)',  g:'B'},
+];
+
+// ── State ──────────────────────────────────────────────
+const S = { leads:[], dps:[], sel:null, persona:null };
+
+// ── Source colors ──────────────────────────────────────
+const SC = {'혁':'#3b82f6','vc':'#8b5cf6','로':'#f59e0b','사':'#10b981',
+            '원':'#06b6d4','링':'#0ea5e9','웹':'#6b7280','AC':'#ec4899',
+            '헌':'#f97316','SNS':'#84cc16'};
+const badge = s => { const c=SC[s]||'#64748b'; return `<span class="src" style="background:${c}22;color:${c};border:1px solid ${c}44">${s}</span>`; };
+
+// ── CSV parser ─────────────────────────────────────────
+function csv(text) {
+  const lines = text.replace(/\r\n/g,'\n').replace(/\r/g,'\n').trim().split('\n');
+  if (lines.length < 2) return [];
+  const hdr = split(lines[0]).map(h=>h.trim());
+  return lines.slice(1).map(l=>{ const v=split(l),o={}; hdr.forEach((h,i)=>o[h]=(v[i]||'').trim()); return o; })
+              .filter(r=>Object.values(r).some(v=>v));
+}
+function split(line) {
+  const r=[]; let c='',q=false;
+  for(const ch of line){ if(ch==='"')q=!q; else if(ch===','&&!q){r.push(c);c='';}else c+=ch; }
+  r.push(c); return r;
+}
+
+// ── Build sidebar ──────────────────────────────────────
+const sidebar = document.getElementById('sidebar');
+['A','B'].forEach(g => {
+  const lbl = document.createElement('div');
+  lbl.className = 'group-label';
+  lbl.textContent = g === 'A' ? 'A — 개발자 출신' : 'B — 도메인 출신';
+  sidebar.appendChild(lbl);
+  PERSONAS.filter(p=>p.g===g).forEach(p => {
+    const btn = document.createElement('button');
+    btn.className = 'p-btn';
+    btn.dataset.k = p.k;
+    btn.innerHTML = `<span class="p-num">${p.k.slice(0,3)}</span>${p.l}<span class="p-count" id="cnt-${p.k}"></span>`;
+    btn.addEventListener('click', () => loadPersona(p));
+    sidebar.appendChild(btn);
+  });
+});
+
+// ── Load persona ───────────────────────────────────────
+async function loadPersona(p) {
+  // Update active button
+  document.querySelectorAll('.p-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector(`[data-k="${p.k}"]`).classList.add('active');
+  S.sel = null; S.persona = p.k;
+
+  try {
+    const [lt, dt] = await Promise.all([
+      fetch(`leads/${p.k}/leads.csv`).then(r=>{ if(!r.ok)throw r; return r.text(); }),
+      fetch(`leads/${p.k}/data_points.csv`).then(r=>{ if(!r.ok)throw r; return r.text(); }),
+    ]);
+    S.leads = csv(lt);
+    S.dps   = csv(dt);
+    document.getElementById('err-banner').style.display = 'none';
+  } catch {
+    document.getElementById('err-banner').style.display = 'block';
+    S.leads = []; S.dps = [];
+  }
+
+  document.getElementById('start').classList.add('hidden');
+  document.getElementById('split').classList.remove('hidden');
+  document.getElementById('filterbar').classList.remove('hidden');
+  document.getElementById('det-empty').style.display = 'flex';
+  document.getElementById('det-body').style.display = 'none';
+  render();
+}
+
+// ── Filters ────────────────────────────────────────────
+['f-status','f-fit','f-search'].forEach(id =>
+  document.getElementById(id).addEventListener('input', render));
+
+function filtered() {
+  const st = document.getElementById('f-status').value;
+  const ft = document.getElementById('f-fit').value;
+  const q  = document.getElementById('f-search').value.toLowerCase();
+  return S.leads.filter(l =>
+    (!st || (l.상태코드||'').includes(st)) &&
+    (!ft || Number(l.핏점수) >= Number(ft)) &&
+    (!q  || (l.회사명||'').toLowerCase().includes(q))
+  );
+}
+
+// ── Render ─────────────────────────────────────────────
+function render() {
+  // Stats
+  document.getElementById('s-total').textContent = S.leads.length;
+  document.getElementById('s-fit').textContent   = S.leads.filter(l=>Number(l.핏점수)>=3).length;
+  document.getElementById('s-out').textContent   = S.leads.filter(l=>/^0[4-8]|^08/.test(l.상태코드||'')).length;
+
+  // Update sidebar count
+  if (S.persona) {
+    const el = document.getElementById(`cnt-${S.persona}`);
+    if (el) el.textContent = S.leads.length || '';
+  }
+
+  // Table
+  const rows = filtered();
+  const tbody = document.getElementById('tbody');
+  if (!rows.length) {
+    tbody.innerHTML = '<tr class="no-rows"><td colspan="6">리드 없음</td></tr>';
+    return;
+  }
+  tbody.innerHTML = rows.map(l => `
+    <tr data-id="${l.lead_id}" class="${S.sel===l.lead_id?'sel':''}">
+      <td class="lid">${l.lead_id||'—'}</td>
+      <td><div class="cname">${l.회사명||'—'}</div>${l.웹사이트?`<div class="csite">${l.웹사이트}</div>`:''}</td>
+      <td>${l.발굴소스?badge(l.발굴소스):'<span style="color:var(--muted)">—</span>'}</td>
+      <td><span class="st ${stc(l.상태코드)}">${l.상태코드||'—'}</span></td>
+      <td>${fitb(l.핏점수)}</td>
+      <td style="font-size:10px;color:var(--muted)">${l.발굴일||'—'}</td>
+    </tr>`).join('');
+
+  tbody.querySelectorAll('tr[data-id]').forEach(tr =>
+    tr.addEventListener('click', () => { S.sel = tr.dataset.id; render(); renderDet(tr.dataset.id); }));
+}
+
+function stc(c) {
+  if (!c) return 's00';
+  return 's' + c.split('_')[0];
+}
+function fitb(s) {
+  if (!s) return '<span style="color:var(--muted)">—</span>';
+  return `<span class="fit f${s}">${s}</span>`;
+}
+
+// ── Detail panel ───────────────────────────────────────
+function renderDet(id) {
+  const lead = S.leads.find(l=>l.lead_id===id);
+  const dps  = S.dps.filter(d=>d.lead_id===id);
+
+  document.getElementById('det-empty').style.display = 'none';
+  const body = document.getElementById('det-body');
+  body.style.display = 'flex';
+
+  document.getElementById('det-name').textContent = lead?.회사명 || id;
+  const ua = document.getElementById('det-url');
+  if (lead?.웹사이트) {
+    ua.href = lead.웹사이트.startsWith('http') ? lead.웹사이트 : 'https://'+lead.웹사이트;
+    ua.textContent = lead.웹사이트; ua.style.display='';
+  } else ua.style.display='none';
+
+  document.getElementById('det-meta').innerHTML = [
+    lead?.상태코드 && `상태 <b>${lead.상태코드}</b>`,
+    lead?.핏점수   && `핏 <b>${lead.핏점수}점</b>`,
+    lead?.발굴소스 && `발굴 ${badge(lead.발굴소스)}`,
+    lead?.발굴일   && `<b>${lead.발굴일}</b>`,
+  ].filter(Boolean).map(m=>`<span class="mi">${m}</span>`).join('');
+
+  const memo = document.getElementById('det-memo');
+  memo.textContent = lead?.핏메모 || '';
+  memo.style.display = lead?.핏메모 ? '' : 'none';
+
+  const fields = document.getElementById('det-fields');
+  if (!dps.length) {
+    fields.innerHTML = '<div style="padding:20px 14px;color:var(--muted);font-size:12px">data_points 없음</div>';
+    return;
+  }
+
+  const grouped = {};
+  dps.forEach(d => { const f=d.필드명||'?'; (grouped[f]=grouped[f]||[]).push(d); });
+
+  fields.innerHTML = Object.entries(grouped).map(([f, rows]) => {
+    const conflict = rows.length > 1 && new Set(rows.map(r=>r.값)).size > 1;
+    return `<div class="fg">
+      <div class="fn">
+        ${conflict?'<span class="cdot"></span>':''}
+        ${f}
+        ${conflict?`<span style="font-size:10px;color:var(--yellow)">(${rows.length}개 충돌)</span>`:''}
+      </div>
+      ${rows.map(r=>`
+        <div class="dr ${r.최종값==='Y'?'final':''}">
+          ${badge(r.소스||'?')}
+          <span class="dv">${r.값||'—'}</span>
+          <span class="dd">${r.수집일||''}</span>
+          ${r.최종값==='Y'?'<span class="fy">✓ 최종</span>':''}
+        </div>`).join('')}
+    </div>`;
+  }).join('');
+}
+</script>
+</body>
+</html>

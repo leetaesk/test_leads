@@ -1,0 +1,1930 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - link "The VC logo" [ref=e10] [cursor=pointer]:
+                - /url: /
+                - img "The VC logo" [ref=e11]
+              - generic [ref=e12]:
+                - button "N 데이터베이스 " [ref=e16] [cursor=pointer]:
+                  - generic [ref=e20]: "N"
+                  - generic [ref=e21]:
+                    - text: 데이터베이스
+                    - generic [ref=e22]: 
+                - button "모아보기 " [ref=e26] [cursor=pointer]:
+                  - generic [ref=e30]:
+                    - text: 모아보기
+                    - generic [ref=e31]: 
+                - link "리포트/소식" [ref=e32] [cursor=pointer]:
+                  - /url: /discussions
+                  - text: 리포트/소식
+                - link "가격" [ref=e35] [cursor=pointer]:
+                  - /url: /pricing
+                  - text: 가격
+            - generic [ref=e38]:
+              - generic [ref=e42]:
+                - searchbox "로그인 후 이용 가능" [ref=e43]
+                - generic [ref=e45]: 
+                - generic:
+                  - generic: /
+              - button "가입 / 로그인" [ref=e47] [cursor=pointer]:
+                - generic [ref=e48]: 가입 / 로그인
+          - text:    
+        - generic [ref=e51]:
+          - link "공개 수동 컬렉션의 로고" [ref=e53] [cursor=pointer]:
+            - /url: /gather/my-collections
+            - generic [ref=e54]:
+              - generic [ref=e57]: 공개
+              - img "수동 컬렉션의 로고" [ref=e58]
+          - heading "2025 AI 분야 투자 유치 초기 스타트업(업력 3년 이내)" [level=1] [ref=e61]
+          - button "" [ref=e63] [cursor=pointer]:
+            - generic [ref=e65]: 
+        - navigation [ref=e67]:
+          - link "기업 목록" [ref=e68] [cursor=pointer]:
+            - /url: /collections/694401036c5b40c036d6c46d
+            - generic [ref=e69]: 기업 목록
+          - link "뉴스 목록" [ref=e70] [cursor=pointer]:
+            - /url: /collections/694401036c5b40c036d6c46d/news
+            - generic [ref=e71]: 뉴스 목록
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - heading "기업 목록" [level=2] [ref=e74]
+          - generic [ref=e75]: 94 / 200 개
+        - button " 전체 다운로드" [ref=e77] [cursor=pointer]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: 
+            - text: 전체 다운로드
+        - table [ref=e81]:
+          - rowgroup [ref=e82]:
+            - row "기업명 제품/서비스 기술 분야 최근 매출 고용 인원 총 투자 유치 횟수 총 투자 유치 금액 최근 투자 단계 최근 투자 유치 주요 투자자 총 투자 집행 횟수 총 투자 집행 금액 최근 투자 집행 주요 투자 대상 등록자" [ref=e83]:
+              - columnheader [ref=e84]:
+                - button [ref=e85] [cursor=pointer]:
+                  - img [ref=e86]
+              - columnheader "기업명" [ref=e88]
+              - columnheader "제품/서비스" [ref=e89]
+              - columnheader "기술" [ref=e90]
+              - columnheader "분야" [ref=e91]
+              - columnheader "최근 매출" [ref=e92]
+              - columnheader "고용 인원" [ref=e93]
+              - columnheader "총 투자 유치 횟수" [ref=e94]
+              - columnheader "총 투자 유치 금액" [ref=e95]
+              - columnheader "최근 투자 단계" [ref=e96]
+              - columnheader "최근 투자 유치" [ref=e97]
+              - columnheader "주요 투자자" [ref=e98]
+              - columnheader "총 투자 집행 횟수" [ref=e99]
+              - columnheader "총 투자 집행 금액" [ref=e100]
+              - columnheader "최근 투자 집행" [ref=e101]
+              - columnheader "주요 투자 대상" [ref=e102]
+              - columnheader "등록자" [ref=e103]
+          - rowgroup [ref=e104]:
+            - row "클루리의 기업 로고 클루리 한국 · 스타트업 클루리의 제품 로고 클루리 회의, 고객 지원 통화, 프로젝트 브레인스토밍 세션, 공동 작업 등 일상적인 순간에 실시간 지원을 제공하는 인공지능 기반 데스크톱 비서 인공지능 생산성 엔터프라이즈 알 수 없음 알 수 없음 2회 로그인 필요 Series A 2025-06-23 앤드리슨호로위츠의 기업 로고 수사벤처스의 기업 로고 칼만벤처스의 기업 로고 0회 로그인 필요 해당 없음 해당 없음 잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e105]:
+              - cell [ref=e106]:
+                - button [ref=e107] [cursor=pointer]:
+                  - img [ref=e108]
+              - cell "클루리의 기업 로고 클루리 한국 · 스타트업" [ref=e110]:
+                - generic [ref=e111]:
+                  - link "클루리의 기업 로고" [ref=e112] [cursor=pointer]:
+                    - /url: /cluely
+                    - img "클루리의 기업 로고" [ref=e113]
+                  - generic [ref=e114]:
+                    - link "클루리" [ref=e115] [cursor=pointer]:
+                      - /url: /cluely
+                    - generic [ref=e116]: 한국 · 스타트업
+              - cell "클루리의 제품 로고 클루리 회의, 고객 지원 통화, 프로젝트 브레인스토밍 세션, 공동 작업 등 일상적인 순간에 실시간 지원을 제공하는 인공지능 기반 데스크톱 비서" [ref=e117]:
+                - generic [ref=e118]:
+                  - link "클루리의 제품 로고" [ref=e119] [cursor=pointer]:
+                    - /url: /cluely/products
+                    - img "클루리의 제품 로고" [ref=e120]
+                  - generic [ref=e121]:
+                    - link "클루리" [ref=e122] [cursor=pointer]:
+                      - /url: /cluely/products
+                    - generic [ref=e123]: 회의, 고객 지원 통화, 프로젝트 브레인스토밍 세션, 공동 작업 등 일상적인 순간에 실시간 지원을 제공하는 인공지능 기반 데스크톱 비서
+              - cell "인공지능" [ref=e124]
+              - cell "생산성 엔터프라이즈" [ref=e125]:
+                - text: 생산성
+                - generic [ref=e126]: 엔터프라이즈
+              - cell "알 수 없음" [ref=e127]:
+                - generic [ref=e128]: 알 수 없음
+              - cell "알 수 없음" [ref=e129]:
+                - generic [ref=e130]: 알 수 없음
+              - cell "2회" [ref=e131]
+              - cell "로그인 필요" [ref=e132]:
+                - button "로그인 필요" [ref=e133] [cursor=pointer]:
+                  - generic [ref=e134]: 로그인 필요
+              - cell "Series A" [ref=e135]
+              - cell "2025-06-23" [ref=e136]:
+                - time [ref=e137]: 2025-06-23
+              - cell "앤드리슨호로위츠의 기업 로고 수사벤처스의 기업 로고 칼만벤처스의 기업 로고" [ref=e138]:
+                - generic [ref=e139]:
+                  - link "앤드리슨호로위츠의 기업 로고" [ref=e140] [cursor=pointer]:
+                    - /url: /andreessenhorowitz
+                    - img "앤드리슨호로위츠의 기업 로고" [ref=e141]
+                  - link "수사벤처스의 기업 로고" [ref=e142] [cursor=pointer]:
+                    - /url: /susaventures
+                    - img "수사벤처스의 기업 로고" [ref=e143]
+                  - link "칼만벤처스의 기업 로고" [ref=e144] [cursor=pointer]:
+                    - /url: /karmanventures
+                    - img "칼만벤처스의 기업 로고" [ref=e145]
+              - cell "0회" [ref=e146]
+              - cell "로그인 필요" [ref=e147]:
+                - button "로그인 필요" [ref=e148] [cursor=pointer]:
+                  - generic [ref=e149]: 로그인 필요
+              - cell "해당 없음" [ref=e150]:
+                - generic [ref=e151]: 해당 없음
+              - cell "해당 없음" [ref=e152]:
+                - generic [ref=e153]: 해당 없음
+              - cell "잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e154]:
+                - generic [ref=e155]:
+                  - img "잠금 처리된 인물 사진" [ref=e156]
+                  - generic [ref=e157]:
+                    - text: 컬렉션 참가자만 조회 가능
+                    - time [ref=e158]: 2025-12-18
+            - row "리얼월드의 기업 로고 리얼월드 한국 · 스타트업 피지컬 AI 모델의 제품 로고 피지컬 AI 모델 산업용 로봇을 위한 AI 파운데이션 모델 인공지능 로봇 제조/3D프린터 프로 플랜 필요 2025년 기준 62명2026-03-01 1개월 전 대비 1명 증가 2회 로그인 필요 Seed 2026-02-26 2 미래에셋벤처투자의 기업 로고 해시드벤처스의 기업 로고 글로벌브레인의 기업 로고 0회 로그인 필요 해당 없음 해당 없음 잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e159]:
+              - cell [ref=e160]:
+                - button [ref=e161] [cursor=pointer]:
+                  - img [ref=e162]
+              - cell "리얼월드의 기업 로고 리얼월드 한국 · 스타트업" [ref=e164]:
+                - generic [ref=e165]:
+                  - link "리얼월드의 기업 로고" [ref=e166] [cursor=pointer]:
+                    - /url: /rlwrld
+                    - img "리얼월드의 기업 로고" [ref=e167]
+                  - generic [ref=e168]:
+                    - link "리얼월드" [ref=e169] [cursor=pointer]:
+                      - /url: /rlwrld
+                    - generic [ref=e170]: 한국 · 스타트업
+              - cell "피지컬 AI 모델의 제품 로고 피지컬 AI 모델 산업용 로봇을 위한 AI 파운데이션 모델" [ref=e171]:
+                - generic [ref=e172]:
+                  - link "피지컬 AI 모델의 제품 로고" [ref=e173] [cursor=pointer]:
+                    - /url: /rlwrld/products
+                    - img "피지컬 AI 모델의 제품 로고" [ref=e174]
+                  - generic [ref=e175]:
+                    - link "피지컬 AI 모델" [ref=e176] [cursor=pointer]:
+                      - /url: /rlwrld/products
+                    - generic [ref=e177]: 산업용 로봇을 위한 AI 파운데이션 모델
+              - cell "인공지능" [ref=e178]
+              - cell "로봇 제조/3D프린터" [ref=e179]:
+                - text: 로봇
+                - generic [ref=e180]: 제조/3D프린터
+              - cell "프로 플랜 필요 2025년 기준" [ref=e181]:
+                - button "프로 플랜 필요" [ref=e182] [cursor=pointer]:
+                  - generic [ref=e183]: 프로 플랜 필요
+                - generic [ref=e184]: 2025년 기준
+              - cell "62명2026-03-01 1개월 전 대비 1명 증가" [ref=e185]:
+                - generic [ref=e186]: 62명2026-03-01
+                - generic [ref=e187]: 1개월 전 대비 1명 증가
+              - cell "2회" [ref=e188]
+              - cell "로그인 필요" [ref=e189]:
+                - button "로그인 필요" [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191]: 로그인 필요
+              - cell "Seed" [ref=e192]
+              - cell "2026-02-26" [ref=e193]:
+                - time [ref=e194]: 2026-02-26
+              - cell "2 미래에셋벤처투자의 기업 로고 해시드벤처스의 기업 로고 글로벌브레인의 기업 로고" [ref=e195]:
+                - generic [ref=e196]:
+                  - link "2 미래에셋벤처투자의 기업 로고" [ref=e197] [cursor=pointer]:
+                    - /url: /miraeassetventureinvestment
+                    - generic [ref=e199]: "2"
+                    - img "미래에셋벤처투자의 기업 로고" [ref=e200]
+                  - link "해시드벤처스의 기업 로고" [ref=e201] [cursor=pointer]:
+                    - /url: /hashedventures
+                    - img "해시드벤처스의 기업 로고" [ref=e202]
+                  - link "글로벌브레인의 기업 로고" [ref=e203] [cursor=pointer]:
+                    - /url: /globalbrain
+                    - img "글로벌브레인의 기업 로고" [ref=e204]
+              - cell "0회" [ref=e205]
+              - cell "로그인 필요" [ref=e206]:
+                - button "로그인 필요" [ref=e207] [cursor=pointer]:
+                  - generic [ref=e208]: 로그인 필요
+              - cell "해당 없음" [ref=e209]:
+                - generic [ref=e210]: 해당 없음
+              - cell "해당 없음" [ref=e211]:
+                - generic [ref=e212]: 해당 없음
+              - cell "잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e213]:
+                - generic [ref=e214]:
+                  - img "잠금 처리된 인물 사진" [ref=e215]
+                  - generic [ref=e216]:
+                    - text: 컬렉션 참가자만 조회 가능
+                    - time [ref=e217]: 2025-12-18
+            - row "아이에이치더블유의 기업 로고 아이에이치더블유 한국 · 중소기업 아날로그 반도체의 제품 로고 아날로그 반도체 아날로그 방식의 AI 시스템온칩 제조 반도체 반도체/디스플레이 프로 플랜 필요 2024년 기준 30명2026-03-01 1개월 전 대비 3명 증가 2회 로그인 필요 Series A 2025-02-27 미래에셋벤처투자의 기업 로고 우리벤처파트너스의 기업 로고 디에스씨인베스트먼트의 기업 로고 0회 로그인 필요 해당 없음 해당 없음 잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e218]:
+              - cell [ref=e219]:
+                - button [ref=e220] [cursor=pointer]:
+                  - img [ref=e221]
+              - cell "아이에이치더블유의 기업 로고 아이에이치더블유 한국 · 중소기업" [ref=e223]:
+                - generic [ref=e224]:
+                  - link "아이에이치더블유의 기업 로고" [ref=e225] [cursor=pointer]:
+                    - /url: /ihw
+                    - img "아이에이치더블유의 기업 로고" [ref=e226]
+                  - generic [ref=e227]:
+                    - link "아이에이치더블유" [ref=e228] [cursor=pointer]:
+                      - /url: /ihw
+                    - generic [ref=e229]: 한국 · 중소기업
+              - cell "아날로그 반도체의 제품 로고 아날로그 반도체 아날로그 방식의 AI 시스템온칩" [ref=e230]:
+                - generic [ref=e231]:
+                  - link "아날로그 반도체의 제품 로고" [ref=e232] [cursor=pointer]:
+                    - /url: /ihw/products
+                    - img "아날로그 반도체의 제품 로고" [ref=e233]
+                  - generic [ref=e234]:
+                    - link "아날로그 반도체" [ref=e235] [cursor=pointer]:
+                      - /url: /ihw/products
+                    - generic [ref=e236]: 아날로그 방식의 AI 시스템온칩
+              - cell "제조" [ref=e237]
+              - cell "반도체 반도체/디스플레이" [ref=e238]:
+                - text: 반도체
+                - generic [ref=e239]: 반도체/디스플레이
+              - cell "프로 플랜 필요 2024년 기준" [ref=e240]:
+                - button "프로 플랜 필요" [ref=e241] [cursor=pointer]:
+                  - generic [ref=e242]: 프로 플랜 필요
+                - generic [ref=e243]: 2024년 기준
+              - cell "30명2026-03-01 1개월 전 대비 3명 증가" [ref=e244]:
+                - generic [ref=e245]: 30명2026-03-01
+                - generic [ref=e246]: 1개월 전 대비 3명 증가
+              - cell "2회" [ref=e247]
+              - cell "로그인 필요" [ref=e248]:
+                - button "로그인 필요" [ref=e249] [cursor=pointer]:
+                  - generic [ref=e250]: 로그인 필요
+              - cell "Series A" [ref=e251]
+              - cell "2025-02-27" [ref=e252]:
+                - time [ref=e253]: 2025-02-27
+              - cell "미래에셋벤처투자의 기업 로고 우리벤처파트너스의 기업 로고 디에스씨인베스트먼트의 기업 로고" [ref=e254]:
+                - generic [ref=e255]:
+                  - link "미래에셋벤처투자의 기업 로고" [ref=e256] [cursor=pointer]:
+                    - /url: /miraeassetventureinvestment
+                    - img "미래에셋벤처투자의 기업 로고" [ref=e257]
+                  - link "우리벤처파트너스의 기업 로고" [ref=e258] [cursor=pointer]:
+                    - /url: /wooriventurepartners
+                    - img "우리벤처파트너스의 기업 로고" [ref=e259]
+                  - link "디에스씨인베스트먼트의 기업 로고" [ref=e260] [cursor=pointer]:
+                    - /url: /dscinvestment
+                    - img "디에스씨인베스트먼트의 기업 로고" [ref=e261]
+              - cell "0회" [ref=e262]
+              - cell "로그인 필요" [ref=e263]:
+                - button "로그인 필요" [ref=e264] [cursor=pointer]:
+                  - generic [ref=e265]: 로그인 필요
+              - cell "해당 없음" [ref=e266]:
+                - generic [ref=e267]: 해당 없음
+              - cell "해당 없음" [ref=e268]:
+                - generic [ref=e269]: 해당 없음
+              - cell "잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e270]:
+                - generic [ref=e271]:
+                  - img "잠금 처리된 인물 사진" [ref=e272]
+                  - generic [ref=e273]:
+                    - text: 컬렉션 참가자만 조회 가능
+                    - time [ref=e274]: 2025-12-18
+            - row "솔로몬랩스의 기업 로고 솔로몬랩스 한국 · 스타트업 솔로몬의 제품 로고 솔로몬 AI 기반 세금 신고 최적화 솔루션 인공지능 회계/세무 금융 알 수 없음 알 수 없음 4회 로그인 필요 Seed 2025-11-01 2 베세머벤처파트너스의 기업 로고 2 베이스벤처스의 기업 로고 크루캐피탈의 기업 로고 0회 로그인 필요 해당 없음 해당 없음 잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e275]:
+              - cell [ref=e276]:
+                - button [ref=e277] [cursor=pointer]:
+                  - img [ref=e278]
+              - cell "솔로몬랩스의 기업 로고 솔로몬랩스 한국 · 스타트업" [ref=e280]:
+                - generic [ref=e281]:
+                  - link "솔로몬랩스의 기업 로고" [ref=e282] [cursor=pointer]:
+                    - /url: /solomonlabs
+                    - img "솔로몬랩스의 기업 로고" [ref=e283]
+                  - generic [ref=e284]:
+                    - link "솔로몬랩스" [ref=e285] [cursor=pointer]:
+                      - /url: /solomonlabs
+                    - generic [ref=e286]: 한국 · 스타트업
+              - cell "솔로몬의 제품 로고 솔로몬 AI 기반 세금 신고 최적화 솔루션" [ref=e287]:
+                - generic [ref=e288]:
+                  - link "솔로몬의 제품 로고" [ref=e289] [cursor=pointer]:
+                    - /url: /solomonlabs/products
+                    - img "솔로몬의 제품 로고" [ref=e290]
+                  - generic [ref=e291]:
+                    - link "솔로몬" [ref=e292] [cursor=pointer]:
+                      - /url: /solomonlabs/products
+                    - generic [ref=e293]: AI 기반 세금 신고 최적화 솔루션
+              - cell "인공지능" [ref=e294]
+              - cell "회계/세무 금융" [ref=e295]:
+                - text: 회계/세무
+                - generic [ref=e296]: 금융
+              - cell "알 수 없음" [ref=e297]:
+                - generic [ref=e298]: 알 수 없음
+              - cell "알 수 없음" [ref=e299]:
+                - generic [ref=e300]: 알 수 없음
+              - cell "4회" [ref=e301]
+              - cell "로그인 필요" [ref=e302]:
+                - button "로그인 필요" [ref=e303] [cursor=pointer]:
+                  - generic [ref=e304]: 로그인 필요
+              - cell "Seed" [ref=e305]
+              - cell "2025-11-01" [ref=e306]:
+                - time [ref=e307]: 2025-11-01
+              - cell "2 베세머벤처파트너스의 기업 로고 2 베이스벤처스의 기업 로고 크루캐피탈의 기업 로고" [ref=e308]:
+                - generic [ref=e309]:
+                  - link "2 베세머벤처파트너스의 기업 로고" [ref=e310] [cursor=pointer]:
+                    - /url: /bessemerventurepartners
+                    - generic [ref=e312]: "2"
+                    - img "베세머벤처파트너스의 기업 로고" [ref=e313]
+                  - link "2 베이스벤처스의 기업 로고" [ref=e314] [cursor=pointer]:
+                    - /url: /bassventures
+                    - generic [ref=e316]: "2"
+                    - img "베이스벤처스의 기업 로고" [ref=e317]
+                  - link "크루캐피탈의 기업 로고" [ref=e318] [cursor=pointer]:
+                    - /url: /krewcapital
+                    - img "크루캐피탈의 기업 로고" [ref=e319]
+              - cell "0회" [ref=e320]
+              - cell "로그인 필요" [ref=e321]:
+                - button "로그인 필요" [ref=e322] [cursor=pointer]:
+                  - generic [ref=e323]: 로그인 필요
+              - cell "해당 없음" [ref=e324]:
+                - generic [ref=e325]: 해당 없음
+              - cell "해당 없음" [ref=e326]:
+                - generic [ref=e327]: 해당 없음
+              - cell "잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e328]:
+                - generic [ref=e329]:
+                  - img "잠금 처리된 인물 사진" [ref=e330]
+                  - generic [ref=e331]:
+                    - text: 컬렉션 참가자만 조회 가능
+                    - time [ref=e332]: 2025-12-18
+            - row "사조의 기업 로고 사조 한국 · 스타트업 사조의 제품 로고 사조 AI 상품 소싱기반 한국 일본 크로스보더 커머스 전자상거래 해외쇼핑 쇼핑 프로 플랜 필요 2025년 기준 37명2026-03-01 1개월 전 대비 3명 증가 2회 로그인 필요 Pre-A 2025-09-17 일본우정캐피탈의 기업 로고 폴라오르비스캐피탈의 기업 로고 스즈요의 기업 로고 0회 로그인 필요 해당 없음 해당 없음 잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e333]:
+              - cell [ref=e334]:
+                - button [ref=e335] [cursor=pointer]:
+                  - img [ref=e336]
+              - cell "사조의 기업 로고 사조 한국 · 스타트업" [ref=e338]:
+                - generic [ref=e339]:
+                  - link "사조의 기업 로고" [ref=e340] [cursor=pointer]:
+                    - /url: /sazo
+                    - img "사조의 기업 로고" [ref=e341]
+                  - generic [ref=e342]:
+                    - link "사조" [ref=e343] [cursor=pointer]:
+                      - /url: /sazo
+                    - generic [ref=e344]: 한국 · 스타트업
+              - cell "사조의 제품 로고 사조 AI 상품 소싱기반 한국 일본 크로스보더 커머스" [ref=e345]:
+                - generic [ref=e346]:
+                  - link "사조의 제품 로고" [ref=e347] [cursor=pointer]:
+                    - /url: /sazo/products
+                    - img "사조의 제품 로고" [ref=e348]
+                  - generic [ref=e349]:
+                    - link "사조" [ref=e350] [cursor=pointer]:
+                      - /url: /sazo/products
+                    - generic [ref=e351]: AI 상품 소싱기반 한국 일본 크로스보더 커머스
+              - cell "전자상거래" [ref=e352]
+              - cell "해외쇼핑 쇼핑" [ref=e353]:
+                - text: 해외쇼핑
+                - generic [ref=e354]: 쇼핑
+              - cell "프로 플랜 필요 2025년 기준" [ref=e355]:
+                - button "프로 플랜 필요" [ref=e356] [cursor=pointer]:
+                  - generic [ref=e357]: 프로 플랜 필요
+                - generic [ref=e358]: 2025년 기준
+              - cell "37명2026-03-01 1개월 전 대비 3명 증가" [ref=e359]:
+                - generic [ref=e360]: 37명2026-03-01
+                - generic [ref=e361]: 1개월 전 대비 3명 증가
+              - cell "2회" [ref=e362]
+              - cell "로그인 필요" [ref=e363]:
+                - button "로그인 필요" [ref=e364] [cursor=pointer]:
+                  - generic [ref=e365]: 로그인 필요
+              - cell "Pre-A" [ref=e366]
+              - cell "2025-09-17" [ref=e367]:
+                - time [ref=e368]: 2025-09-17
+              - cell "일본우정캐피탈의 기업 로고 폴라오르비스캐피탈의 기업 로고 스즈요의 기업 로고" [ref=e369]:
+                - generic [ref=e370]:
+                  - link "일본우정캐피탈의 기업 로고" [ref=e371] [cursor=pointer]:
+                    - /url: /japanpostcapital
+                    - img "일본우정캐피탈의 기업 로고" [ref=e372]
+                  - link "폴라오르비스캐피탈의 기업 로고" [ref=e373] [cursor=pointer]:
+                    - /url: /polaorbiscapital
+                    - img "폴라오르비스캐피탈의 기업 로고" [ref=e374]
+                  - link "스즈요의 기업 로고" [ref=e375] [cursor=pointer]:
+                    - /url: /suzuyo
+                    - img "스즈요의 기업 로고" [ref=e376]
+              - cell "0회" [ref=e377]
+              - cell "로그인 필요" [ref=e378]:
+                - button "로그인 필요" [ref=e379] [cursor=pointer]:
+                  - generic [ref=e380]: 로그인 필요
+              - cell "해당 없음" [ref=e381]:
+                - generic [ref=e382]: 해당 없음
+              - cell "해당 없음" [ref=e383]:
+                - generic [ref=e384]: 해당 없음
+              - cell "잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e385]:
+                - generic [ref=e386]:
+                  - img "잠금 처리된 인물 사진" [ref=e387]
+                  - generic [ref=e388]:
+                    - text: 컬렉션 참가자만 조회 가능
+                    - time [ref=e389]: 2025-12-18
+            - row "피클의 기업 로고 피클 한국 · 스타트업 피클의 제품 로고 피클 AI로 본인과 동일하게 생성된 얼굴 영상으로 카메라를 켜지 않고도 언제 어디서나 화상회의를 돕는 솔루션 인공지능 생산성 엔터프라이즈 알 수 없음 알 수 없음 2회 로그인 필요 Seed 2025-06-05 2 레블펀드의 기업 로고 2 파이오니어펀드의 기업 로고 크루캐피탈의 기업 로고 0회 로그인 필요 해당 없음 해당 없음 잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e390]:
+              - cell [ref=e391]:
+                - button [ref=e392] [cursor=pointer]:
+                  - img [ref=e393]
+              - cell "피클의 기업 로고 피클 한국 · 스타트업" [ref=e395]:
+                - generic [ref=e396]:
+                  - link "피클의 기업 로고" [ref=e397] [cursor=pointer]:
+                    - /url: /pickle
+                    - img "피클의 기업 로고" [ref=e398]
+                  - generic [ref=e399]:
+                    - link "피클" [ref=e400] [cursor=pointer]:
+                      - /url: /pickle
+                    - generic [ref=e401]: 한국 · 스타트업
+              - cell "피클의 제품 로고 피클 AI로 본인과 동일하게 생성된 얼굴 영상으로 카메라를 켜지 않고도 언제 어디서나 화상회의를 돕는 솔루션" [ref=e402]:
+                - generic [ref=e403]:
+                  - link "피클의 제품 로고" [ref=e404] [cursor=pointer]:
+                    - /url: /pickle/products
+                    - img "피클의 제품 로고" [ref=e405]
+                  - generic [ref=e406]:
+                    - link "피클" [ref=e407] [cursor=pointer]:
+                      - /url: /pickle/products
+                    - generic [ref=e408]: AI로 본인과 동일하게 생성된 얼굴 영상으로 카메라를 켜지 않고도 언제 어디서나 화상회의를 돕는 솔루션
+              - cell "인공지능" [ref=e409]
+              - cell "생산성 엔터프라이즈" [ref=e410]:
+                - text: 생산성
+                - generic [ref=e411]: 엔터프라이즈
+              - cell "알 수 없음" [ref=e412]:
+                - generic [ref=e413]: 알 수 없음
+              - cell "알 수 없음" [ref=e414]:
+                - generic [ref=e415]: 알 수 없음
+              - cell "2회" [ref=e416]
+              - cell "로그인 필요" [ref=e417]:
+                - button "로그인 필요" [ref=e418] [cursor=pointer]:
+                  - generic [ref=e419]: 로그인 필요
+              - cell "Seed" [ref=e420]
+              - cell "2025-06-05" [ref=e421]:
+                - time [ref=e422]: 2025-06-05
+              - cell "2 레블펀드의 기업 로고 2 파이오니어펀드의 기업 로고 크루캐피탈의 기업 로고" [ref=e423]:
+                - generic [ref=e424]:
+                  - link "2 레블펀드의 기업 로고" [ref=e425] [cursor=pointer]:
+                    - /url: /rebelfund
+                    - generic [ref=e427]: "2"
+                    - img "레블펀드의 기업 로고" [ref=e428]
+                  - link "2 파이오니어펀드의 기업 로고" [ref=e429] [cursor=pointer]:
+                    - /url: /pioneerfund
+                    - generic [ref=e431]: "2"
+                    - img "파이오니어펀드의 기업 로고" [ref=e432]
+                  - link "크루캐피탈의 기업 로고" [ref=e433] [cursor=pointer]:
+                    - /url: /krewcapital
+                    - img "크루캐피탈의 기업 로고" [ref=e434]
+              - cell "0회" [ref=e435]
+              - cell "로그인 필요" [ref=e436]:
+                - button "로그인 필요" [ref=e437] [cursor=pointer]:
+                  - generic [ref=e438]: 로그인 필요
+              - cell "해당 없음" [ref=e439]:
+                - generic [ref=e440]: 해당 없음
+              - cell "해당 없음" [ref=e441]:
+                - generic [ref=e442]: 해당 없음
+              - cell "잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e443]:
+                - generic [ref=e444]:
+                  - img "잠금 처리된 인물 사진" [ref=e445]
+                  - generic [ref=e446]:
+                    - text: 컬렉션 참가자만 조회 가능
+                    - time [ref=e447]: 2025-12-18
+            - row "카본식스의 기업 로고 카본식스 한국 · 스타트업 피지컬 AI 모델의 제품 로고 피지컬 AI 모델 산업용 로봇을 위한 AI 파운데이션 모델 인공지능 로봇 제조/3D프린터 프로 플랜 필요 2025년 기준 5명2025-01-01 1개월 전 대비 1명 증가 1회 로그인 필요 Seed 2025-05-15 풋힐벤처스의 기업 로고 스톰벤처스의 기업 로고 자이트가이스트캐피탈의 기업 로고 0회 로그인 필요 해당 없음 해당 없음 잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e448]:
+              - cell [ref=e449]:
+                - button [ref=e450] [cursor=pointer]:
+                  - img [ref=e451]
+              - cell "카본식스의 기업 로고 카본식스 한국 · 스타트업" [ref=e453]:
+                - generic [ref=e454]:
+                  - link "카본식스의 기업 로고" [ref=e455] [cursor=pointer]:
+                    - /url: /carbonsix
+                    - img "카본식스의 기업 로고" [ref=e456]
+                  - generic [ref=e457]:
+                    - link "카본식스" [ref=e458] [cursor=pointer]:
+                      - /url: /carbonsix
+                    - generic [ref=e459]: 한국 · 스타트업
+              - cell "피지컬 AI 모델의 제품 로고 피지컬 AI 모델 산업용 로봇을 위한 AI 파운데이션 모델" [ref=e460]:
+                - generic [ref=e461]:
+                  - link "피지컬 AI 모델의 제품 로고" [ref=e462] [cursor=pointer]:
+                    - /url: /carbonsix/products
+                    - img "피지컬 AI 모델의 제품 로고" [ref=e463]
+                  - generic [ref=e464]:
+                    - link "피지컬 AI 모델" [ref=e465] [cursor=pointer]:
+                      - /url: /carbonsix/products
+                    - generic [ref=e466]: 산업용 로봇을 위한 AI 파운데이션 모델
+              - cell "인공지능" [ref=e467]
+              - cell "로봇 제조/3D프린터" [ref=e468]:
+                - text: 로봇
+                - generic [ref=e469]: 제조/3D프린터
+              - cell "프로 플랜 필요 2025년 기준" [ref=e470]:
+                - button "프로 플랜 필요" [ref=e471] [cursor=pointer]:
+                  - generic [ref=e472]: 프로 플랜 필요
+                - generic [ref=e473]: 2025년 기준
+              - cell "5명2025-01-01 1개월 전 대비 1명 증가" [ref=e474]:
+                - generic [ref=e475]: 5명2025-01-01
+                - generic [ref=e476]: 1개월 전 대비 1명 증가
+              - cell "1회" [ref=e477]
+              - cell "로그인 필요" [ref=e478]:
+                - button "로그인 필요" [ref=e479] [cursor=pointer]:
+                  - generic [ref=e480]: 로그인 필요
+              - cell "Seed" [ref=e481]
+              - cell "2025-05-15" [ref=e482]:
+                - time [ref=e483]: 2025-05-15
+              - cell "풋힐벤처스의 기업 로고 스톰벤처스의 기업 로고 자이트가이스트캐피탈의 기업 로고" [ref=e484]:
+                - generic [ref=e485]:
+                  - link "풋힐벤처스의 기업 로고" [ref=e486] [cursor=pointer]:
+                    - /url: /foothillventures
+                    - img "풋힐벤처스의 기업 로고" [ref=e487]
+                  - link "스톰벤처스의 기업 로고" [ref=e488] [cursor=pointer]:
+                    - /url: /stormventures
+                    - img "스톰벤처스의 기업 로고" [ref=e489]
+                  - link "자이트가이스트캐피탈의 기업 로고" [ref=e490] [cursor=pointer]:
+                    - /url: /zeitgeistcapital
+                    - img "자이트가이스트캐피탈의 기업 로고" [ref=e491]
+              - cell "0회" [ref=e492]
+              - cell "로그인 필요" [ref=e493]:
+                - button "로그인 필요" [ref=e494] [cursor=pointer]:
+                  - generic [ref=e495]: 로그인 필요
+              - cell "해당 없음" [ref=e496]:
+                - generic [ref=e497]: 해당 없음
+              - cell "해당 없음" [ref=e498]:
+                - generic [ref=e499]: 해당 없음
+              - cell "잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e500]:
+                - generic [ref=e501]:
+                  - img "잠금 처리된 인물 사진" [ref=e502]
+                  - generic [ref=e503]:
+                    - text: 컬렉션 참가자만 조회 가능
+                    - time [ref=e504]: 2025-12-18
+            - row "아스테로모프의 기업 로고 아스테로모프 한국 · 스타트업 스페이서의 제품 로고 스페이서 생물학, 화학, 공학 분야에서 독창적인 연구 아이디어를 스스로 도출할 수 있는 AI 서비스 인공지능 연구/실험 바이오/의료 알 수 없음 24명2026-03-01 1개월 전 대비 3명 증가 1회 로그인 필요 Seed 2025-03-28 한국투자파트너스의 기업 로고 미래에셋벤처투자의 기업 로고 퓨처플레이의 기업 로고 0회 로그인 필요 해당 없음 해당 없음 잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e505]:
+              - cell [ref=e506]:
+                - button [ref=e507] [cursor=pointer]:
+                  - img [ref=e508]
+              - cell "아스테로모프의 기업 로고 아스테로모프 한국 · 스타트업" [ref=e510]:
+                - generic [ref=e511]:
+                  - link "아스테로모프의 기업 로고" [ref=e512] [cursor=pointer]:
+                    - /url: /asteromorph
+                    - img "아스테로모프의 기업 로고" [ref=e513]
+                  - generic [ref=e514]:
+                    - link "아스테로모프" [ref=e515] [cursor=pointer]:
+                      - /url: /asteromorph
+                    - generic [ref=e516]: 한국 · 스타트업
+              - cell "스페이서의 제품 로고 스페이서 생물학, 화학, 공학 분야에서 독창적인 연구 아이디어를 스스로 도출할 수 있는 AI 서비스" [ref=e517]:
+                - generic [ref=e518]:
+                  - link "스페이서의 제품 로고" [ref=e519] [cursor=pointer]:
+                    - /url: /asteromorph/products
+                    - img "스페이서의 제품 로고" [ref=e520]
+                  - generic [ref=e521]:
+                    - link "스페이서" [ref=e522] [cursor=pointer]:
+                      - /url: /asteromorph/products
+                    - generic [ref=e523]: 생물학, 화학, 공학 분야에서 독창적인 연구 아이디어를 스스로 도출할 수 있는 AI 서비스
+              - cell "인공지능" [ref=e524]
+              - cell "연구/실험 바이오/의료" [ref=e525]:
+                - text: 연구/실험
+                - generic [ref=e526]: 바이오/의료
+              - cell "알 수 없음" [ref=e527]:
+                - generic [ref=e528]: 알 수 없음
+              - cell "24명2026-03-01 1개월 전 대비 3명 증가" [ref=e529]:
+                - generic [ref=e530]: 24명2026-03-01
+                - generic [ref=e531]: 1개월 전 대비 3명 증가
+              - cell "1회" [ref=e532]
+              - cell "로그인 필요" [ref=e533]:
+                - button "로그인 필요" [ref=e534] [cursor=pointer]:
+                  - generic [ref=e535]: 로그인 필요
+              - cell "Seed" [ref=e536]
+              - cell "2025-03-28" [ref=e537]:
+                - time [ref=e538]: 2025-03-28
+              - cell "한국투자파트너스의 기업 로고 미래에셋벤처투자의 기업 로고 퓨처플레이의 기업 로고" [ref=e539]:
+                - generic [ref=e540]:
+                  - link "한국투자파트너스의 기업 로고" [ref=e541] [cursor=pointer]:
+                    - /url: /koreainvestmentpartners
+                    - img "한국투자파트너스의 기업 로고" [ref=e542]
+                  - link "미래에셋벤처투자의 기업 로고" [ref=e543] [cursor=pointer]:
+                    - /url: /miraeassetventureinvestment
+                    - img "미래에셋벤처투자의 기업 로고" [ref=e544]
+                  - link "퓨처플레이의 기업 로고" [ref=e545] [cursor=pointer]:
+                    - /url: /futureplay
+                    - img "퓨처플레이의 기업 로고" [ref=e546]
+              - cell "0회" [ref=e547]
+              - cell "로그인 필요" [ref=e548]:
+                - button "로그인 필요" [ref=e549] [cursor=pointer]:
+                  - generic [ref=e550]: 로그인 필요
+              - cell "해당 없음" [ref=e551]:
+                - generic [ref=e552]: 해당 없음
+              - cell "해당 없음" [ref=e553]:
+                - generic [ref=e554]: 해당 없음
+              - cell "잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e555]:
+                - generic [ref=e556]:
+                  - img "잠금 처리된 인물 사진" [ref=e557]
+                  - generic [ref=e558]:
+                    - text: 컬렉션 참가자만 조회 가능
+                    - time [ref=e559]: 2025-12-18
+            - row "마이허브의 기업 로고 마이허브 한국 · 중소기업 마이링크의 제품 로고 마이링크 AI 의료영상 진단 보조 서비스 인공지능 이미지/영상 바이오/의료 프로 플랜 필요 2025년 기준 31명2026-03-01 1개월 전 대비 변화 없음 3회 로그인 필요 Series A 2025-01-06 매쉬업벤처스의 기업 로고 팁스의 기업 로고 한국투자파트너스의 기업 로고 0회 로그인 필요 해당 없음 해당 없음 잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e560]:
+              - cell [ref=e561]:
+                - button [ref=e562] [cursor=pointer]:
+                  - img [ref=e563]
+              - cell "마이허브의 기업 로고 마이허브 한국 · 중소기업" [ref=e565]:
+                - generic [ref=e566]:
+                  - link "마이허브의 기업 로고" [ref=e567] [cursor=pointer]:
+                    - /url: /maihub
+                    - img "마이허브의 기업 로고" [ref=e568]
+                  - generic [ref=e569]:
+                    - link "마이허브" [ref=e570] [cursor=pointer]:
+                      - /url: /maihub
+                    - generic [ref=e571]: 한국 · 중소기업
+              - cell "마이링크의 제품 로고 마이링크 AI 의료영상 진단 보조 서비스" [ref=e572]:
+                - generic [ref=e573]:
+                  - link "마이링크의 제품 로고" [ref=e574] [cursor=pointer]:
+                    - /url: /maihub/products
+                    - img "마이링크의 제품 로고" [ref=e575]
+                  - generic [ref=e576]:
+                    - link "마이링크" [ref=e577] [cursor=pointer]:
+                      - /url: /maihub/products
+                    - generic [ref=e578]: AI 의료영상 진단 보조 서비스
+              - cell "인공지능" [ref=e579]
+              - cell "이미지/영상 바이오/의료" [ref=e580]:
+                - text: 이미지/영상
+                - generic [ref=e581]: 바이오/의료
+              - cell "프로 플랜 필요 2025년 기준" [ref=e582]:
+                - button "프로 플랜 필요" [ref=e583] [cursor=pointer]:
+                  - generic [ref=e584]: 프로 플랜 필요
+                - generic [ref=e585]: 2025년 기준
+              - cell "31명2026-03-01 1개월 전 대비 변화 없음" [ref=e586]:
+                - generic [ref=e587]: 31명2026-03-01
+                - generic [ref=e588]: 1개월 전 대비 변화 없음
+              - cell "3회" [ref=e589]
+              - cell "로그인 필요" [ref=e590]:
+                - button "로그인 필요" [ref=e591] [cursor=pointer]:
+                  - generic [ref=e592]: 로그인 필요
+              - cell "Series A" [ref=e593]
+              - cell "2025-01-06" [ref=e594]:
+                - time [ref=e595]: 2025-01-06
+              - cell "매쉬업벤처스의 기업 로고 팁스의 기업 로고 한국투자파트너스의 기업 로고" [ref=e596]:
+                - generic [ref=e597]:
+                  - link "매쉬업벤처스의 기업 로고" [ref=e598] [cursor=pointer]:
+                    - /url: /mashupventures
+                    - img "매쉬업벤처스의 기업 로고" [ref=e599]
+                  - link "팁스의 기업 로고" [ref=e600] [cursor=pointer]:
+                    - /url: /tips
+                    - img "팁스의 기업 로고" [ref=e601]
+                  - link "한국투자파트너스의 기업 로고" [ref=e602] [cursor=pointer]:
+                    - /url: /koreainvestmentpartners
+                    - img "한국투자파트너스의 기업 로고" [ref=e603]
+              - cell "0회" [ref=e604]
+              - cell "로그인 필요" [ref=e605]:
+                - button "로그인 필요" [ref=e606] [cursor=pointer]:
+                  - generic [ref=e607]: 로그인 필요
+              - cell "해당 없음" [ref=e608]:
+                - generic [ref=e609]: 해당 없음
+              - cell "해당 없음" [ref=e610]:
+                - generic [ref=e611]: 해당 없음
+              - cell "잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e612]:
+                - generic [ref=e613]:
+                  - img "잠금 처리된 인물 사진" [ref=e614]
+                  - generic [ref=e615]:
+                    - text: 컬렉션 참가자만 조회 가능
+                    - time [ref=e616]: 2025-12-18
+            - row "노아스팜의 기업 로고 노아스팜 한국 · 스타트업 향미 인자의 제품 로고 향미 인자 바이오, AI, 향미화학 기술로 식품의 맛과 향을 구현하는 원료 인공지능 소재/원료 음식/외식 프로 플랜 필요 2025년 기준 3명2026-03-01 1개월 전 대비 변화 없음 2회 로그인 필요 Seed 2026-02-10 사제파트너스의 기업 로고 컴퍼니케이파트너스의 기업 로고 크릿벤처스의 기업 로고 0회 로그인 필요 해당 없음 해당 없음 잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e617]:
+              - cell [ref=e618]:
+                - button [ref=e619] [cursor=pointer]:
+                  - img [ref=e620]
+              - cell "노아스팜의 기업 로고 노아스팜 한국 · 스타트업" [ref=e622]:
+                - generic [ref=e623]:
+                  - link "노아스팜의 기업 로고" [ref=e624] [cursor=pointer]:
+                    - /url: /noahsfarm
+                    - img "노아스팜의 기업 로고" [ref=e625]
+                  - generic [ref=e626]:
+                    - link "노아스팜" [ref=e627] [cursor=pointer]:
+                      - /url: /noahsfarm
+                    - generic [ref=e628]: 한국 · 스타트업
+              - cell "향미 인자의 제품 로고 향미 인자 바이오, AI, 향미화학 기술로 식품의 맛과 향을 구현하는 원료" [ref=e629]:
+                - generic [ref=e630]:
+                  - link "향미 인자의 제품 로고" [ref=e631] [cursor=pointer]:
+                    - /url: /noahsfarm/products
+                    - img "향미 인자의 제품 로고" [ref=e632]
+                  - generic [ref=e633]:
+                    - link "향미 인자" [ref=e634] [cursor=pointer]:
+                      - /url: /noahsfarm/products
+                    - generic [ref=e635]: 바이오, AI, 향미화학 기술로 식품의 맛과 향을 구현하는 원료
+              - cell "인공지능" [ref=e636]
+              - cell "소재/원료 음식/외식" [ref=e637]:
+                - text: 소재/원료
+                - generic [ref=e638]: 음식/외식
+              - cell "프로 플랜 필요 2025년 기준" [ref=e639]:
+                - button "프로 플랜 필요" [ref=e640] [cursor=pointer]:
+                  - generic [ref=e641]: 프로 플랜 필요
+                - generic [ref=e642]: 2025년 기준
+              - cell "3명2026-03-01 1개월 전 대비 변화 없음" [ref=e643]:
+                - generic [ref=e644]: 3명2026-03-01
+                - generic [ref=e645]: 1개월 전 대비 변화 없음
+              - cell "2회" [ref=e646]
+              - cell "로그인 필요" [ref=e647]:
+                - button "로그인 필요" [ref=e648] [cursor=pointer]:
+                  - generic [ref=e649]: 로그인 필요
+              - cell "Seed" [ref=e650]
+              - cell "2026-02-10" [ref=e651]:
+                - time [ref=e652]: 2026-02-10
+              - cell "사제파트너스의 기업 로고 컴퍼니케이파트너스의 기업 로고 크릿벤처스의 기업 로고" [ref=e653]:
+                - generic [ref=e654]:
+                  - link "사제파트너스의 기업 로고" [ref=e655] [cursor=pointer]:
+                    - /url: /sazzepartners
+                    - img "사제파트너스의 기업 로고" [ref=e656]
+                  - link "컴퍼니케이파트너스의 기업 로고" [ref=e657] [cursor=pointer]:
+                    - /url: /companykpartners
+                    - img "컴퍼니케이파트너스의 기업 로고" [ref=e658]
+                  - link "크릿벤처스의 기업 로고" [ref=e659] [cursor=pointer]:
+                    - /url: /critventures
+                    - img "크릿벤처스의 기업 로고" [ref=e660]
+              - cell "0회" [ref=e661]
+              - cell "로그인 필요" [ref=e662]:
+                - button "로그인 필요" [ref=e663] [cursor=pointer]:
+                  - generic [ref=e664]: 로그인 필요
+              - cell "해당 없음" [ref=e665]:
+                - generic [ref=e666]: 해당 없음
+              - cell "해당 없음" [ref=e667]:
+                - generic [ref=e668]: 해당 없음
+              - cell "잠금 처리된 인물 사진 컬렉션 참가자만 조회 가능 2025-12-18" [ref=e669]:
+                - generic [ref=e670]:
+                  - img "잠금 처리된 인물 사진" [ref=e671]
+                  - generic [ref=e672]:
+                    - text: 컬렉션 참가자만 조회 가능
+                    - time [ref=e673]: 2025-12-18
+        - generic [ref=e674]:
+          - generic [ref=e676]:
+            - generic [ref=e677]: "선택한 기업: 0개"
+            - button " 다운로드" [disabled] [ref=e678]:
+              - generic [ref=e679]:
+                - generic [ref=e680]: 
+                - text: 다운로드
+            - button " 잠금 해제" [disabled] [ref=e681]:
+              - generic [ref=e682]:
+                - generic [ref=e683]: 
+                - text: 잠금 해제
+            - button " 담기" [disabled] [ref=e684]:
+              - generic [ref=e685]:
+                - generic [ref=e686]: 
+                - text: 담기
+            - button "선택 전체 취소" [disabled] [ref=e687]
+          - generic [ref=e689]:
+            - generic [ref=e690]:
+              - button "5만큼 페이지 앞으로 이동" [disabled] [ref=e691]:
+                - generic [ref=e692]: 
+              - generic [ref=e693]: "1"
+              - button "2" [ref=e694] [cursor=pointer]
+              - button "3" [ref=e695] [cursor=pointer]
+              - button "4" [ref=e696] [cursor=pointer]
+              - button "5" [ref=e697] [cursor=pointer]
+              - button "5만큼 페이지 뒤로 이동" [ref=e698] [cursor=pointer]:
+                - generic [ref=e699]: 
+            - generic [ref=e700]:
+              - combobox [ref=e701] [cursor=pointer]:
+                - option "10개/쪽" [selected]
+                - option "50개/쪽"
+                - option "100개/쪽"
+              - generic:
+                - generic: 
+        - text: 
+      - contentinfo [ref=e702]:
+        - generic [ref=e703]:
+          - generic [ref=e704]:
+            - img "The VC logo" [ref=e705]
+            - generic [ref=e706]:
+              - link "더브이씨 소개" [ref=e707] [cursor=pointer]:
+                - /url: https://thevc.team
+              - link "가격" [ref=e708] [cursor=pointer]:
+                - /url: /pricing
+              - link "채용" [ref=e709] [cursor=pointer]:
+                - /url: https://thevc.team/recruit
+              - link "개인정보처리방침" [ref=e710] [cursor=pointer]:
+                - /url: https://guide.thevc.kr/privacy
+              - link "이용약관" [ref=e711] [cursor=pointer]:
+                - /url: https://guide.thevc.kr/terms-of-use
+              - link "회사 등록" [ref=e712] [cursor=pointer]:
+                - /url: https://docs.google.com/forms/d/e/1FAIpQLSdOcrOqy0RedXvtxbzVS4CcL-O9GHRhDNJFx1gAcS9yCdnI1w/viewform?usp=sf_link
+          - generic [ref=e713]:
+            - paragraph [ref=e714]:
+              - text: 주식회사 더브이씨 | 대표 변재극 | 사업자 등록번호 426-81-00521 | 서울특별시 마포구 만리재옛길 36, 2층 211-17호
+              - generic [ref=e715]:
+                - text: "통신판매신고 제2017-서울마포-1223호 | 문의:"
+                - link "master@thevc.kr" [ref=e716] [cursor=pointer]:
+                  - /url: mailto:master@thevc.kr
+            - generic [ref=e717]: Copyright © THE VC Inc. All rights reserved.
+          - separator [ref=e718]
+          - generic [ref=e719]:
+            - paragraph [ref=e720]: 더브이씨(THE VC)의 정보는 신뢰할 만한 자료를 바탕으로 하나, 정확성·완전성을 보장하지 않으며 사후 변경될 수 있습니다. 따라서 정보 오류나 누락에 대해 더브이씨 및 원본 데이터 제공 기관은 법적 책임을 지지 않습니다. 모든 콘텐츠의 저작권은 더브이씨에 있으며 무단 사용·DB화 시 민형사상 책임이 발생할 수 있습니다. 더브이씨(THE VC)는 투자 상담이나 입금을 요구하지 않으며, 어떤 형태의 유사 증권·가상화폐 거래소도 운영하지 않습니다. 사칭으로 인한 피해 발생에 유의하시기 바랍니다.
+            - link "자세히 보기" [ref=e721] [cursor=pointer]:
+              - /url: https://www.thevc.team/caution
+    - generic [ref=e723]:
+      - generic [ref=e725]:
+        - generic [ref=e726]:
+          - generic [ref=e727]: 조회수 랭킹
+          - button "일간 " [ref=e730] [cursor=pointer]:
+            - generic [ref=e732]:
+              - text: 일간
+              - generic [ref=e733]: 
+        - generic [ref=e734]:
+          - generic [ref=e736] [cursor=pointer]: 전체
+          - generic [ref=e738] [cursor=pointer]: 스타트업
+          - generic [ref=e740] [cursor=pointer]: 액셀러레이터
+          - generic [ref=e742] [cursor=pointer]: 벤처캐피탈
+          - generic [ref=e744] [cursor=pointer]: 사모투자회사
+          - generic [ref=e746] [cursor=pointer]: 대기업/중견기업
+          - generic [ref=e748] [cursor=pointer]: 금융회사
+          - generic [ref=e750] [cursor=pointer]: 정부/공기업
+          - generic [ref=e752] [cursor=pointer]: 협회/재단
+          - generic [ref=e754] [cursor=pointer]: 인큐베이터
+          - generic [ref=e756] [cursor=pointer]: 교육/연구기관
+        - separator [ref=e757]
+        - list [ref=e758]:
+          - listitem [ref=e759]:
+            - link "1 무신사의 기업 로고 무신사 무신사" [ref=e760] [cursor=pointer]:
+              - /url: /musinsa
+              - generic [ref=e761]: "1"
+              - generic [ref=e762]:
+                - generic [ref=e763]:
+                  - img "무신사의 기업 로고" [ref=e765]
+                  - generic [ref=e766]:
+                    - generic [ref=e767]: 무신사
+                    - generic [ref=e768]: 무신사
+                - img [ref=e769]
+          - listitem [ref=e774]:
+            - link "2 마키나락스의 기업 로고 마키나락스 런웨이" [ref=e775] [cursor=pointer]:
+              - /url: /makinarocks
+              - generic [ref=e776]: "2"
+              - generic [ref=e777]:
+                - generic [ref=e778]:
+                  - img "마키나락스의 기업 로고" [ref=e780]
+                  - generic [ref=e781]:
+                    - generic [ref=e782]: 마키나락스
+                    - generic [ref=e783]: 런웨이
+                - img [ref=e784]
+          - listitem [ref=e789]:
+            - link "3 싸이월드의 기업 로고 싸이월드 싸이월드" [ref=e790] [cursor=pointer]:
+              - /url: /cyworld
+              - generic [ref=e791]: "3"
+              - generic [ref=e792]:
+                - generic [ref=e793]:
+                  - img "싸이월드의 기업 로고" [ref=e795]
+                  - generic [ref=e796]:
+                    - generic [ref=e797]: 싸이월드
+                    - generic [ref=e798]: 싸이월드
+                - img [ref=e799]
+          - listitem [ref=e804]:
+            - link "4 앤트로픽의 기업 로고 앤트로픽 클로드" [ref=e805] [cursor=pointer]:
+              - /url: /anthropic
+              - generic [ref=e806]: "4"
+              - generic [ref=e807]:
+                - generic [ref=e808]:
+                  - img "앤트로픽의 기업 로고" [ref=e810]
+                  - generic [ref=e811]:
+                    - generic [ref=e812]: 앤트로픽
+                    - generic [ref=e813]: 클로드
+                - img [ref=e814]
+          - listitem [ref=e819]:
+            - link "5 쿼드메디슨의 기업 로고 쿼드메디슨 마이크로니들 패치" [ref=e820] [cursor=pointer]:
+              - /url: /quadmedicine
+              - generic [ref=e821]: "5"
+              - generic [ref=e822]:
+                - generic [ref=e823]:
+                  - img "쿼드메디슨의 기업 로고" [ref=e825]
+                  - generic [ref=e826]:
+                    - generic [ref=e827]: 쿼드메디슨
+                    - generic [ref=e828]: 마이크로니들 패치
+                - img [ref=e829]
+          - listitem [ref=e834]:
+            - link "6 리벨리온의 기업 로고 리벨리온 AI 반도체" [ref=e835] [cursor=pointer]:
+              - /url: /rebellions
+              - generic [ref=e836]: "6"
+              - generic [ref=e837]:
+                - generic [ref=e838]:
+                  - img "리벨리온의 기업 로고" [ref=e840]
+                  - generic [ref=e841]:
+                    - generic [ref=e842]: 리벨리온
+                    - generic [ref=e843]: AI 반도체
+                - img [ref=e844]
+          - listitem [ref=e849]:
+            - link "7 한국평가데이터의 기업 로고 한국평가데이터 크레탑" [ref=e850] [cursor=pointer]:
+              - /url: /kodata
+              - generic [ref=e851]: "7"
+              - generic [ref=e852]:
+                - generic [ref=e853]:
+                  - img "한국평가데이터의 기업 로고" [ref=e855]
+                  - generic [ref=e856]:
+                    - generic [ref=e857]: 한국평가데이터
+                    - generic [ref=e858]: 크레탑
+                - img [ref=e859]
+          - listitem [ref=e864]:
+            - link "8 컨피그인텔리전스의 기업 로고 컨피그인텔리전스 피지컬 AI 모델" [ref=e865] [cursor=pointer]:
+              - /url: /configintelligence
+              - generic [ref=e866]: "8"
+              - generic [ref=e867]:
+                - generic [ref=e868]:
+                  - img "컨피그인텔리전스의 기업 로고" [ref=e870]
+                  - generic [ref=e871]:
+                    - generic [ref=e872]: 컨피그인텔리전스
+                    - generic [ref=e873]: 피지컬 AI 모델
+                - img [ref=e874]
+          - listitem [ref=e879]:
+            - link "9 업스테이지의 기업 로고 업스테이지 솔라" [ref=e880] [cursor=pointer]:
+              - /url: /upstage
+              - generic [ref=e881]: "9"
+              - generic [ref=e882]:
+                - generic [ref=e883]:
+                  - img "업스테이지의 기업 로고" [ref=e885]
+                  - generic [ref=e886]:
+                    - generic [ref=e887]: 업스테이지
+                    - generic [ref=e888]: 솔라
+                - img [ref=e889]
+          - listitem [ref=e894]:
+            - link "10 니즈의 기업 로고 니즈 미리" [ref=e895] [cursor=pointer]:
+              - /url: /needs
+              - generic [ref=e896]: "10"
+              - generic [ref=e897]:
+                - generic [ref=e898]:
+                  - img "니즈의 기업 로고" [ref=e900]
+                  - generic [ref=e901]:
+                    - generic [ref=e902]: 니즈
+                    - generic [ref=e903]: 미리
+                - img [ref=e904]
+          - listitem [ref=e909]:
+            - link "11 씨에스오의 기업 로고 씨에스오 위성용 카메라" [ref=e910] [cursor=pointer]:
+              - /url: /cso
+              - generic [ref=e911]: "11"
+              - generic [ref=e912]:
+                - generic [ref=e913]:
+                  - img "씨에스오의 기업 로고" [ref=e915]
+                  - generic [ref=e916]:
+                    - generic [ref=e917]: 씨에스오
+                    - generic [ref=e918]: 위성용 카메라
+                - img [ref=e919]
+          - listitem [ref=e924]:
+            - link "12 에이로봇의 기업 로고 에이로봇 앨리스" [ref=e925] [cursor=pointer]:
+              - /url: /arobot
+              - generic [ref=e926]: "12"
+              - generic [ref=e927]:
+                - generic [ref=e928]:
+                  - img "에이로봇의 기업 로고" [ref=e930]
+                  - generic [ref=e931]:
+                    - generic [ref=e932]: 에이로봇
+                    - generic [ref=e933]: 앨리스
+                - img [ref=e934]
+          - listitem [ref=e939]:
+            - link "13 대구경북지방중소벤처기업청의 기업 로고 대구경북지방중소벤처기업청 대구경북지방중소벤처기업청" [ref=e940] [cursor=pointer]:
+              - /url: /daegu-gyeongbukregionalsmesandstartupsoffice
+              - generic [ref=e941]: "13"
+              - generic [ref=e942]:
+                - generic [ref=e943]:
+                  - img "대구경북지방중소벤처기업청의 기업 로고" [ref=e945]
+                  - generic [ref=e946]:
+                    - generic [ref=e947]: 대구경북지방중소벤처기업청
+                    - generic [ref=e948]: 대구경북지방중소벤처기업청
+                - img [ref=e949]
+          - listitem [ref=e954]:
+            - link "14 에스씨케이컴퍼니의 기업 로고 에스씨케이컴퍼니 스타벅스코리아" [ref=e955] [cursor=pointer]:
+              - /url: /sckcompany
+              - generic [ref=e956]: "14"
+              - generic [ref=e957]:
+                - generic [ref=e958]:
+                  - img "에스씨케이컴퍼니의 기업 로고" [ref=e960]
+                  - generic [ref=e961]:
+                    - generic [ref=e962]: 에스씨케이컴퍼니
+                    - generic [ref=e963]: 스타벅스코리아
+                - img [ref=e964]
+          - listitem [ref=e969]:
+            - link "15 뤼튼테크놀로지스의 기업 로고 뤼튼테크놀로지스 뤼튼" [ref=e970] [cursor=pointer]:
+              - /url: /wrtntechnologies
+              - generic [ref=e971]: "15"
+              - generic [ref=e972]:
+                - generic [ref=e973]:
+                  - img "뤼튼테크놀로지스의 기업 로고" [ref=e975]
+                  - generic [ref=e976]:
+                    - generic [ref=e977]: 뤼튼테크놀로지스
+                    - generic [ref=e978]: 뤼튼
+                - img [ref=e979]
+          - listitem [ref=e984]:
+            - link "16 채널코퍼레이션의 기업 로고 채널코퍼레이션 채널톡" [ref=e985] [cursor=pointer]:
+              - /url: /channelcorporation
+              - generic [ref=e986]: "16"
+              - generic [ref=e987]:
+                - generic [ref=e988]:
+                  - img "채널코퍼레이션의 기업 로고" [ref=e990]
+                  - generic [ref=e991]:
+                    - generic [ref=e992]: 채널코퍼레이션
+                    - generic [ref=e993]: 채널톡
+                - img [ref=e994]
+          - listitem [ref=e999]:
+            - link "17 퓨리오사에이아이의 기업 로고 퓨리오사에이아이 AI 반도체" [ref=e1000] [cursor=pointer]:
+              - /url: /furiosaai
+              - generic [ref=e1001]: "17"
+              - generic [ref=e1002]:
+                - generic [ref=e1003]:
+                  - img "퓨리오사에이아이의 기업 로고" [ref=e1005]
+                  - generic [ref=e1006]:
+                    - generic [ref=e1007]: 퓨리오사에이아이
+                    - generic [ref=e1008]: AI 반도체
+                - img [ref=e1009]
+          - listitem [ref=e1014]:
+            - link "18 싱귤래러티의 기업 로고 싱귤래러티 유니브 AI" [ref=e1015] [cursor=pointer]:
+              - /url: /singularity
+              - generic [ref=e1016]: "18"
+              - generic [ref=e1017]:
+                - generic [ref=e1018]:
+                  - img "싱귤래러티의 기업 로고" [ref=e1020]
+                  - generic [ref=e1021]:
+                    - generic [ref=e1022]: 싱귤래러티
+                    - generic [ref=e1023]: 유니브 AI
+                - img [ref=e1024]
+          - listitem [ref=e1029]:
+            - link "19 위로보틱스의 기업 로고 위로보틱스 윔" [ref=e1030] [cursor=pointer]:
+              - /url: /wirobotics
+              - generic [ref=e1031]: "19"
+              - generic [ref=e1032]:
+                - generic [ref=e1033]:
+                  - img "위로보틱스의 기업 로고" [ref=e1035]
+                  - generic [ref=e1036]:
+                    - generic [ref=e1037]: 위로보틱스
+                    - generic [ref=e1038]: 윔
+                - img [ref=e1039]
+          - listitem [ref=e1044]:
+            - link "20 파네시아의 기업 로고 파네시아 AI 인프라 링크솔루션" [ref=e1045] [cursor=pointer]:
+              - /url: /panmnesia
+              - generic [ref=e1046]: "20"
+              - generic [ref=e1047]:
+                - generic [ref=e1048]:
+                  - img "파네시아의 기업 로고" [ref=e1050]
+                  - generic [ref=e1051]:
+                    - generic [ref=e1052]: 파네시아
+                    - generic [ref=e1053]: AI 인프라 링크솔루션
+                - img [ref=e1054]
+          - listitem [ref=e1059]:
+            - link "21 모닥불에너지의 기업 로고 모닥불에너지 히트펌프 구독서비스" [ref=e1060] [cursor=pointer]:
+              - /url: /modakbulenergy
+              - generic [ref=e1061]: "21"
+              - generic [ref=e1062]:
+                - generic [ref=e1063]:
+                  - img "모닥불에너지의 기업 로고" [ref=e1065]
+                  - generic [ref=e1066]:
+                    - generic [ref=e1067]: 모닥불에너지
+                    - generic [ref=e1068]: 히트펌프 구독서비스
+                - img [ref=e1069]
+          - listitem [ref=e1072]:
+            - link "22 대상웰라이프의 기업 로고 대상웰라이프 뉴케어" [ref=e1073] [cursor=pointer]:
+              - /url: /daesangwellife
+              - generic [ref=e1074]: "22"
+              - generic [ref=e1075]:
+                - generic [ref=e1076]:
+                  - img "대상웰라이프의 기업 로고" [ref=e1078]
+                  - generic [ref=e1079]:
+                    - generic [ref=e1080]: 대상웰라이프
+                    - generic [ref=e1081]: 뉴케어
+                - img [ref=e1082]
+          - listitem [ref=e1087]:
+            - link "23 에너테크의 기업 로고 에너테크 하이브리드 변압기" [ref=e1088] [cursor=pointer]:
+              - /url: /enertech
+              - generic [ref=e1089]: "23"
+              - generic [ref=e1090]:
+                - generic [ref=e1091]:
+                  - img "에너테크의 기업 로고" [ref=e1093]
+                  - generic [ref=e1094]:
+                    - generic [ref=e1095]: 에너테크
+                    - generic [ref=e1096]: 하이브리드 변압기
+                - img [ref=e1097]
+          - listitem [ref=e1102]:
+            - link "24 무신사파트너스의 기업 로고 무신사파트너스 투자조합" [ref=e1103] [cursor=pointer]:
+              - /url: /musinsapartners
+              - generic [ref=e1104]: "24"
+              - generic [ref=e1105]:
+                - generic [ref=e1106]:
+                  - img "무신사파트너스의 기업 로고" [ref=e1108]
+                  - generic [ref=e1109]:
+                    - generic [ref=e1110]: 무신사파트너스
+                    - generic [ref=e1111]: 투자조합
+                - img [ref=e1112]
+          - listitem [ref=e1117]:
+            - link "25 플랫포스의 기업 로고 플랫포스 폰기프트" [ref=e1118] [cursor=pointer]:
+              - /url: /platfos
+              - generic [ref=e1119]: "25"
+              - generic [ref=e1120]:
+                - generic [ref=e1121]:
+                  - img "플랫포스의 기업 로고" [ref=e1123]
+                  - generic [ref=e1124]:
+                    - generic [ref=e1125]: 플랫포스
+                    - generic [ref=e1126]: 폰기프트
+                - img [ref=e1127]
+          - listitem [ref=e1132]:
+            - link "26 하이퍼엑셀의 기업 로고 하이퍼엑셀 AI 반도체" [ref=e1133] [cursor=pointer]:
+              - /url: /hyperaccel
+              - generic [ref=e1134]: "26"
+              - generic [ref=e1135]:
+                - generic [ref=e1136]:
+                  - img "하이퍼엑셀의 기업 로고" [ref=e1138]
+                  - generic [ref=e1139]:
+                    - generic [ref=e1140]: 하이퍼엑셀
+                    - generic [ref=e1141]: AI 반도체
+                - img [ref=e1142]
+          - listitem [ref=e1147]:
+            - link "27 일레븐코퍼레이션의 기업 로고 일레븐코퍼레이션 미디어커머스" [ref=e1148] [cursor=pointer]:
+              - /url: /elevencorporation
+              - generic [ref=e1149]: "27"
+              - generic [ref=e1150]:
+                - generic [ref=e1151]:
+                  - img "일레븐코퍼레이션의 기업 로고" [ref=e1153]
+                  - generic [ref=e1154]:
+                    - generic [ref=e1155]: 일레븐코퍼레이션
+                    - generic [ref=e1156]: 미디어커머스
+                - img [ref=e1157]
+          - listitem [ref=e1162]:
+            - link "28 라플라스테크놀로지스의 기업 로고 라플라스테크놀로지스 라플라스" [ref=e1163] [cursor=pointer]:
+              - /url: /laplacetechnologies
+              - generic [ref=e1164]: "28"
+              - generic [ref=e1165]:
+                - generic [ref=e1166]:
+                  - img "라플라스테크놀로지스의 기업 로고" [ref=e1168]
+                  - generic [ref=e1169]:
+                    - generic [ref=e1170]: 라플라스테크놀로지스
+                    - generic [ref=e1171]: 라플라스
+                - img [ref=e1172]
+          - listitem [ref=e1177]:
+            - link "29 이너시아의 기업 로고 이너시아 이너시아" [ref=e1178] [cursor=pointer]:
+              - /url: /inertia
+              - generic [ref=e1179]: "29"
+              - generic [ref=e1180]:
+                - generic [ref=e1181]:
+                  - img "이너시아의 기업 로고" [ref=e1183]
+                  - generic [ref=e1184]:
+                    - generic [ref=e1185]: 이너시아
+                    - generic [ref=e1186]: 이너시아
+                - img [ref=e1187]
+          - listitem [ref=e1192]:
+            - link "30 로민의 기업 로고 로민 텍스트스코프" [ref=e1193] [cursor=pointer]:
+              - /url: /lomin
+              - generic [ref=e1194]: "30"
+              - generic [ref=e1195]:
+                - generic [ref=e1196]:
+                  - img "로민의 기업 로고" [ref=e1198]
+                  - generic [ref=e1199]:
+                    - generic [ref=e1200]: 로민
+                    - generic [ref=e1201]: 텍스트스코프
+                - img [ref=e1202]
+          - listitem [ref=e1207]:
+            - link "31 파인드어스의 기업 로고 파인드어스 액셀러레이팅" [ref=e1208] [cursor=pointer]:
+              - /url: /findus
+              - generic [ref=e1209]: "31"
+              - generic [ref=e1210]:
+                - generic [ref=e1211]:
+                  - img "파인드어스의 기업 로고" [ref=e1213]
+                  - generic [ref=e1214]:
+                    - generic [ref=e1215]: 파인드어스
+                    - generic [ref=e1216]: 액셀러레이팅
+                - img [ref=e1217]
+          - listitem [ref=e1222]:
+            - link "32 뮤즈라이브의 기업 로고 뮤즈라이브 키트앨범" [ref=e1223] [cursor=pointer]:
+              - /url: /muzlive
+              - generic [ref=e1224]: "32"
+              - generic [ref=e1225]:
+                - generic [ref=e1226]:
+                  - img "뮤즈라이브의 기업 로고" [ref=e1228]
+                  - generic [ref=e1229]:
+                    - generic [ref=e1230]: 뮤즈라이브
+                    - generic [ref=e1231]: 키트앨범
+                - img [ref=e1232]
+          - listitem [ref=e1237]:
+            - link "33 넥스플렉스의 기업 로고 넥스플렉스 연성동박적층판" [ref=e1238] [cursor=pointer]:
+              - /url: /nexflex
+              - generic [ref=e1239]: "33"
+              - generic [ref=e1240]:
+                - generic [ref=e1241]:
+                  - img "넥스플렉스의 기업 로고" [ref=e1243]
+                  - generic [ref=e1244]:
+                    - generic [ref=e1245]: 넥스플렉스
+                    - generic [ref=e1246]: 연성동박적층판
+                - img [ref=e1247]
+          - listitem [ref=e1252]:
+            - link "34 엑시나의 기업 로고 엑시나 CXL 메모리" [ref=e1253] [cursor=pointer]:
+              - /url: /xcena
+              - generic [ref=e1254]: "34"
+              - generic [ref=e1255]:
+                - generic [ref=e1256]:
+                  - img "엑시나의 기업 로고" [ref=e1258]
+                  - generic [ref=e1259]:
+                    - generic [ref=e1260]: 엑시나
+                    - generic [ref=e1261]: CXL 메모리
+                - img [ref=e1262]
+          - listitem [ref=e1267]:
+            - link "35 글로우서울의 기업 로고 글로우서울 F&B 외식 컨설팅" [ref=e1268] [cursor=pointer]:
+              - /url: /glowseoul
+              - generic [ref=e1269]: "35"
+              - generic [ref=e1270]:
+                - generic [ref=e1271]:
+                  - img "글로우서울의 기업 로고" [ref=e1273]
+                  - generic [ref=e1274]:
+                    - generic [ref=e1275]: 글로우서울
+                    - generic [ref=e1276]: F&B 외식 컨설팅
+                - img [ref=e1277]
+          - listitem [ref=e1282]:
+            - link "36 포인투테크놀로지의 기업 로고 포인투테크놀로지 E-tube" [ref=e1283] [cursor=pointer]:
+              - /url: /pointwotechnology
+              - generic [ref=e1284]: "36"
+              - generic [ref=e1285]:
+                - generic [ref=e1286]:
+                  - img "포인투테크놀로지의 기업 로고" [ref=e1288]
+                  - generic [ref=e1289]:
+                    - generic [ref=e1290]: 포인투테크놀로지
+                    - generic [ref=e1291]: E-tube
+                - img [ref=e1292]
+          - listitem [ref=e1297]:
+            - link "37 두나무의 기업 로고 두나무 업비트" [ref=e1298] [cursor=pointer]:
+              - /url: /dunamu
+              - generic [ref=e1299]: "37"
+              - generic [ref=e1300]:
+                - generic [ref=e1301]:
+                  - img "두나무의 기업 로고" [ref=e1303]
+                  - generic [ref=e1304]:
+                    - generic [ref=e1305]: 두나무
+                    - generic [ref=e1306]: 업비트
+                - img [ref=e1307]
+          - listitem [ref=e1312]:
+            - link "38 퍼미라의 기업 로고 퍼미라 사모투자조합" [ref=e1313] [cursor=pointer]:
+              - /url: /permira
+              - generic [ref=e1314]: "38"
+              - generic [ref=e1315]:
+                - generic [ref=e1316]:
+                  - img "퍼미라의 기업 로고" [ref=e1318]
+                  - generic [ref=e1319]:
+                    - generic [ref=e1320]: 퍼미라
+                    - generic [ref=e1321]: 사모투자조합
+                - img [ref=e1322]
+          - listitem [ref=e1327]:
+            - link "39 오픈업의 기업 로고 오픈업 오픈업" [ref=e1328] [cursor=pointer]:
+              - /url: /openub
+              - generic [ref=e1329]: "39"
+              - generic [ref=e1330]:
+                - generic [ref=e1331]:
+                  - img "오픈업의 기업 로고" [ref=e1333]
+                  - generic [ref=e1334]:
+                    - generic [ref=e1335]: 오픈업
+                    - generic [ref=e1336]: 오픈업
+                - img [ref=e1337]
+          - listitem [ref=e1342]:
+            - link "40 리얼월드의 기업 로고 리얼월드 피지컬 AI 모델" [ref=e1343] [cursor=pointer]:
+              - /url: /rlwrld
+              - generic [ref=e1344]: "40"
+              - generic [ref=e1345]:
+                - generic [ref=e1346]:
+                  - img "리얼월드의 기업 로고" [ref=e1348]
+                  - generic [ref=e1349]:
+                    - generic [ref=e1350]: 리얼월드
+                    - generic [ref=e1351]: 피지컬 AI 모델
+                - img [ref=e1352]
+          - listitem [ref=e1357]:
+            - link "41 일리오의 기업 로고 일리오 팬심" [ref=e1358] [cursor=pointer]:
+              - /url: /illio
+              - generic [ref=e1359]: "41"
+              - generic [ref=e1360]:
+                - generic [ref=e1361]:
+                  - img "일리오의 기업 로고" [ref=e1363]
+                  - generic [ref=e1364]:
+                    - generic [ref=e1365]: 일리오
+                    - generic [ref=e1366]: 팬심
+                - img [ref=e1367]
+          - listitem [ref=e1372]:
+            - link "42 아웃오브셋의 기업 로고 아웃오브셋 온디바이스 음성 AI" [ref=e1373] [cursor=pointer]:
+              - /url: /outofset
+              - generic [ref=e1374]: "42"
+              - generic [ref=e1375]:
+                - generic [ref=e1376]:
+                  - img "아웃오브셋의 기업 로고" [ref=e1378]
+                  - generic [ref=e1379]:
+                    - generic [ref=e1380]: 아웃오브셋
+                    - generic [ref=e1381]: 온디바이스 음성 AI
+                - img [ref=e1382]
+          - listitem [ref=e1385]:
+            - link "43 모레의 기업 로고 모레 MoAI 플랫폼" [ref=e1386] [cursor=pointer]:
+              - /url: /moreh
+              - generic [ref=e1387]: "43"
+              - generic [ref=e1388]:
+                - generic [ref=e1389]:
+                  - img "모레의 기업 로고" [ref=e1391]
+                  - generic [ref=e1392]:
+                    - generic [ref=e1393]: 모레
+                    - generic [ref=e1394]: MoAI 플랫폼
+                - img [ref=e1395]
+          - listitem [ref=e1400]:
+            - link "44 딥엑스의 기업 로고 딥엑스 AI 반도체" [ref=e1401] [cursor=pointer]:
+              - /url: /deepx
+              - generic [ref=e1402]: "44"
+              - generic [ref=e1403]:
+                - generic [ref=e1404]:
+                  - img "딥엑스의 기업 로고" [ref=e1406]
+                  - generic [ref=e1407]:
+                    - generic [ref=e1408]: 딥엑스
+                    - generic [ref=e1409]: AI 반도체
+                - img [ref=e1410]
+          - listitem [ref=e1415]:
+            - link "45 클론랩스의 기업 로고 클론랩스 클론" [ref=e1416] [cursor=pointer]:
+              - /url: /clonelabs
+              - generic [ref=e1417]: "45"
+              - generic [ref=e1418]:
+                - generic [ref=e1419]:
+                  - img "클론랩스의 기업 로고" [ref=e1421]
+                  - generic [ref=e1422]:
+                    - generic [ref=e1423]: 클론랩스
+                    - generic [ref=e1424]: 클론
+                - img [ref=e1425]
+          - listitem [ref=e1428]:
+            - link "46 레티널의 기업 로고 레티널 핀미러 렌즈" [ref=e1429] [cursor=pointer]:
+              - /url: /letinar
+              - generic [ref=e1430]: "46"
+              - generic [ref=e1431]:
+                - generic [ref=e1432]:
+                  - img "레티널의 기업 로고" [ref=e1434]
+                  - generic [ref=e1435]:
+                    - generic [ref=e1436]: 레티널
+                    - generic [ref=e1437]: 핀미러 렌즈
+                - img [ref=e1438]
+          - listitem [ref=e1443]:
+            - link "47 자비스앤빌런즈의 기업 로고 자비스앤빌런즈 삼쩜삼" [ref=e1444] [cursor=pointer]:
+              - /url: /jobisnvillains
+              - generic [ref=e1445]: "47"
+              - generic [ref=e1446]:
+                - generic [ref=e1447]:
+                  - img "자비스앤빌런즈의 기업 로고" [ref=e1449]
+                  - generic [ref=e1450]:
+                    - generic [ref=e1451]: 자비스앤빌런즈
+                    - generic [ref=e1452]: 삼쩜삼
+                - img [ref=e1453]
+          - listitem [ref=e1458]:
+            - link "48 트립비토즈의 기업 로고 트립비토즈 트립비토즈" [ref=e1459] [cursor=pointer]:
+              - /url: /tripbitos
+              - generic [ref=e1460]: "48"
+              - generic [ref=e1461]:
+                - generic [ref=e1462]:
+                  - img "트립비토즈의 기업 로고" [ref=e1464]
+                  - generic [ref=e1465]:
+                    - generic [ref=e1466]: 트립비토즈
+                    - generic [ref=e1467]: 트립비토즈
+                - img [ref=e1468]
+          - listitem [ref=e1473]:
+            - link "49 리빗의 기업 로고 리빗 탄솔루션" [ref=e1474] [cursor=pointer]:
+              - /url: /livit
+              - generic [ref=e1475]: "49"
+              - generic [ref=e1476]:
+                - generic [ref=e1477]:
+                  - img "리빗의 기업 로고" [ref=e1479]
+                  - generic [ref=e1480]:
+                    - generic [ref=e1481]: 리빗
+                    - generic [ref=e1482]: 탄솔루션
+                - img [ref=e1483]
+          - listitem [ref=e1488]:
+            - link "50 아이넥스코퍼레이션의 기업 로고 아이넥스코퍼레이션 에나드" [ref=e1489] [cursor=pointer]:
+              - /url: /ainex
+              - generic [ref=e1490]: "50"
+              - generic [ref=e1491]:
+                - generic [ref=e1492]:
+                  - img "아이넥스코퍼레이션의 기업 로고" [ref=e1494]
+                  - generic [ref=e1495]:
+                    - generic [ref=e1496]: 아이넥스코퍼레이션
+                    - generic [ref=e1497]: 에나드
+                - img [ref=e1498]
+          - listitem [ref=e1503]:
+            - link "51 커버링의 기업 로고 커버링 커버링" [ref=e1504] [cursor=pointer]:
+              - /url: /covering
+              - generic [ref=e1505]: "51"
+              - generic [ref=e1506]:
+                - generic [ref=e1507]:
+                  - img "커버링의 기업 로고" [ref=e1509]
+                  - generic [ref=e1510]:
+                    - generic [ref=e1511]: 커버링
+                    - generic [ref=e1512]: 커버링
+                - img [ref=e1513]
+          - listitem [ref=e1518]:
+            - link "52 로킷헬스케어의 기업 로고 로킷헬스케어 인비보" [ref=e1519] [cursor=pointer]:
+              - /url: /rokithealthcare
+              - generic [ref=e1520]: "52"
+              - generic [ref=e1521]:
+                - generic [ref=e1522]:
+                  - img "로킷헬스케어의 기업 로고" [ref=e1524]
+                  - generic [ref=e1525]:
+                    - generic [ref=e1526]: 로킷헬스케어
+                    - generic [ref=e1527]: 인비보
+                - img [ref=e1528]
+          - listitem [ref=e1533]:
+            - link "53 엘박스의 기업 로고 엘박스 엘박스" [ref=e1534] [cursor=pointer]:
+              - /url: /lbox
+              - generic [ref=e1535]: "53"
+              - generic [ref=e1536]:
+                - generic [ref=e1537]:
+                  - img "엘박스의 기업 로고" [ref=e1539]
+                  - generic [ref=e1540]:
+                    - generic [ref=e1541]: 엘박스
+                    - generic [ref=e1542]: 엘박스
+                - img [ref=e1543]
+          - listitem [ref=e1548]:
+            - link "54 지피클럽의 기업 로고 지피클럽 제이엠솔루션" [ref=e1549] [cursor=pointer]:
+              - /url: /gpclub
+              - generic [ref=e1550]: "54"
+              - generic [ref=e1551]:
+                - generic [ref=e1552]:
+                  - img "지피클럽의 기업 로고" [ref=e1554]
+                  - generic [ref=e1555]:
+                    - generic [ref=e1556]: 지피클럽
+                    - generic [ref=e1557]: 제이엠솔루션
+                - img [ref=e1558]
+          - listitem [ref=e1563]:
+            - link "55 에이아이쓰리의 기업 로고 에이아이쓰리 웍스AI" [ref=e1564] [cursor=pointer]:
+              - /url: /ai3
+              - generic [ref=e1565]: "55"
+              - generic [ref=e1566]:
+                - generic [ref=e1567]:
+                  - img "에이아이쓰리의 기업 로고" [ref=e1569]
+                  - generic [ref=e1570]:
+                    - generic [ref=e1571]: 에이아이쓰리
+                    - generic [ref=e1572]: 웍스AI
+                - img [ref=e1573]
+          - listitem [ref=e1578]:
+            - link "56 뉴로퓨전의 기업 로고 뉴로퓨전 밸리AI" [ref=e1579] [cursor=pointer]:
+              - /url: /neurofusion
+              - generic [ref=e1580]: "56"
+              - generic [ref=e1581]:
+                - generic [ref=e1582]:
+                  - img "뉴로퓨전의 기업 로고" [ref=e1584]
+                  - generic [ref=e1585]:
+                    - generic [ref=e1586]: 뉴로퓨전
+                    - generic [ref=e1587]: 밸리AI
+                - img [ref=e1588]
+          - listitem [ref=e1593]:
+            - link "57 투썸플레이스의 기업 로고 투썸플레이스 투썸플레이스" [ref=e1594] [cursor=pointer]:
+              - /url: /atwosomeplace
+              - generic [ref=e1595]: "57"
+              - generic [ref=e1596]:
+                - generic [ref=e1597]:
+                  - img "투썸플레이스의 기업 로고" [ref=e1599]
+                  - generic [ref=e1600]:
+                    - generic [ref=e1601]: 투썸플레이스
+                    - generic [ref=e1602]: 투썸플레이스
+                - img [ref=e1603]
+          - listitem [ref=e1608]:
+            - link "58 넥스트씬의 기업 로고 넥스트씬 영화/드라마 제작" [ref=e1609] [cursor=pointer]:
+              - /url: /nextscene
+              - generic [ref=e1610]: "58"
+              - generic [ref=e1611]:
+                - generic [ref=e1612]:
+                  - img "넥스트씬의 기업 로고" [ref=e1614]
+                  - generic [ref=e1615]:
+                    - generic [ref=e1616]: 넥스트씬
+                    - generic [ref=e1617]: 영화/드라마 제작
+                - img [ref=e1618]
+          - listitem [ref=e1623]:
+            - link "59 데이톤의 기업 로고 데이톤 인공지능 영상관제 시스템" [ref=e1624] [cursor=pointer]:
+              - /url: /daton
+              - generic [ref=e1625]: "59"
+              - generic [ref=e1626]:
+                - generic [ref=e1627]:
+                  - img "데이톤의 기업 로고" [ref=e1629]
+                  - generic [ref=e1630]:
+                    - generic [ref=e1631]: 데이톤
+                    - generic [ref=e1632]: 인공지능 영상관제 시스템
+                - img [ref=e1633]
+          - listitem [ref=e1638]:
+            - link "60 서치독의 기업 로고 서치독 서치독" [ref=e1639] [cursor=pointer]:
+              - /url: /searchdoc
+              - generic [ref=e1640]: "60"
+              - generic [ref=e1641]:
+                - generic [ref=e1642]:
+                  - img "서치독의 기업 로고" [ref=e1644]
+                  - generic [ref=e1645]:
+                    - generic [ref=e1646]: 서치독
+                    - generic [ref=e1647]: 서치독
+                - img [ref=e1648]
+          - listitem [ref=e1653]:
+            - link "61 디에스알브이랩스의 기업 로고 디에스알브이랩스 DSRV" [ref=e1654] [cursor=pointer]:
+              - /url: /dsrvlabs
+              - generic [ref=e1655]: "61"
+              - generic [ref=e1656]:
+                - generic [ref=e1657]:
+                  - img "디에스알브이랩스의 기업 로고" [ref=e1659]
+                  - generic [ref=e1660]:
+                    - generic [ref=e1661]: 디에스알브이랩스
+                    - generic [ref=e1662]: DSRV
+                - img [ref=e1663]
+          - listitem [ref=e1668]:
+            - link "62 브레이브모바일의 기업 로고 브레이브모바일 숨고" [ref=e1669] [cursor=pointer]:
+              - /url: /bravemobile
+              - generic [ref=e1670]: "62"
+              - generic [ref=e1671]:
+                - generic [ref=e1672]:
+                  - img "브레이브모바일의 기업 로고" [ref=e1674]
+                  - generic [ref=e1675]:
+                    - generic [ref=e1676]: 브레이브모바일
+                    - generic [ref=e1677]: 숨고
+                - img [ref=e1678]
+          - listitem [ref=e1683]:
+            - link "63 백스다임의 기업 로고 백스다임 합성항원백신" [ref=e1684] [cursor=pointer]:
+              - /url: /vaxdigm
+              - generic [ref=e1685]: "63"
+              - generic [ref=e1686]:
+                - generic [ref=e1687]:
+                  - img "백스다임의 기업 로고" [ref=e1689]
+                  - generic [ref=e1690]:
+                    - generic [ref=e1691]: 백스다임
+                    - generic [ref=e1692]: 합성항원백신
+                - img [ref=e1693]
+          - listitem [ref=e1698]:
+            - link "64 소크라에이아이의 기업 로고 소크라에이아이 산타" [ref=e1699] [cursor=pointer]:
+              - /url: /socraai
+              - generic [ref=e1700]: "64"
+              - generic [ref=e1701]:
+                - generic [ref=e1702]:
+                  - img "소크라에이아이의 기업 로고" [ref=e1704]
+                  - generic [ref=e1705]:
+                    - generic [ref=e1706]: 소크라에이아이
+                    - generic [ref=e1707]: 산타
+                - img [ref=e1708]
+          - listitem [ref=e1713]:
+            - link "65 지큐자산운용의 기업 로고 지큐자산운용 자산운용" [ref=e1714] [cursor=pointer]:
+              - /url: /gqassetmanagement
+              - generic [ref=e1715]: "65"
+              - generic [ref=e1716]:
+                - generic [ref=e1717]:
+                  - img "지큐자산운용의 기업 로고" [ref=e1719]
+                  - generic [ref=e1720]:
+                    - generic [ref=e1721]: 지큐자산운용
+                    - generic [ref=e1722]: 자산운용
+                - img [ref=e1723]
+          - listitem [ref=e1728]:
+            - link "66 이지스투자파트너스의 기업 로고 이지스투자파트너스 투자조합" [ref=e1729] [cursor=pointer]:
+              - /url: /igisinvestmentpartners
+              - generic [ref=e1730]: "66"
+              - generic [ref=e1731]:
+                - generic [ref=e1732]:
+                  - img "이지스투자파트너스의 기업 로고" [ref=e1734]
+                  - generic [ref=e1735]:
+                    - generic [ref=e1736]: 이지스투자파트너스
+                    - generic [ref=e1737]: 투자조합
+                - img [ref=e1738]
+          - listitem [ref=e1743]:
+            - link "67 빅웨이브로보틱스의 기업 로고 빅웨이브로보틱스 마로솔" [ref=e1744] [cursor=pointer]:
+              - /url: /bigwaverobotics
+              - generic [ref=e1745]: "67"
+              - generic [ref=e1746]:
+                - generic [ref=e1747]:
+                  - img "빅웨이브로보틱스의 기업 로고" [ref=e1749]
+                  - generic [ref=e1750]:
+                    - generic [ref=e1751]: 빅웨이브로보틱스
+                    - generic [ref=e1752]: 마로솔
+                - img [ref=e1753]
+          - listitem [ref=e1758]:
+            - link "68 펫프렌즈의 기업 로고 펫프렌즈 펫프렌즈" [ref=e1759] [cursor=pointer]:
+              - /url: /petfriends
+              - generic [ref=e1760]: "68"
+              - generic [ref=e1761]:
+                - generic [ref=e1762]:
+                  - img "펫프렌즈의 기업 로고" [ref=e1764]
+                  - generic [ref=e1765]:
+                    - generic [ref=e1766]: 펫프렌즈
+                    - generic [ref=e1767]: 펫프렌즈
+                - img [ref=e1768]
+          - listitem [ref=e1773]:
+            - link "69 아이언피그의 기업 로고 아이언피그 ingan.ai" [ref=e1774] [cursor=pointer]:
+              - /url: /ironpig
+              - generic [ref=e1775]: "69"
+              - generic [ref=e1776]:
+                - generic [ref=e1777]:
+                  - img "아이언피그의 기업 로고" [ref=e1779]
+                  - generic [ref=e1780]:
+                    - generic [ref=e1781]: 아이언피그
+                    - generic [ref=e1782]: ingan.ai
+                - img [ref=e1783]
+          - listitem [ref=e1788]:
+            - link "70 홀리데이로보틱스의 기업 로고 홀리데이로보틱스 휴머노이드 로봇" [ref=e1789] [cursor=pointer]:
+              - /url: /holidayrobotics
+              - generic [ref=e1790]: "70"
+              - generic [ref=e1791]:
+                - generic [ref=e1792]:
+                  - img "홀리데이로보틱스의 기업 로고" [ref=e1794]
+                  - generic [ref=e1795]:
+                    - generic [ref=e1796]: 홀리데이로보틱스
+                    - generic [ref=e1797]: 휴머노이드 로봇
+                - img [ref=e1798]
+          - listitem [ref=e1803]:
+            - link "71 오름테라퓨틱의 기업 로고 오름테라퓨틱 항체 기반 항암 및 면역항암제" [ref=e1804] [cursor=pointer]:
+              - /url: /orumtherapeutics
+              - generic [ref=e1805]: "71"
+              - generic [ref=e1806]:
+                - generic [ref=e1807]:
+                  - img "오름테라퓨틱의 기업 로고" [ref=e1809]
+                  - generic [ref=e1810]:
+                    - generic [ref=e1811]: 오름테라퓨틱
+                    - generic [ref=e1812]: 항체 기반 항암 및 면역항암제
+                - img [ref=e1813]
+          - listitem [ref=e1818]:
+            - link "72 베이비챗의 기업 로고 베이비챗 베이비챗" [ref=e1819] [cursor=pointer]:
+              - /url: /babechat
+              - generic [ref=e1820]: "72"
+              - generic [ref=e1821]:
+                - generic [ref=e1822]:
+                  - img "베이비챗의 기업 로고" [ref=e1824]
+                  - generic [ref=e1825]:
+                    - generic [ref=e1826]: 베이비챗
+                    - generic [ref=e1827]: 베이비챗
+                - img [ref=e1828]
+          - listitem [ref=e1833]:
+            - link "73 와이즈버즈의 기업 로고 와이즈버즈 소셜 마케팅 솔루션" [ref=e1834] [cursor=pointer]:
+              - /url: /wisebirds
+              - generic [ref=e1835]: "73"
+              - generic [ref=e1836]:
+                - generic [ref=e1837]:
+                  - img "와이즈버즈의 기업 로고" [ref=e1839]
+                  - generic [ref=e1840]:
+                    - generic [ref=e1841]: 와이즈버즈
+                    - generic [ref=e1842]: 소셜 마케팅 솔루션
+                - img [ref=e1843]
+          - listitem [ref=e1848]:
+            - link "74 수인베스트먼트캐피탈의 기업 로고 수인베스트먼트캐피탈 투자조합" [ref=e1849] [cursor=pointer]:
+              - /url: /sooinvestmentcapital
+              - generic [ref=e1850]: "74"
+              - generic [ref=e1851]:
+                - generic [ref=e1852]:
+                  - img "수인베스트먼트캐피탈의 기업 로고" [ref=e1854]
+                  - generic [ref=e1855]:
+                    - generic [ref=e1856]: 수인베스트먼트캐피탈
+                    - generic [ref=e1857]: 투자조합
+                - img [ref=e1858]
+          - listitem [ref=e1863]:
+            - link "75 유니컨의 기업 로고 유니컨 무선 데이터 전송 솔루션" [ref=e1864] [cursor=pointer]:
+              - /url: /uniqconn
+              - generic [ref=e1865]: "75"
+              - generic [ref=e1866]:
+                - generic [ref=e1867]:
+                  - img "유니컨의 기업 로고" [ref=e1869]
+                  - generic [ref=e1870]:
+                    - generic [ref=e1871]: 유니컨
+                    - generic [ref=e1872]: 무선 데이터 전송 솔루션
+                - img [ref=e1873]
+          - listitem [ref=e1878]:
+            - link "76 인크루트의 기업 로고 인크루트 인크루트" [ref=e1879] [cursor=pointer]:
+              - /url: /incruit
+              - generic [ref=e1880]: "76"
+              - generic [ref=e1881]:
+                - generic [ref=e1882]:
+                  - img "인크루트의 기업 로고" [ref=e1884]
+                  - generic [ref=e1885]:
+                    - generic [ref=e1886]: 인크루트
+                    - generic [ref=e1887]: 인크루트
+                - img [ref=e1888]
+          - listitem [ref=e1893]:
+            - link "77 엘스페스의 기업 로고 엘스페스 실리콘 커패시터" [ref=e1894] [cursor=pointer]:
+              - /url: /elspes
+              - generic [ref=e1895]: "77"
+              - generic [ref=e1896]:
+                - generic [ref=e1897]:
+                  - img "엘스페스의 기업 로고" [ref=e1899]
+                  - generic [ref=e1900]:
+                    - generic [ref=e1901]: 엘스페스
+                    - generic [ref=e1902]: 실리콘 커패시터
+                - img [ref=e1903]
+          - listitem [ref=e1908]:
+            - link "78 피처링의 기업 로고 피처링 피처링" [ref=e1909] [cursor=pointer]:
+              - /url: /featuring
+              - generic [ref=e1910]: "78"
+              - generic [ref=e1911]:
+                - generic [ref=e1912]:
+                  - img "피처링의 기업 로고" [ref=e1914]
+                  - generic [ref=e1915]:
+                    - generic [ref=e1916]: 피처링
+                    - generic [ref=e1917]: 피처링
+                - img [ref=e1918]
+          - listitem [ref=e1923]:
+            - link "79 에스이웍스의 기업 로고 에스이웍스 앱솔리드" [ref=e1924] [cursor=pointer]:
+              - /url: /seworks
+              - generic [ref=e1925]: "79"
+              - generic [ref=e1926]:
+                - generic [ref=e1927]:
+                  - img "에스이웍스의 기업 로고" [ref=e1929]
+                  - generic [ref=e1930]:
+                    - generic [ref=e1931]: 에스이웍스
+                    - generic [ref=e1932]: 앱솔리드
+                - img [ref=e1933]
+          - listitem [ref=e1938]:
+            - link "80 오픈리서치의 기업 로고 오픈리서치 oo.ai" [ref=e1939] [cursor=pointer]:
+              - /url: /openresearch
+              - generic [ref=e1940]: "80"
+              - generic [ref=e1941]:
+                - generic [ref=e1942]:
+                  - img "오픈리서치의 기업 로고" [ref=e1944]
+                  - generic [ref=e1945]:
+                    - generic [ref=e1946]: 오픈리서치
+                    - generic [ref=e1947]: oo.ai
+                - img [ref=e1948]
+          - listitem [ref=e1953]:
+            - link "81 뉴빌리티의 기업 로고 뉴빌리티 뉴비" [ref=e1954] [cursor=pointer]:
+              - /url: /neubility
+              - generic [ref=e1955]: "81"
+              - generic [ref=e1956]:
+                - generic [ref=e1957]:
+                  - img "뉴빌리티의 기업 로고" [ref=e1959]
+                  - generic [ref=e1960]:
+                    - generic [ref=e1961]: 뉴빌리티
+                    - generic [ref=e1962]: 뉴비
+                - img [ref=e1963]
+          - listitem [ref=e1968]:
+            - link "82 케이스노트의 기업 로고 케이스노트 케이스노트" [ref=e1969] [cursor=pointer]:
+              - /url: /casenote
+              - generic [ref=e1970]: "82"
+              - generic [ref=e1971]:
+                - generic [ref=e1972]:
+                  - img "케이스노트의 기업 로고" [ref=e1974]
+                  - generic [ref=e1975]:
+                    - generic [ref=e1976]: 케이스노트
+                    - generic [ref=e1977]: 케이스노트
+                - img [ref=e1978]
+          - listitem [ref=e1983]:
+            - link "83 피스피스스튜디오의 기업 로고 피스피스스튜디오 마르디 메크르디" [ref=e1984] [cursor=pointer]:
+              - /url: /piecepeacestudio
+              - generic [ref=e1985]: "83"
+              - generic [ref=e1986]:
+                - generic [ref=e1987]:
+                  - img "피스피스스튜디오의 기업 로고" [ref=e1989]
+                  - generic [ref=e1990]:
+                    - generic [ref=e1991]: 피스피스스튜디오
+                    - generic [ref=e1992]: 마르디 메크르디
+                - img [ref=e1993]
+          - listitem [ref=e1998]:
+            - link "84 23세기아이들의 기업 로고 23세기아이들 버튜버 매니지먼트" [ref=e1999] [cursor=pointer]:
+              - /url: /23i
+              - generic [ref=e2000]: "84"
+              - generic [ref=e2001]:
+                - generic [ref=e2002]:
+                  - img "23세기아이들의 기업 로고" [ref=e2004]
+                  - generic [ref=e2005]:
+                    - generic [ref=e2006]: 23세기아이들
+                    - generic [ref=e2007]: 버튜버 매니지먼트
+                - img [ref=e2008]
+          - listitem [ref=e2013]:
+            - link "85 슈미트의 기업 로고 슈미트 투자조합" [ref=e2014] [cursor=pointer]:
+              - /url: /schmidt
+              - generic [ref=e2015]: "85"
+              - generic [ref=e2016]:
+                - generic [ref=e2017]:
+                  - img "슈미트의 기업 로고" [ref=e2019]
+                  - generic [ref=e2020]:
+                    - generic [ref=e2021]: 슈미트
+                    - generic [ref=e2022]: 투자조합
+                - img [ref=e2023]
+          - listitem [ref=e2028]:
+            - link "86 브이원씨의 기업 로고 브이원씨 클로브AI" [ref=e2029] [cursor=pointer]:
+              - /url: /v-ic
+              - generic [ref=e2030]: "86"
+              - generic [ref=e2031]:
+                - generic [ref=e2032]:
+                  - img "브이원씨의 기업 로고" [ref=e2034]
+                  - generic [ref=e2035]:
+                    - generic [ref=e2036]: 브이원씨
+                    - generic [ref=e2037]: 클로브AI
+                - img [ref=e2038]
+          - listitem [ref=e2043]:
+            - link "87 바이오아쳐스의 기업 로고 바이오아쳐스" [ref=e2044] [cursor=pointer]:
+              - /url: /bioarchers
+              - generic [ref=e2045]: "87"
+              - generic [ref=e2046]:
+                - generic [ref=e2047]:
+                  - img "바이오아쳐스의 기업 로고" [ref=e2049]
+                  - generic [ref=e2051]: 바이오아쳐스
+                - img [ref=e2052]
+          - listitem [ref=e2057]:
+            - link "88 로칼의 기업 로고 로칼 로칼" [ref=e2058] [cursor=pointer]:
+              - /url: /loekal
+              - generic [ref=e2059]: "88"
+              - generic [ref=e2060]:
+                - generic [ref=e2061]:
+                  - img "로칼의 기업 로고" [ref=e2063]
+                  - generic [ref=e2064]:
+                    - generic [ref=e2065]: 로칼
+                    - generic [ref=e2066]: 로칼
+                - img [ref=e2067]
+          - listitem [ref=e2072]:
+            - link "89 헬리오스의 기업 로고 헬리오스 반도체 박막 계측장비" [ref=e2073] [cursor=pointer]:
+              - /url: /helios
+              - generic [ref=e2074]: "89"
+              - generic [ref=e2075]:
+                - generic [ref=e2076]:
+                  - img "헬리오스의 기업 로고" [ref=e2078]
+                  - generic [ref=e2079]:
+                    - generic [ref=e2080]: 헬리오스
+                    - generic [ref=e2081]: 반도체 박막 계측장비
+                - img [ref=e2082]
+          - listitem [ref=e2085]:
+            - link "90 부산에쿼티파트너스의 기업 로고 부산에쿼티파트너스 사모투자조합" [ref=e2086] [cursor=pointer]:
+              - /url: /busanequitypartners
+              - generic [ref=e2087]: "90"
+              - generic [ref=e2088]:
+                - generic [ref=e2089]:
+                  - img "부산에쿼티파트너스의 기업 로고" [ref=e2091]
+                  - generic [ref=e2092]:
+                    - generic [ref=e2093]: 부산에쿼티파트너스
+                    - generic [ref=e2094]: 사모투자조합
+                - img [ref=e2095]
+          - listitem [ref=e2100]:
+            - link "91 에이펙스모빌리티의 기업 로고 에이펙스모빌리티 자율주행차 소프트웨어" [ref=e2101] [cursor=pointer]:
+              - /url: /apexmobility
+              - generic [ref=e2102]: "91"
+              - generic [ref=e2103]:
+                - generic [ref=e2104]:
+                  - img "에이펙스모빌리티의 기업 로고" [ref=e2106]
+                  - generic [ref=e2107]:
+                    - generic [ref=e2108]: 에이펙스모빌리티
+                    - generic [ref=e2109]: 자율주행차 소프트웨어
+                - img [ref=e2110]
+          - listitem [ref=e2115]:
+            - link "92 에이아이오의 기업 로고 에이아이오 낸드컨트롤러" [ref=e2116] [cursor=pointer]:
+              - /url: /aio
+              - generic [ref=e2117]: "92"
+              - generic [ref=e2118]:
+                - generic [ref=e2119]:
+                  - img "에이아이오의 기업 로고" [ref=e2121]
+                  - generic [ref=e2122]:
+                    - generic [ref=e2123]: 에이아이오
+                    - generic [ref=e2124]: 낸드컨트롤러
+                - img [ref=e2125]
+          - listitem [ref=e2130]:
+            - link "93 발란의 기업 로고 발란 발란" [ref=e2131] [cursor=pointer]:
+              - /url: /balaan
+              - generic [ref=e2132]: "93"
+              - generic [ref=e2133]:
+                - generic [ref=e2134]:
+                  - img "발란의 기업 로고" [ref=e2136]
+                  - generic [ref=e2137]:
+                    - generic [ref=e2138]: 발란
+                    - generic [ref=e2139]: 발란
+                - img [ref=e2140]
+          - listitem [ref=e2145]:
+            - link "94 에이머슬리의 기업 로고 에이머슬리 AMIE" [ref=e2146] [cursor=pointer]:
+              - /url: /amously
+              - generic [ref=e2147]: "94"
+              - generic [ref=e2148]:
+                - generic [ref=e2149]:
+                  - img "에이머슬리의 기업 로고" [ref=e2151]
+                  - generic [ref=e2152]:
+                    - generic [ref=e2153]: 에이머슬리
+                    - generic [ref=e2154]: AMIE
+                - img [ref=e2155]
+          - listitem [ref=e2160]:
+            - link "95 프레스토랩스의 기업 로고 프레스토랩스 알고리즘 트레이딩 솔루션" [ref=e2161] [cursor=pointer]:
+              - /url: /prestolabs
+              - generic [ref=e2162]: "95"
+              - generic [ref=e2163]:
+                - generic [ref=e2164]:
+                  - img "프레스토랩스의 기업 로고" [ref=e2166]
+                  - generic [ref=e2167]:
+                    - generic [ref=e2168]: 프레스토랩스
+                    - generic [ref=e2169]: 알고리즘 트레이딩 솔루션
+                - img [ref=e2170]
+          - listitem [ref=e2175]:
+            - link "96 팀블라인드의 기업 로고 팀블라인드 블라인드" [ref=e2176] [cursor=pointer]:
+              - /url: /teamblind
+              - generic [ref=e2177]: "96"
+              - generic [ref=e2178]:
+                - generic [ref=e2179]:
+                  - img "팀블라인드의 기업 로고" [ref=e2181]
+                  - generic [ref=e2182]:
+                    - generic [ref=e2183]: 팀블라인드
+                    - generic [ref=e2184]: 블라인드
+                - img [ref=e2185]
+          - listitem [ref=e2190]:
+            - link "97 카버코리아의 기업 로고 카버코리아 에이에이치씨" [ref=e2191] [cursor=pointer]:
+              - /url: /carverkorea
+              - generic [ref=e2192]: "97"
+              - generic [ref=e2193]:
+                - generic [ref=e2194]:
+                  - img "카버코리아의 기업 로고" [ref=e2196]
+                  - generic [ref=e2197]:
+                    - generic [ref=e2198]: 카버코리아
+                    - generic [ref=e2199]: 에이에이치씨
+                - img [ref=e2200]
+          - listitem [ref=e2205]:
+            - link "98 망고부스트코리아의 기업 로고 망고부스트코리아 데이터처리가속기" [ref=e2206] [cursor=pointer]:
+              - /url: /mangoboostkorea
+              - generic [ref=e2207]: "98"
+              - generic [ref=e2208]:
+                - generic [ref=e2209]:
+                  - img "망고부스트코리아의 기업 로고" [ref=e2211]
+                  - generic [ref=e2212]:
+                    - generic [ref=e2213]: 망고부스트코리아
+                    - generic [ref=e2214]: 데이터처리가속기
+                - img [ref=e2215]
+          - listitem [ref=e2220]:
+            - link "99 아모지의 기업 로고 아모지 암모니아 수소연료전지시스템" [ref=e2221] [cursor=pointer]:
+              - /url: /amogy
+              - generic [ref=e2222]: "99"
+              - generic [ref=e2223]:
+                - generic [ref=e2224]:
+                  - img "아모지의 기업 로고" [ref=e2226]
+                  - generic [ref=e2227]:
+                    - generic [ref=e2228]: 아모지
+                    - generic [ref=e2229]: 암모니아 수소연료전지시스템
+                - img [ref=e2230]
+      - generic [ref=e2235]:
+        - generic [ref=e2236]:
+          - button [ref=e2237] [cursor=pointer]
+          - generic [ref=e2239]: 최근 본
+        - generic [ref=e2240]:
+          - button [ref=e2241] [cursor=pointer]
+          - generic [ref=e2243]: 컬렉션
+        - separator [ref=e2244]
+        - generic [ref=e2245]:
+          - button [ref=e2246] [cursor=pointer]
+          - generic [ref=e2248]: 조회수
+        - generic [ref=e2249]:
+          - button [ref=e2250] [cursor=pointer]
+          - generic [ref=e2253]: 투자
+        - generic [ref=e2254]:
+          - button [ref=e2255] [cursor=pointer]
+          - generic [ref=e2257]: 잠금해제
+        - generic [ref=e2258]:
+          - button [ref=e2259] [cursor=pointer]
+          - generic [ref=e2262]: 컬렉션
+        - generic [ref=e2263]:
+          - button [ref=e2264] [cursor=pointer]
+          - generic [ref=e2267]: 기업비교
+        - generic [ref=e2268]:
+          - button [ref=e2269] [cursor=pointer]
+          - generic [ref=e2272]: 신규등록
+  - generic:
+    - list
+  - generic:
+    - list
