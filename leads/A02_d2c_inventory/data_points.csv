@@ -1,1 +1,91 @@
-﻿lead_id,필드명,값,소스,수집일,최종값
+lead_id,필드명,값,소스,소스URL,수집일,최종값
+A02-001,회사명,로켓툴즈,THE VC,https://thevc.kr/rockettools,2026-05-21,Y
+A02-001,웹사이트,https://www.rocket-tools.io,공식사이트,https://www.rocket-tools.io/,2026-05-21,Y
+A02-001,설립일,2024-01,THE VC,https://thevc.kr/rockettools,2026-05-21,Y
+A02-001,대표이름,김민석,THE VC,https://thevc.kr/rockettools,2026-05-21,Y
+A02-001,팀규모,7명,THE VC,https://thevc.kr/rockettools,2026-05-21,Y
+A02-001,제품설명,"AI CRM 마케팅 자동화. 자사몰 간편결제/가입 행동 AI 재구성→GA4 전송(로켓브릿지). 메타광고 최적화(로켓애드)",이슈앤비즈,https://www.issuenbiz.com/news/articleView.html?idxno=39679,2026-05-21,Y
+A02-001,투자단계,시드,THE VC,https://thevc.kr/rockettools,2026-05-21,Y
+A02-001,정부지원,TIPS 5억,이슈앤비즈,https://www.issuenbiz.com/news/articleView.html?idxno=39679,2026-05-21,Y
+A02-002,회사명,레비오사에이아이,THE VC,https://thevc.kr/leviosaal,2026-05-21,Y
+A02-002,설립일,2025-09,THE VC,https://thevc.kr/leviosaal,2026-05-21,Y
+A02-002,대표이름,주하람,THE VC,https://thevc.kr/leviosaal,2026-05-21,Y
+A02-002,팀규모,5명,THE VC,https://thevc.kr/leviosaal,2026-05-21,Y
+A02-002,제품설명,"온라인 셀러 운영 전 과정 자동화. 상품등록·가격변경·재고·주문·배송·CS 자동화 플랫폼",THE VC,https://thevc.kr/leviosaal,2026-05-21,Y
+A02-002,투자단계,시드,THE VC,https://thevc.kr/leviosaal,2026-05-21,Y
+A02-002,투자사,서울대기술지주,THE VC,https://thevc.kr/leviosaal,2026-05-21,Y
+A02-003,회사명,뭉클랩,장사왕공식,https://www.sellerking.io/,2026-05-21,Y
+A02-003,웹사이트(제품),https://www.sellerking.io,공식사이트,https://www.sellerking.io/,2026-05-21,Y
+A02-003,대표이름,윤도선,이커머스페어기사,https://v.daum.net/v/20241103100104966,2026-05-21,Y
+A02-003,제품설명,"이커머스 셀러 순이익·마진율 분석 '장사왕'. 쿠팡·스마트스토어 정산 데이터 자동 연동·실시간 순이익 확인",장사왕공식,https://www.sellerking.io/,2026-05-21,Y
+A02-003,투자사,스파크랩스,이커머스페어기사,https://v.daum.net/v/20241103100104966,2026-05-21,Y
+A02-004,회사명,라플라스테크놀로지스,THE VC,https://thevc.kr/laplacetechnologies,2026-05-21,Y
+A02-004,웹사이트,https://www.analytics.laplacetec.com,공식사이트,https://www.analytics.laplacetec.com/,2026-05-21,Y
+A02-004,설립일,2020-10,venturesquare,https://www.venturesquare.net/835930,2026-05-21,Y
+A02-004,대표이름,박병민,venturesquare,https://www.venturesquare.net/835930,2026-05-21,Y
+A02-004,제품설명,"AI 기반 이커머스 BI 대시보드. 카페24·스마트스토어·쿠팡 데이터 통합 분석·진단·최적화 자동 수행",매쉬업벤처스,https://www.mashupventures.co/portfolio/laplace,2026-05-21,Y
+A02-004,투자단계,프리A,THE VC,https://thevc.kr/laplacetechnologies,2026-05-21,Y
+A02-004,투자사,"매쉬업벤처스, 네이버D2SF",매쉬업벤처스,https://www.mashupventures.co/portfolio/laplace,2026-05-21,Y
+A02-005,회사명,위시스트,platum,https://platum.kr/archives/250310,2026-05-21,Y
+A02-005,웹사이트,https://wessist.ai,공식사이트,https://wessist.ai/,2026-05-21,Y
+A02-005,대표이름,안홍준,platum,https://platum.kr/archives/250310,2026-05-21,Y
+A02-005,대표배경,"서울대 전기정보공학부 박사과정. AI 전문가. ISMRM 2023 최우수논문상. 공동창업진 전원 경남과학고 동기",머니투데이,https://www.mt.co.kr/future/2025/01/14/2025011414405488665,2026-05-21,Y
+A02-005,제품설명,"마케팅 워크플로우 AI 자동화. 반복업무 자동화 어시스턴트 '스니핏'. 광고 통합분석 '애드릭스'",platum,https://platum.kr/archives/250310,2026-05-21,Y
+A02-005,투자단계,시드,platum,https://platum.kr/archives/250310,2026-05-21,Y
+A02-005,투자사,끌림벤처스,platum,https://platum.kr/archives/250310,2026-05-21,Y
+A02-005,정부지원,TIPS,머니투데이,https://www.mt.co.kr/future/2025/01/14/2025011414405488665,2026-05-21,Y
+A02-006,회사명,스윕,유니콘팩토리,https://www.unicornfactory.co.kr/article/2024062717210887625,2026-05-21,Y
+A02-006,웹사이트,https://www.sweepingoms.com,공식사이트,https://www.sweepingoms.com/,2026-05-21,Y
+A02-006,설립일,2024-01,유니콘팩토리,https://www.unicornfactory.co.kr/article/2024062717210887625,2026-05-21,Y
+A02-006,대표이름,윤현일,유니콘팩토리,https://www.unicornfactory.co.kr/article/2024062717210887625,2026-05-21,Y
+A02-006,팀규모,7명,THE VC,https://thevc.kr/sweep,2026-05-21,Y
+A02-006,제품설명,"쇼핑몰 발주·정산업무 자동화 OMS. 다채널 발주 통합·공급사별 분리 자동화·정산 자동화",platum,https://platum.kr/archives/230210,2026-05-21,Y
+A02-006,투자단계,시드,platum,https://platum.kr/archives/230210,2026-05-21,Y
+A02-006,투자사,"베이스인베스트먼트, 스프링캠프",platum,https://platum.kr/archives/230210,2026-05-21,Y
+A02-006,투자금액,10억,platum,https://platum.kr/archives/230210,2026-05-21,Y
+A02-006,정부지원,TIPS 5억,platum,https://platum.kr/archives/230210,2026-05-21,Y
+A02-007,회사명,씨그로,THE VC,https://thevc.kr/cigro,2026-05-21,Y
+A02-007,웹사이트,https://www.cigro.io,공식사이트,https://www.cigro.io/,2026-05-21,Y
+A02-007,대표이름,김응진,platum,https://platum.kr/archives/172733,2026-05-21,Y
+A02-007,제품설명,"이커머스 채널별 매출·광고비 통합 분석 대시보드. 50개+ 판매/광고채널 연동. 커스텀 대시보드 제공",platum,https://platum.kr/archives/172733,2026-05-21,Y
+A02-007,투자단계,시드,wowtale,https://wowtale.net/2022/08/17/44799/,2026-05-21,Y
+A02-007,투자사,"스프링캠프, TapAngel, SynergyIB, Schmidt",wowtale,https://wowtale.net/2022/08/17/44799/,2026-05-21,Y
+A02-008,회사명,리터놀,platum,https://platum.kr/archives/235767,2026-05-21,Y
+A02-008,웹사이트,https://www.returneeds.com,공식사이트,https://www.returneeds.com/,2026-05-21,Y
+A02-008,설립일,2023-07,platum,https://platum.kr/archives/235767,2026-05-21,Y
+A02-008,대표이름,윤대건,platum,https://platum.kr/archives/235767,2026-05-21,Y
+A02-008,제품설명,"AI 기반 반품 물류 솔루션 '리터니즈'. 비전AI 자동 검품·반품 프로세스 자동화. 43만장 학습 데이터",platum,https://platum.kr/archives/235767,2026-05-21,Y
+A02-008,투자단계,시드→프리시리즈A,thebell,https://www.thebell.co.kr/free/content/ArticleView.asp?key=202512101340023360103045,2026-05-21,Y
+A02-008,투자금액,"시드 10억(2024) + 프리A 30억(2025). 누적 40억",thebell,https://www.thebell.co.kr/free/content/ArticleView.asp?key=202512101340023360103045,2026-05-21,Y
+A02-008,투자사,"한투AC, 에트리홀딩스, 블루포인트파트너스, MYSC",유니콘팩토리,https://www.unicornfactory.co.kr/article/2024100816433498882,2026-05-21,Y
+A02-008,정부지원,TIPS 5억,wowtale,https://wowtale.net/2024/07/29/226253/,2026-05-21,Y
+A02-009,회사명,스킨서울,wowtale,https://wowtale.net/2025/01/20/236191/,2026-05-21,Y
+A02-009,설립일,2024(추정),wowtale,https://wowtale.net/2025/01/20/236191/,2026-05-21,Y
+A02-009,대표이름,박근영,wowtale,https://wowtale.net/2025/01/20/236191/,2026-05-21,Y
+A02-009,대표배경,"아마존 싱가포르·유니레버 아시아 글로벌 사업개발·뷰티 마케팅 출신. 비개발자",wowtale,https://wowtale.net/2025/01/20/236191/,2026-05-21,Y
+A02-009,CTO,"박민철(아마존 AI/ML·카카오 '선물하기' 개발자 출신)",platum,https://platum.kr/archives/250749,2026-05-21,Y
+A02-009,제품설명,"AI 에이전트 기반 K뷰티 크로스보더 커머스. 재고·유통·판매·마케팅 AI 자동화",wowtale,https://wowtale.net/2025/01/20/236191/,2026-05-21,Y
+A02-009,투자단계,프리시드,wowtale,https://wowtale.net/2025/01/20/236191/,2026-05-21,Y
+A02-009,투자사,"500글로벌, 블루프린트벤처스(싱가포르)",wowtale,https://wowtale.net/2025/01/20/236191/,2026-05-21,Y
+A02-010,회사명,스튜디오랩,platum,https://platum.kr/archives/275953,2026-05-21,Y
+A02-010,웹사이트,https://studiolab.ai,공식사이트,https://studiolab.ai/,2026-05-21,Y
+A02-010,설립일,2021(삼성전자 C랩 스핀오프),brunch,https://brunch.co.kr/@@5lk/403,2026-05-21,Y
+A02-010,대표이름,강성훈,brunch,https://brunch.co.kr/@@5lk/403,2026-05-21,Y
+A02-010,대표배경,"삼성전자 C랩 사내벤처 스핀오프. 패션AI·머신비전 개발자",brunch,https://brunch.co.kr/@@5lk/403,2026-05-21,Y
+A02-010,팀규모,25명,nextround,https://www.nextround.kr/startup/detail/3509,2026-05-21,Y
+A02-010,제품설명,"멀티모달 AI 이커머스 상세페이지 자동 생성 SaaS '젠시(GENCY)'. 제품사진 1장으로 15초 내 상세페이지 완성",platum,https://platum.kr/archives/275953,2026-05-21,Y
+A02-010,고객사,"LF, W컨셉, GS리테일, 신세계 등 30개 대형 브랜드 + 소상공인 6000개",platum,https://platum.kr/archives/275953,2026-05-21,Y
+A02-010,투자단계,프리시리즈A,nextround,https://www.nextround.kr/startup/detail/3509,2026-05-21,Y
+A02-010,투자사,"SBI인베스트먼트, 네이버D2SF",nextround,https://www.nextround.kr/startup/detail/3509,2026-05-21,Y
+A02-010,투자금액,33억,nextround,https://www.nextround.kr/startup/detail/3509,2026-05-21,Y
+A02-001,LinkedIn_대표,https://www.linkedin.com/in/aaron-kim-kosmos/,LinkedIn,https://kr.linkedin.com/posts/aaron-kim-kosmos_%EC%99%9C-%EB%82%9C-gd-%EC%A2%8B%EC%9D%80%EB%8D%B0-activity-7341418181539831810-Fr7y,2026-05-21,Y
+A02-002,LinkedIn_대표,미확인,,미확인,2026-05-21,
+A02-003,LinkedIn_대표,https://www.linkedin.com/in/dosunyun/,LinkedIn,https://www.linkedin.com/in/dosunyun/,2026-05-21,Y
+A02-004,LinkedIn_대표,미확인,,미확인,2026-05-21,
+A02-004,Rocketpunch_대표,https://www.rocketpunch.com/@fff83e79a2c248eb,Rocketpunch,https://www.rocketpunch.com/@fff83e79a2c248eb,2026-05-21,Y
+A02-005,LinkedIn_대표,https://www.linkedin.com/in/hongjun-an-4b7a15300/,LinkedIn,https://www.linkedin.com/in/hongjun-an-4b7a15300/,2026-05-21,Y
+A02-006,LinkedIn_대표,https://www.linkedin.com/in/%ED%98%84%EC%9D%BC-%EC%9C%A4-043726204,LinkedIn,https://kr.linkedin.com/in/%ED%98%84%EC%9D%BC-%EC%9C%A4-043726204,2026-05-21,Y
+A02-007,LinkedIn_대표,https://www.linkedin.com/in/eungjin-gim-768a24156/,LinkedIn,https://kr.linkedin.com/posts/eungjin-gim-768a24156_%EC%BD%94%EB%94%A9%ED%95%98%EA%B8%B0-activity-7315571439435165696-1CsU,2026-05-21,Y
+A02-008,LinkedIn_대표,https://www.linkedin.com/in/daegun-yoon-a1a70023,LinkedIn,https://kr.linkedin.com/in/daegun-yoon-a1a70023,2026-05-21,Y
+A02-009,LinkedIn_대표,https://sg.linkedin.com/in/kuenyoung,LinkedIn,https://sg.linkedin.com/in/kuenyoung,2026-05-21,Y
+A02-010,LinkedIn_대표,https://www.linkedin.com/in/sunghoon-kang-80732693/,LinkedIn,https://www.linkedin.com/in/sunghoon-kang-80732693/,2026-05-21,Y

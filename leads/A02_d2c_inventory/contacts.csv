@@ -1,0 +1,12 @@
+contact_id,lead_id,이름,직책,LinkedIn,이메일,전화,소스,소스URL,수집일,발송일,응답일,메모
+A02-001-C01,A02-001,김민석,대표,https://www.linkedin.com/in/aaron-kim-kosmos/,,,LinkedIn,https://kr.linkedin.com/posts/aaron-kim-kosmos_%EC%99%9C-%EB%82%9C-gd-%EC%A2%8B%EC%9D%80%EB%8D%B0-activity-7341418181539831810-Fr7y,2026-05-21,,,
+A02-002-C01,A02-002,주하람,대표,,,,미확인,,2026-05-21,,,LinkedIn 탐색 실패
+A02-003-C01,A02-003,윤도선,대표,https://www.linkedin.com/in/dosunyun/,,,LinkedIn,https://www.linkedin.com/in/dosunyun/,2026-05-21,,,
+A02-004-C01,A02-004,박병민,대표,,,,Rocketpunch,https://www.rocketpunch.com/@fff83e79a2c248eb,2026-05-21,,,LinkedIn 미확인. Rocketpunch에서 확인
+A02-005-C01,A02-005,안홍준,대표,https://www.linkedin.com/in/hongjun-an-4b7a15300/,,,LinkedIn,https://www.linkedin.com/in/hongjun-an-4b7a15300/,2026-05-21,,,Co-Founder & CEO 확인
+A02-006-C01,A02-006,윤현일,대표,https://www.linkedin.com/in/%ED%98%84%EC%9D%BC-%EC%9C%A4-043726204,,,LinkedIn,https://kr.linkedin.com/in/%ED%98%84%EC%9D%BC-%EC%9C%A4-043726204,2026-05-21,,,서울대 출신 확인
+A02-007-C01,A02-007,김응진,대표,https://www.linkedin.com/in/eungjin-gim-768a24156/,,,LinkedIn,https://kr.linkedin.com/posts/eungjin-gim-768a24156_%EC%BD%94%EB%94%A9%ED%95%98%EA%B8%B0-activity-7315571439435165696-1CsU,2026-05-21,,,
+A02-008-C01,A02-008,윤대건,대표,https://www.linkedin.com/in/daegun-yoon-a1a70023,,,LinkedIn,https://kr.linkedin.com/in/daegun-yoon-a1a70023,2026-05-21,,,
+A02-009-C01,A02-009,박근영,대표,https://sg.linkedin.com/in/kuenyoung,,,LinkedIn,https://sg.linkedin.com/in/kuenyoung,2026-05-21,,,싱가포르 거주. 아마존 싱가포르·유니레버 아시아 출신
+A02-009-C02,A02-009,박민철,CTO,,,,,https://platum.kr/archives/250749,2026-05-21,,,아마존 AI/ML·카카오 '선물하기' 개발자 출신
+A02-010-C01,A02-010,강성훈,대표,https://www.linkedin.com/in/sunghoon-kang-80732693/,,,LinkedIn,https://www.linkedin.com/in/sunghoon-kang-80732693/,2026-05-21,,,삼성전자 C랩 출신

@@ -4,7 +4,9 @@
       "WebSearch",
       "mcp__playwright__browser_navigate",
       "mcp__playwright__browser_snapshot",
-      "mcp__playwright__browser_evaluate"
+      "mcp__playwright__browser_evaluate",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\leeta\\\\Desktop\\\\lead\\\\leads\\\\\" -Directory | ForEach-Object { $csv = Join-Path $_.FullName \"data_points.csv\"; if \\(Test-Path $csv\\) { $lines = \\(Get-Content $csv\\).Count; \"$\\($_.Name\\) — $lines rows\" } })",
+      "Bash(dir \"c:\\\\Users\\\\leeta\\\\Desktop\\\\lead\\\\*.md\")"
     ]
   }
 }

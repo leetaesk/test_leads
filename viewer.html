@@ -80,10 +80,31 @@ tbody td{padding:6px 12px;vertical-align:middle}
 .fg{padding:9px 14px;border-bottom:1px solid var(--border)}
 .fn{font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:4px;display:flex;align-items:center;gap:5px}
 .cdot{width:6px;height:6px;border-radius:50%;background:var(--yellow);flex-shrink:0}
-.dr{display:flex;align-items:center;gap:7px;padding:3px 0;border-radius:4px}
+.dr{display:flex;align-items:center;gap:7px;padding:3px 0;border-radius:4px;cursor:pointer;transition:background .1s}
+.dr:hover{background:var(--card2)}
 .dr.final{background:#0d2a1a;padding-left:5px;margin-left:-5px}
+.dr.final:hover{background:#0f3020}
 .dv{flex:1}.dd{font-size:10px;color:var(--muted);white-space:nowrap}
 .fy{color:var(--green);font-size:11px;font-weight:700}
+.dr-link{font-size:11px;color:var(--muted);opacity:0;transition:opacity .1s;text-decoration:none;padding:2px 4px;border-radius:3px;flex-shrink:0}
+.dr:hover .dr-link{opacity:1}
+.dr-link:hover{background:var(--accent);color:#fff;opacity:1}
+
+/* ── Contacts ── */
+#det-contacts{padding:9px 14px;border-bottom:1px solid var(--border)}
+.ct-head{font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:5px;display:flex;align-items:center;gap:6px}
+.ct-card{display:flex;align-items:flex-start;gap:8px;padding:5px 0;border-bottom:1px solid var(--border)}
+.ct-card:last-child{border-bottom:none}
+.ct-avatar{width:26px;height:26px;border-radius:50%;background:var(--card2);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--accent);flex-shrink:0}
+.ct-info{flex:1;min-width:0}
+.ct-name{font-weight:600;font-size:12px}
+.ct-role{font-size:10px;color:var(--muted);margin-left:4px;font-weight:400}
+.ct-links{display:flex;gap:5px;margin-top:3px;flex-wrap:wrap}
+.ct-link{font-size:10px;color:var(--accent);text-decoration:none;padding:1px 6px;border-radius:3px;background:var(--card2);white-space:nowrap}
+.ct-link:hover{background:var(--accent);color:#fff}
+.ct-note{font-size:10px;color:var(--muted);margin-top:2px}
+.ct-sent{font-size:10px;color:var(--green);white-space:nowrap}
+.ct-nosent{font-size:10px;color:var(--border);white-space:nowrap}
 
 /* ── Start / Error screen ── */
 #start{display:flex;align-items:center;justify-content:center;flex:1;flex-direction:column;gap:12px;color:var(--muted)}
@@ -153,6 +174,7 @@ tbody td{padding:6px 12px;vertical-align:middle}
           <div id="det-meta"></div>
         </div>
         <div id="det-memo"></div>
+        <div id="det-contacts"></div>
         <div id="det-fields"></div>
       </div>
     </div>
@@ -195,7 +217,7 @@ const PERSONAS = [
 ];
 
 // ── State ──────────────────────────────────────────────
-const S = { leads:[], dps:[], sel:null, persona:null };
+const S = { leads:[], dps:[], contacts:[], sel:null, persona:null };
 
 // ── Source colors ──────────────────────────────────────
 const SC = {'혁':'#3b82f6','vc':'#8b5cf6','로':'#f59e0b','사':'#10b981',
@@ -242,12 +264,14 @@ async function loadPersona(p) {
   S.sel = null; S.persona = p.k;
 
   try {
-    const [lt, dt] = await Promise.all([
+    const [lt, dt, ct] = await Promise.all([
       fetch(`leads/${p.k}/leads.csv`).then(r=>{ if(!r.ok)throw r; return r.text(); }),
       fetch(`leads/${p.k}/data_points.csv`).then(r=>{ if(!r.ok)throw r; return r.text(); }),
+      fetch(`leads/${p.k}/contacts.csv`).then(r=>r.ok?r.text():'').catch(()=>''),
     ]);
-    S.leads = csv(lt);
-    S.dps   = csv(dt);
+    S.leads    = csv(lt);
+    S.dps      = csv(dt);
+    S.contacts = ct ? csv(ct) : [];
     document.getElementById('err-banner').style.display = 'none';
   } catch {
     document.getElementById('err-banner').style.display = 'block';
@@ -347,6 +371,36 @@ function renderDet(id) {
   memo.textContent = lead?.핏메모 || '';
   memo.style.display = lead?.핏메모 ? '' : 'none';
 
+  // contacts
+  const contacts = S.contacts.filter(c=>c.lead_id===id);
+  const ctEl = document.getElementById('det-contacts');
+  if (contacts.length) {
+    ctEl.style.display='';
+    ctEl.innerHTML = `<div class="ct-head">연락처 <span style="color:var(--accent);font-weight:700">${contacts.length}</span></div>`
+      + contacts.map(c=>{
+        const li  = c.LinkedIn?.trim();
+        const em  = c.이메일?.trim();
+        const tel = c.전화?.trim();
+        const liHref = li?.replace(/"/g,'&quot;')||'';
+        return `<div class="ct-card">
+          <div class="ct-avatar">${(c.이름||'?')[0]}</div>
+          <div class="ct-info">
+            <div class="ct-name">${c.이름||'—'}<span class="ct-role">${c.직책||''}</span></div>
+            <div class="ct-links">
+              ${li?`<a class="ct-link" href="${liHref}" target="_blank">LinkedIn ↗</a>`:''}
+              ${em?`<a class="ct-link" href="mailto:${em}">${em}</a>`:''}
+              ${tel?`<span class="ct-link">${tel}</span>`:''}
+              ${!li&&!em&&!tel?`<span style="font-size:10px;color:var(--muted)">연락처 없음</span>`:''}
+            </div>
+            ${c.메모?`<div class="ct-note">${c.메모}</div>`:''}
+          </div>
+          <div>${c.발송일?`<span class="ct-sent">발송 ${c.발송일}</span>`:`<span class="ct-nosent">미발송</span>`}</div>
+        </div>`;
+      }).join('');
+  } else {
+    ctEl.style.display='none';
+  }
+
   const fields = document.getElementById('det-fields');
   if (!dps.length) {
     fields.innerHTML = '<div style="padding:20px 14px;color:var(--muted);font-size:12px">data_points 없음</div>';
@@ -364,13 +418,21 @@ function renderDet(id) {
         ${f}
         ${conflict?`<span style="font-size:10px;color:var(--yellow)">(${rows.length}개 충돌)</span>`:''}
       </div>
-      ${rows.map(r=>`
-        <div class="dr ${r.최종값==='Y'?'final':''}">
+      ${rows.map(r=>{
+        const val=(r.값||'').trim();
+        const isUrl=val.startsWith('http');
+        const srcUrl=(r.소스URL||'').trim();
+        const sq='https://www.google.com/search?q='+encodeURIComponent((lead?.회사명||id)+' '+f);
+        const href=(srcUrl||(isUrl?val:sq)).replace(/"/g,'&quot;');
+        return `
+        <div class="dr ${r.최종값==='Y'?'final':''}" data-href="${href}" onclick="window.open(this.dataset.href,'_blank')">
           ${badge(r.소스||'?')}
           <span class="dv">${r.값||'—'}</span>
           <span class="dd">${r.수집일||''}</span>
           ${r.최종값==='Y'?'<span class="fy">✓ 최종</span>':''}
-        </div>`).join('')}
+          <a class="dr-link" href="${href}" target="_blank" onclick="event.stopPropagation()">↗</a>
+        </div>`;
+      }).join('')}
     </div>`;
   }).join('');
 }
