@@ -298,7 +298,7 @@ function filtered() {
     (!st || (l.상태코드||'').includes(st)) &&
     (!ft || Number(l.핏점수) >= Number(ft)) &&
     (!q  || (l.회사명||'').toLowerCase().includes(q))
-  );
+  ).sort((a, b) => (Number(b.핏점수)||0) - (Number(a.핏점수)||0));
 }
 
 // ── Render ─────────────────────────────────────────────
